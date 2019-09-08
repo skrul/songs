@@ -11,8 +11,7 @@
 \usepackage{geometry}
 \geometry{
  letterpaper,
- left=0.5in,
- top=0.5in
+ margin=0.5in
 }
 \pagenumbering{gobble}
 
@@ -29,7 +28,7 @@
   title-template = leadsheet,
   align-chords=l,
   chords/format = \bfseries,
-  verses-label-format = \bfseries
+  verses-label-format = \itshape
 }
 
 \LeadsheetSurvive
