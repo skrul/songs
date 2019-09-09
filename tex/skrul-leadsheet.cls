@@ -6,7 +6,10 @@
 \RequirePackage{etoolbox}
 \RequirePackage{translations}
 
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+
+\usepackage[sfdefault]{roboto}
 
 \usepackage{geometry}
 \geometry{
