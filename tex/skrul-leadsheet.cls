@@ -23,13 +23,16 @@
 
 \definesongtitletemplate{leadsheet}{%
 {\large \textbf{\songproperty{title}} - \songproperty{band}}
-{\small // \songproperty{year} // Key: \songproperty{key}}
-\hrule
+{\footnotesize \space\space // \space\space \songproperty{year} \space\space // \space\space key: \songproperty{key}}
+
+\vspace{-0.5\baselineskip}
+\hrulefill
 }
 
 \setleadsheets{
   title-template = leadsheet,
   align-chords=l,
+  verse/numbered,
   chords/format = \bfseries,
   verses-label-format = \itshape
 }
