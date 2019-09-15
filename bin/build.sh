@@ -1,19 +1,50 @@
 #!/bin/bash
 
-mkdir -p ~/Library/texmf/tex/latex
-ln -s "`realpath tex`" ~/Library/texmf/tex/latex/
+TEXML_HOME=$HOME/Library/texmf/tex/latex
+PDF_JOINER="/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py"
 
-input_file="`realpath "$1"`"
+function setup_pdflatex {
+    if [ ! -d $TEXML_HOME ]; then
+        mkdir -p $TEXML_HOME
+    fi
 
-output_file=$(\
-  cat "$input_file" | \
-  grep "\\\begin{song}" | \
-  sed -E 's/.*title={([^}]*)}, band={([^}]*)}, year={([^}]*)}.*/\1 - \2 (\3)/' | \
-  tr -d '\n' \
-)
+    if [ ! -d $TEXML_HOME/tex ]; then
+        ln -s "`realpath tex`" $TEXML_HOME
+    fi
+}
 
-pdflatex \
-    -interaction=nonstopmode \
-    -output-directory pdf \
-    -jobname="$output_file" \
-    "$input_file"
+function make_pdf {
+    infile="`realpath "$1"`"
+    indir=$(dirname "$1")
+    pdf_outdir="`realpath "build/pdf"`/${indir#songs/}"
+    #aux_outdir="`realpath "aux"`/${indir#songs/}"
+
+    mkdir -p "$pdf_outdir"
+    #mkdir -p "$aux_outdir"
+
+    pdflatex \
+        -interaction=nonstopmode \
+        -output-directory="$pdf_outdir" \
+        "$infile"
+}
+
+function make_packet {
+    pdfs=""
+    while read p; do
+        make_pdf "songs/$p.tex"
+        pdfs="$pdfs \"build/pdf/$p.pdf\""
+    done < $1
+
+    mkdir -p "build/packets"
+    #echo "$PDF_JOINER" --output "build/$1.pdf" $pdfs
+
+    pdflatex \
+        -interaction=nonstopmode \
+        -output-directory="build/packets" \
+        "$1"
+}
+
+setup_pdflatex
+#make_pdf "$1"
+
+make_packet "packets/aircoustic201910.tex"
