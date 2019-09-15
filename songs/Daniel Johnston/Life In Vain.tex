@@ -1,0 +1,84 @@
+\documentclass{skrul-leadsheet}
+\usepackage{layouts}
+\setuplayouts
+\trytopmargin{1000pt}
+\usepackage{framed} 
+
+\begin{document}
+\trypaperwidth{10pt}
+
+%\pagediagram
+
+
+\begin{song}{title={Life In Vain}, band={Daniel Johnston}, year={1993}, key={C}}
+
+\newenvironment{verse-tabular}{%
+\begin{verse}\begin{tabular}[t]{@{}p{2.5in}l}}{\end{tabular}\end{verse}%
+}
+
+\newcommand{\myinterlude}{%
+\begin{interlude}
+\begin{tabular}{@{}lllll} 
+|_{G} & |_{C} & |_{D} & |_{D} & | 2x \textit{with violin}
+\end{tabular}	
+\end{interlude}%
+}
+
+\begin{intro}
+\begin{tabular}{@{}lllll} 
+|_{G} & |_{C} & |_{D} & |_{D} & | 2x
+\end{tabular}	
+\end{intro}
+
+\begin{verse-tabular}
+^{G}Don't want to ^{C}be free of hope ^{D} \space\space ^{D} &
+^{G}And I'm at the ^{C}end of my rope^{D} \space\space ^{D} \\
+^{G}It's so toug^{C}h just to be a^{D}live ^{D} &
+^{G}When I f^{C}eel like the living d^{D}ead ^{D} 
+\end{verse-tabular}
+
+\begin{chorus}
+^{C} I'm giving it up so p^{G}lain, I'm living my life in ^{D}vain, and where am I ^{C}going to? \\
+^{C} I got to really ^{G}try, try so hard to get ^{D}by, and where am I ^{C}going to? ^{C}
+\end{chorus}
+
+\myinterlude
+
+\begin{verse-tabular}
+^{G}I don't know w^{C}here is up or d^{D}own \space\space ^{D} &
+^{G}And there ain't ^{C}any love left ^{D}around ^{D} \\
+^{G}Every bo^{C}dy wearin' a ^{D}frown ^{D} &
+^{G}Waiting for^{C} Santa to come to ^{D}town ^{D}\end{verse-tabular}
+
+\begin{chorus}
+^{C} You're giving it up so ^{G}plain, you're living your lives in ^{D}vain, and where are you ^{C}going to? \\
+^{C} You've got to really ^{G}try, try so hard to get ^{D}by, and where are you ^{C}going to? ^{C}
+\end{chorus}
+
+\myinterlude
+
+\begin{verse-tabular}
+^{G}Flip ^{C}on your ^{D}TV ^{D} &
+^{G}And try to make se^{C}nse out of that ^{D} ^{D} \\
+^{G}If we were^{C} all in the mo^{D}vies ^{D} &
+^{G}Maybe we w^{C}ouldn't be so bor^{D}ed ^{D}
+\end{verse-tabular}
+
+\begin{chorus}
+^{C} We're giving it up so ^{G}plain, we're living our lives in ^{D}vain, and where are we g^{C}oing to? \\
+^{C} You gotta really t^{G}ry, try so hard to get b^{D}y, and where are you g^{C}oing to? ^{C}
+\end{chorus}
+
+\begin{interlude}
+\begin{tabular}{@{}lllll} 
+|_{G} & |_{C} & |_{D} & |_{D} & |
+\end{tabular}	
+\end{interlude}
+
+\begin{outro}
+^{G} Goodbye ^{C} ^{D} ^{D} \\
+^{G} Goodbye ^{C} ^{D*}
+\end{outro}
+
+\end{song}
+\end{document}
