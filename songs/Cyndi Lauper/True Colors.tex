@@ -1,15 +1,16 @@
 \documentclass{skrul-leadsheet}
-
-%\def\vamp[#1]{\begin{tabular}{@{}lllll} |_{Am} & |_{G/B} & |_{C} & |_{F} & | #1 \end{tabular}}
-
-
 \begin{document}
+
+\newcommand{\vamp}[1]{%
+\begin{tabular}{@{}lllll}
+|\writechord{Am} & |\writechord{G/B} & |\writechord{C} & |\writechord{F} & | #1
+\end{tabular}%
+}
+
 \begin{song}{title={True Colors}, band={Cyndi Lauper}, year={1986}, key={Am}}
 
 \begin{intro}
-\begin{tabular}{@{}lllll} 
-|_{Am} & |_{G/B} & |_{C} & |_{F} & | 2x
-\end{tabular}
+\vamp{2x}
 \end{intro}
 
 \begin{verse}
@@ -23,9 +24,7 @@ So ^{F}don't be a^{C/E}fraid to ^{F}let them ^{Am}show, your ^{F/C}true ^{C}colo
 \end{chorus}
 
 \begin{interlude}
-\begin{tabular}{@{}lllll} 
-|_{Am} & |_{G/B} & |_{C} & |_{F} & | 2x
-\end{tabular}
+\vamp{2x}
 \end{interlude}
 
 \begin{verse}
@@ -39,9 +38,7 @@ So ^{F}don't be a^{C}fraid to ^{F}let them ^{Am} show, your ^{F/C}true ^{C}color
 \end{chorus}
 
 \begin{interlude}
-\begin{tabular}{@{}lllll} 
-|_{Am} & |_{G/B} & |_{C} & |_{F} & | 2x
-\end{tabular}
+\vamp{2x}
 \end{interlude}
 
 \begin{verse}
@@ -58,9 +55,7 @@ Are ^{Gsus4}beautiful, like a rainbow...^{(Am)}
 \end{chorus}
 
 \begin{outro}
-\begin{tabular}{@{}lllll} 
-|_{Am} & |_{G/B} & |_{C} & |_{F} & |
-\end{tabular}
+\vamp{}
 \end{outro}
 
 \end{song}
