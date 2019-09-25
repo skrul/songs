@@ -19,12 +19,16 @@
 \pagenumbering{gobble}
 
 \definesongproperty{year}
-
+\definesongproperty{meter}
 
 \definesongtitletemplate{leadsheet}{%
 {\large \textbf{\songproperty{title}} - \songproperty{band}}
-{\footnotesize \space\space // \space\space \songproperty{year} \space\space // \space\space key: \songproperty{key} \ifsongproperty{capo}{// \space\space\capo}{}}
-
+{\footnotesize
+  \space\space // \space\space \songproperty{year}
+  \space\space // \space\space key: \songproperty{key}
+  \ifsongproperty{capo}{// \space\space\capo}{}
+  \ifsongproperty{meter}{// \space\space\songproperty{meter} time}{}
+}
 
 \vspace{-0.5\baselineskip}
 \hrulefill
