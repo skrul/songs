@@ -32,7 +32,7 @@ function make_packet {
     pdfs=""
     while read p; do
         make_pdf "songs/$p.tex"
-    done < <(grep includepdf $1 | sed -E 's/.*{build\/pdf\/([^}]*)\.pdf}.*/\1/')
+    done < <(grep includepdf $1 | grep build/pdf | sed -E 's/.*{build\/pdf\/([^}]*)\.pdf}.*/\1/')
 
     mkdir -p "build/packets"
     pdflatex \
