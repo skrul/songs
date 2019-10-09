@@ -18,6 +18,8 @@
 }
 \pagenumbering{gobble}
 
+\usepackage[dvipsnames]{xcolor}
+
 \definesongproperty{year}
 \definesongproperty{meter}
 
@@ -38,7 +40,7 @@
   title-template = leadsheet,
   align-chords=l,
   verse/numbered,
-  chords/format = \bfseries,
+  chords/format = \color{black}\bfseries,
   verses-label-format = \itshape
 }
 
