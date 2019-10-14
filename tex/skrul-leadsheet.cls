@@ -36,13 +36,35 @@
 \hrulefill
 }
 
+\ExplSyntaxOn
+
+\char_set_catcode_other:N \#
+\char_set_catcode_parameter:N \!
+\NewDocumentCommand \xchordname {m} { 
+\chordname{
+  \str_case:nnTF {!1}
+    {
+      {B#}  {C}
+      {F##} {G}
+    }
+    {}
+    {!1}
+  }
+}
+\char_set_catcode_parameter:N \#
+\char_set_catcode_other:N \!
+
+\ExplSyntaxOff
+
 \setleadsheets{
   title-template = leadsheet,
   align-chords=l,
   verse/numbered,
   chords/format = \color{black}\bfseries,
+  chord-cs = \xchordname,
   verses-label-format = \itshape
 }
+
 
 \LeadsheetSurvive
 \provideversetype{prechorus}[name=Prechorus]
