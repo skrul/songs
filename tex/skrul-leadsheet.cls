@@ -40,18 +40,16 @@
 
 \char_set_catcode_other:N \#
 \char_set_catcode_parameter:N \!
-\NewDocumentCommand \xchordname {m} { 
-\chordname{
+\NewDocumentCommand \xchordname {m} {%
   \str_case:nnTF {!1}
     {
-      {B#}  {C}
-      {F##} {G}
-      {F##/B} {G/B}
-      {Am/F##} {Am/G}
+      {B#}  {\chordname{C}}
+      {F##} {\chordname{G}}
+      {F##/B} {\chordname{G/B}}
+      {Am/F##} {\chordname{Am/G}}
     }
     {}
-    {!1}
-  }
+    {\chordname{!1}}
 }
 \char_set_catcode_parameter:N \#
 \char_set_catcode_other:N \!
@@ -67,10 +65,11 @@
   verses-label-format = \itshape
 }
 
-
 \LeadsheetSurvive
 \provideversetype{prechorus}[name=Prechorus]
 \provideversetype*{prechorus*}[name=Prechorus]
+\provideversetype{chorus1}[name=Chorus 1]
+\provideversetype{chorus2}[name=Chorus 2]
 
 \providerobustcmd*\lsenparen[1]{%
   \expandcode{\noexpand\mklsenparen\mklsenparens{\unexpanded{#1}}}%
