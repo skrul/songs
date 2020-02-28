@@ -44,7 +44,4 @@ function make_packet {
 setup_pdflatex
 #make_pdf "$1"
 
-make_packet "packets/aircoustic202002.tex"
-#make_packet "packets/pha201911.tex"
-#make_packet "packets/aircoustic201912.tex"
-#make_packet "packets/pha201912.tex"
+make_packet "packets/pha202002.tex"
