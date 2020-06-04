@@ -68,6 +68,8 @@
 \LeadsheetSurvive
 \provideversetype{prechorus}[name=Prechorus]
 \provideversetype*{prechorus*}[name=Prechorus]
+\provideversetype{postchorus}[name=Postchorus]
+\provideversetype*{postchorus*}[name=Postchorus]
 \provideversetype{chorus1}[name=Chorus 1]
 \provideversetype{chorus2}[name=Chorus 2]
 
