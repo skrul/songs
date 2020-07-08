@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 
 TEXML_HOME=$HOME/Library/texmf/tex/latex
-PDF_JOINER="/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py"
+SONGS_HOME=`pwd`
 
 function setup_pdflatex {
     if [ ! -d $TEXML_HOME ]; then
@@ -9,14 +9,14 @@ function setup_pdflatex {
     fi
 
     if [ ! -d $TEXML_HOME/tex ]; then
-        ln -s "`realpath .`" $TEXML_HOME
+        ln -s $SONGS_HOME/tex $TEXML_HOME
     fi
 }
 
 function make_pdf {
-    infile="`realpath "$1"`"
+    infile="$SONGS_HOME/$1"
     indir=$(dirname "$1")
-    pdf_outdir="`realpath "build/pdf"`/${indir#songs/}"
+    pdf_outdir="$SONGS_HOME/build/pdf/${indir#songs/}"
     #aux_outdir="`realpath "aux"`/${indir#songs/}"
 
     mkdir -p "$pdf_outdir"
@@ -42,6 +42,6 @@ function make_packet {
 }
 
 setup_pdflatex
-#make_pdf "$1"
+make_pdf "$1"
 
-make_packet "packets/pha202006.tex"
+#make_packet "packets/aircoustic202007.tex"
