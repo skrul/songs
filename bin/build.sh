@@ -23,7 +23,6 @@ function make_pdf {
     pdf_outdir="$SONGS_HOME/build/pdf/${indir#songs/}"
     #aux_outdir="`realpath "aux"`/${indir#songs/}"
 
-    echo $indir
     mkdir -p "$pdf_outdir"
     #mkdir -p "$aux_outdir"
 
@@ -49,4 +48,4 @@ function make_packet {
 setup_pdflatex
 #make_pdf "$1"
 
-make_packet "packets/aircoustic202009.tex"
+make_packet "packets/aircoustic202010.tex"
