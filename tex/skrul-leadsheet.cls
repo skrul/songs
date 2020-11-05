@@ -5,6 +5,7 @@
 
 \RequirePackage{etoolbox}
 \RequirePackage{translations}
+\RequirePackage{xstring}
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -40,20 +41,41 @@
 
 \char_set_catcode_other:N \#
 \char_set_catcode_parameter:N \!
-\NewDocumentCommand \xchordname {m} {%
-  \str_case:nnTF {!1}
-    {
-      {B#}  {\chordname{C}}
-      {F##} {\chordname{G}}
-      {F##/B} {\chordname{G/B}}
-      {Am/F##} {\chordname{Am/G}}
-    }
-    {}
-    {\chordname{!1}}
-}
-\char_set_catcode_parameter:N \#
-\char_set_catcode_other:N \!
 
+\bool_new:N \l__skrul_underline_boo
+\tl_new:N \l__skrul_stripped_tl
+\str_new:N \l__skrul_stripped_str
+
+\NewDocumentCommand \xchordname {m} {%
+  % \tl_if_head_eq_catcode:nNTF { !1 } .
+  %   { \bool_set_true:N \l__skrul_underline_bool }
+  %   { \bool_set_false:N \l__skrul_underline_bool }
+
+  % \bool_if:NTF \l__skrul_underline_bool
+  %   { \tl_set:Nn \l__skrul_stripped_tl { \tl_tail:n { !1 } } }
+  %   { \tl_set:Nn \l__skrul_stripped_tl { !1 } }
+
+  %  \bool_if:NTF \l__skrul_underline_bool
+  %   { \str_set:Nn \l__skrul_stripped_str { !1 } }
+  %   { \str_set:Nn \l__skrul_stripped_str { !1 } }
+
+   \tl_set:Nn \l__skrul_stripped_tl { !1 }
+
+   \tl_set:Nf \l_mya_tl { \l__skrul_stripped_tl }
+
+   \chordname  \l_mya_tl
+   % \str_case:nnTF \l__skrul_stripped_tl
+   %   {
+   %     % Enharmonics
+   %     {B#}  {\chordname{C}}
+   %     {E#}  {\chordname{F}}
+   %     {F##} {\chordname{G}}
+   %     {F##/B} {\chordname{G/B}}
+   %     {Am/F##} {\chordname{Am/G}}
+   %   }
+   %   {}
+   %   {\chordname{ \l__skrul_stripped_tl }}
+}
 \ExplSyntaxOff
 
 \setleadsheets{
