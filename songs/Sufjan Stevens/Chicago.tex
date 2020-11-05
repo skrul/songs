@@ -1,42 +1,59 @@
 \documentclass{skrul-leadsheet}
+\newenvironment{nstabbing}
+  {\setlength{\topsep}{0pt}%
+   \setlength{\partopsep}{0pt}%
+   \tabbing}
+  {\endtabbing}
 \begin{document}
-\begin{song}{title={Chicago}, band={Sufjan Stevens}, year={2005}, key={G}}
+\begin{song}{title={Chicago}, band={Sufjan Stevens}, year={2005}, key={D Mixolydian}}
 
 \begin{intro}
 \begin{tabular}[t]{@{}lllll}
-|_{D} & |_{Am} & |_{C} & |_{G} & | \\
+|_{D} & |_{Am} & |_{C} & |_{G} & | 2x \\
 \end{tabular}
 \end{intro}
 
 \begin{verse}
-^{D} I fell in ^{Am}love again, ^{C} all things ^{G}go, all things ^{D}go \\
+\begin{nstabbing}
+^{D} I fell in ^{Am}love again, ^{C} all things ^{G}go, all things ^{D}go \hspace{50pt} \=
 Drove to Chi^{Am}cago, ^{C} all things ^{G}know, all things ^{D}know \\
-We sold our c^{Am}lothes to the s^{C}tate, I don't ^{G}mind, I don't ^{D}mind  \\
-I made a ^{Am}lot of mis^{C}takes, in my ^{G}mind, in my ^{D}mind
+We sold our c^{Am}lothes to the s^{C}tate, I don't ^{G}mind, I don't ^{D}mind  \>
+I made a ^{Am}lot of mis^{C}takes, in my ^{G}mind, in my ^{(D)}mind
+\end{nstabbing}
 \end{verse} 
  
 \begin{chorus}
-You came to ^{Am}take us, ^{C} all things ^{G}go, all things ^{D}go \\
+^{D} You came to ^{Am}take us, ^{C} all things ^{G}go, all things ^{D}go \\
 To recre^{Am}ate us, ^{C} all things ^{G}grow, all things ^{D}grow \\
-We had our min^{Am}dset, ^{C} all things ^{G}know, all things ^{D}know \\You had to ^{Am}find it, ^{C} all things ^{G}go, all things ^{D}go 
+We had our min^{Am}dset, ^{C} all things ^{G}know, all things ^{D}know \\You had to ^{Am}find it, ^{C} all things ^{G}go, all things ^{(D)}go 
 \end{chorus}
 
 \begin{verse}
-I drove to ^{Am}New York, ^{C} in the ^{G}van, with my fr^{D}iend \\
+\begin{nstabbing}
+^{D} I drove to ^{Am}New York, ^{C} in the ^{G}van, with my fr^{D}iend \hspace{45pt} \=
 We slept ^{Am}in parking lots, ^{C} I don't ^{G}mind, I don't ^{D}mind \\
-I was in ^{Am}love with the ^{C}place, in my ^{G}mind, in my ^{D}mind \\
-I made a ^{Am}lot of mis^{C}takes, in my^{G} mind, in my ^{D}mind 
+I was in ^{Am}love with the ^{C}place, in my ^{G}mind, in my ^{D}mind \>
+I made a ^{Am}lot of mis^{C}takes, in my^{G} mind, in my ^{(D)}mind 
+\end{nstabbing}
 \end{verse}
- 
+
 \begin{chorus}
 \instruction{Repeat Chorus}
 \end{chorus}
 
+\begin{solo}
+\begin{tabular}[t]{@{}lllll}
+| _{D} & |_{Am} & |_{C} & |_{G} & | 4x \\
+\end{tabular}
+\end{solo}
+
 \begin{verse}
-If I was c^{Am}rying, ^{C} in the ^{G}van, with my fri^{D}end  \\
+\begin{nstabbing}
+^{D} If I was c^{Am}rying, ^{C} in the ^{G}van, with my fri^{D}end  \hspace{65pt} \=
 It was for ^{Am}freedom, ^{C}from my^{G}self and from the ^{D}land \\
-I made a ^{Am}lot of mis^{C}takes, I made a ^{G}lot of mis^{D}takes \\
-I made a ^{Am}lot of mis^{C}takes, I made a ^{G}lot of mis^{D}takes 
+I made a ^{Am}lot of mis^{C}takes, I made a ^{G}lot of mis^{D}takes \>
+I made a ^{Am}lot of mis^{C}takes, I made a ^{G}lot of mis^{(D)}takes 
+\end{nstabbing}
 \end{verse}
 
 \begin{chorus}
@@ -44,14 +61,21 @@ I made a ^{Am}lot of mis^{C}takes, I made a ^{G}lot of mis^{D}takes
 \end{chorus}
 
 \begin{outro}
-You came to ^{Am}take us, ^{C} all things ^{G}go, all things ^{D}go \\
-To recre^{Am}ate us, ^{C} all things ^{G}grow, all things ^{D}grow \\
-We had our ^{Am}mindset, ^{C} all things ^{G}know, all things ^{D}know \\
-(I made a lot of mistakes)
-you had to ^{Am}find it
-(I made a lot of mistakes)
-^{C} all things ^{G}go, all things ^{D}go
-(I made a lot of mistakes)
+^{D} You came to ^{Am}take us, ^{C} all things ^{G}go, all things ^{D}go \\
+To recre^{Am}ate us, ^{C} all things ^{G}grow, all things ^{D}grow
+\begin{nstabbing}
+We had our ^{Am}mindset, \hspace{20pt} ^{C} \= all things ^{G}know, all things ^{D}know \\
+(I made a lot of mistakes)  \> (I made a lot of mistakes)\\
+You had to ^{Am}find it \hspace{45pt} \= ^{C} all things ^{G}go, all things ^{(D)}go \\ 
+(I made a lot of mistakes) \> (I made a lot of mistakes) \\
+\end{nstabbing}
 \end{outro}
+
+\begin{solo}
+\begin{tabular}[t]{@{}lllll}
+| _{D} & |_{Am} & |_{C} & |_{G} & | 4x \\
+\end{tabular}
+\end{solo}
+
 \end{song}
 \end{document}
