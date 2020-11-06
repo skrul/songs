@@ -5,7 +5,6 @@
 
 \RequirePackage{etoolbox}
 \RequirePackage{translations}
-\RequirePackage{xstring}
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -42,40 +41,39 @@
 \char_set_catcode_other:N \#
 \char_set_catcode_parameter:N \!
 
-\bool_new:N \l__skrul_underline_boo
-\tl_new:N \l__skrul_stripped_tl
-\str_new:N \l__skrul_stripped_str
+\prop_const_from_keyval:Nn \__skrul_enharmonic_map_prop
+  {
+    B#=C,
+    E#=F,
+    F##=G,
+    F##/B=G/B,
+    Am/F##=Am/G
+  }
+
+\cs_new:Npn \__skrul_get:V !1
+  {
+    \prop_item:NV \__skrul_prop { !1 }
+  }
+
+\cs_generate_variant:Nn \str_set:Nn {Nx}
 
 \NewDocumentCommand \xchordname {m} {%
-  % \tl_if_head_eq_catcode:nNTF { !1 } .
-  %   { \bool_set_true:N \l__skrul_underline_bool }
-  %   { \bool_set_false:N \l__skrul_underline_bool }
-
-  % \bool_if:NTF \l__skrul_underline_bool
-  %   { \tl_set:Nn \l__skrul_stripped_tl { \tl_tail:n { !1 } } }
-  %   { \tl_set:Nn \l__skrul_stripped_tl { !1 } }
-
-  %  \bool_if:NTF \l__skrul_underline_bool
-  %   { \str_set:Nn \l__skrul_stripped_str { !1 } }
-  %   { \str_set:Nn \l__skrul_stripped_str { !1 } }
-
-   \tl_set:Nn \l__skrul_stripped_tl { !1 }
-
-   \tl_set:Nf \l_mya_tl { \l__skrul_stripped_tl }
-
-   \chordname  \l_mya_tl
-   % \str_case:nnTF \l__skrul_stripped_tl
-   %   {
-   %     % Enharmonics
-   %     {B#}  {\chordname{C}}
-   %     {E#}  {\chordname{F}}
-   %     {F##} {\chordname{G}}
-   %     {F##/B} {\chordname{G/B}}
-   %     {Am/F##} {\chordname{Am/G}}
-   %   }
-   %   {}
-   %   {\chordname{ \l__skrul_stripped_tl }}
+  \tl_if_head_eq_catcode:nNTF { !1 } .
+    {
+      \str_set:Nx \l_tmpa_str { \str_tail:n !1 }
+      \prop_get:NVNTF \__skrul_enharmonic_map_prop \l_tmpa_str \__skrul_enharmonic_tl
+        { \underline{\chordname{\__skrul_enharmonic_tl}}}
+        { \underline{\chordname{\l_tmpa_str}}}
+    }
+    {
+      \prop_get:NnNTF \__skrul_enharmonic_map_prop { !1 } \__skrul_enharmonic_tl
+        { \chordname{\__skrul_enharmonic_tl}}
+        { \chordname{!1}}
+    }
 }
+\char_set_catcode_parameter:N \#
+\char_set_catcode_other:N \!
+
 \ExplSyntaxOff
 
 \setleadsheets{
