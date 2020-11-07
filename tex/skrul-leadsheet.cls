@@ -40,16 +40,36 @@
 
 \char_set_catcode_other:N \#
 \char_set_catcode_parameter:N \!
+
+\prop_const_from_keyval:Nn \__skrul_enharmonic_map_prop
+  {
+    B#=C,
+    E#=F,
+    F##=G,
+    F##/B=G/B,
+    Am/F##=Am/G
+  }
+
+\cs_new:Npn \__skrul_get:V !1
+  {
+    \prop_item:NV \__skrul_prop { !1 }
+  }
+
+\cs_generate_variant:Nn \str_set:Nn {Nx}
+
 \NewDocumentCommand \xchordname {m} {%
-  \str_case:nnTF {!1}
+  \tl_if_head_eq_catcode:nNTF { !1 } .
     {
-      {B#}  {\chordname{C}}
-      {F##} {\chordname{G}}
-      {F##/B} {\chordname{G/B}}
-      {Am/F##} {\chordname{Am/G}}
+      \str_set:Nx \l_tmpa_str { \str_tail:n !1 }
+      \prop_get:NVNTF \__skrul_enharmonic_map_prop \l_tmpa_str \__skrul_enharmonic_tl
+        { \underline{\chordname{\__skrul_enharmonic_tl}}}
+        { \underline{\chordname{\l_tmpa_str}}}
     }
-    {}
-    {\chordname{!1}}
+    {
+      \prop_get:NnNTF \__skrul_enharmonic_map_prop { !1 } \__skrul_enharmonic_tl
+        { \chordname{\__skrul_enharmonic_tl}}
+        { \chordname{!1}}
+    }
 }
 \char_set_catcode_parameter:N \#
 \char_set_catcode_other:N \!
