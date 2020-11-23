@@ -47,18 +47,19 @@
     E#=F,
     F##=G,
     F##/B=G/B,
-    Am/F##=Am/G
-  }
-
-\cs_new:Npn \__skrul_get:V !1
-  {
-    \prop_item:NV \__skrul_prop { !1 }
+    Am/F##=Am/G,
+    Ab#m=Am,
+    G#b*=G*,
+    G#b=G,
+    Eb#=E,
+    Db#7/F#=D7/F#,
+    A#=Bb
   }
 
 \cs_generate_variant:Nn \str_set:Nn {Nx}
 
 \NewDocumentCommand \xchordname {m} {%
-  \tl_if_head_eq_catcode:nNTF { !1 } .
+   \tl_if_head_eq_charcode:nNTF { !1 } .
     {
       \str_set:Nx \l_tmpa_str { \str_tail:n !1 }
       \prop_get:NVNTF \__skrul_enharmonic_map_prop \l_tmpa_str \__skrul_enharmonic_tl
