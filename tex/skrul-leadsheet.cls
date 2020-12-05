@@ -1,6 +1,10 @@
 \ProvidesClass{skrul-leadsheet}
 \LoadClassWithOptions{scrartcl}
 
+\usepackage{savesym}
+\usepackage{gchords}
+\savesymbol{chord}
+
 \RequirePackage{leadsheets}
 
 \RequirePackage{etoolbox}
@@ -44,6 +48,8 @@
 \prop_const_from_keyval:Nn \__skrul_enharmonic_map_prop
   {
     B#=C,
+    B#maj7=Cmaj7,
+    B#m6=Cm6,
     E#=F,
     F##=G,
     F##/B=G/B,
