@@ -1,52 +1,113 @@
 \documentclass{skrul-leadsheet}
 \usepackage{adjustbox}
+\usepackage{relsize}
+
+% Using multicol here because I can't seem to use tabbing anf
+% tabto together. Makes the verse layout annoying but the result
+% looks good!
+\usepackage{multicol}
+\setlength{\columnsep}{-2.5cm}
+
+\newcommand{\vstart}{
+\begin{verse}
+\begin{multicols}{2}
+\begin{tabbing}
+}
+
+\newcommand{\vbreak}{
+\end{tabbing}
+\vfill
+\columnbreak
+\begin{tabbing}
+}
+
+\newcommand{\vend}{
+\end{tabbing}
+\end{multicols}
+\end{verse}
+}
+
 \begin{document}
 \begin{song}[transpose-capo=true]{title={Happy Xmas (War Is Over)}, band={John Lennon \& Yoko Ono}, year={1971}, key={A}, meter={6/8}}
 
-\begin{verse}
-So this is ^{A}Christmas ^{Asus2} ^{Asus4} And ^{A}what have you ^{Bm}done ^{Bsus2} ^{Bsus4} \\
-Ano^{Bm}ther year ^{Esus4}over ^{E} ^{Eadd9} And a ^{E}new one just be^{A}gun ^{Asus2} ^{Asus4}  \\
-And ^{A}so this is ^{D}Christmas ^{Dsus2} ^{Dsus4}
-I ^{D}hope you have ^{Em}fun ^{Emmaj7} ^{Em9} \\
+\vstart
+
+^{N.C.}So this is ^{A}Christmas ^{Asus2} ^{Asus4} \\
+Ano^{Bm}ther year ^{Esus4}over ^{E} ^{Eadd9} \\
+And ^{A}so this is ^{D}Christmas ^{Dsus2} ^{Dsus4} \\
 The ^{Em}near and the ^{Asus4}dear ones ^{A} ^{Asus2}
+
+\vbreak
+
+And ^{A}what have you ^{Bm}done ^{Bsus2} ^{Bsus4} \\
+And a ^{E}new one just be^{A}gun ^{Asus2} ^{Asus4}  \\
+I ^{D}hope you have ^{Em}fun ^{Emmaj7} ^{Em9} \\
 The ^{A}old and the ^{D}young ^{Dsus2} ^{Dsus4}
-\end{verse}
+
+\vend
 
 \begin{chorus}
 A ^{D}very Merry ^{G}Christmas, and a happy New ^{A}Year \\
 Let's hope it's a ^{Em}good one, ^{G} without any ^{D}fear ^{E7}
 \end{chorus}
 
-\begin{verse}
-\begin{tabbing}
-And so this is \= ^{A}Christmas ^{Asus2} ^{Asus4} For ^{A}weak and for \= ^{Bm}strong ^{Bsus2} ^{Bsus4} \\
-\>(War is over) \>(If you want it) \\
-The ^{Bm}rich and \=the ^{Esus4}poor ones ^{E} ^{Eadd9} The ^{E}world \=is so ^{A}wrong ^{Asus2} ^{Asus4} \\
-\>(War is over)  \>(Now) \\
+\vstart
 
-And ^{A}so Happy \= ^{D}Christmas ^{Dsus2} ^{Dsus4} For ^{D}black and for \= ^{Em}white ^{Emmaj7} ^{Em9} \\
-\>(War is over) \>(If you want it) \\
-For ^{Em}yellow and \= ^{Asus4}red ones ^{A} ^{Asus2} Let's ^{A}stop all the \= ^{D}fight ^{Dsus2} ^{Dsus4} \\
-\>(War is over) \>(Now)
-\end{tabbing}
-\end{verse}
+And so this is \= ^{A}Christmas ^{Asus2} ^{Asus4} \\
+\>\smaller{(War is over)} \\
+
+The ^{Bm}rich and \=the ^{Esus4}poor ones ^{E} ^{Eadd9} \\
+\>\smaller{(War is over)} \\
+
+And ^{A}so Happy \= ^{D}Christmas ^{Dsus2} ^{Dsus4} \\
+\>\smaller{(War is over)} \\
+
+For ^{Em}yellow and \= ^{Asus4}red ones ^{A} ^{Asus2} \\
+\>\smaller{(War is over)}
+
+\vbreak
+
+For ^{A}weak and for \= ^{Bm}strong ^{Bsus2} ^{Bsus4} \\
+\>\smaller{(If you want it)} \\
+
+The ^{E}world \=is so ^{A}wrong ^{Asus2} ^{Asus4} \\
+\>\smaller{(Now)} \\
+
+For ^{D}black and for \= ^{Em}white ^{Emmaj7} ^{Em9} \\
+\>\smaller{(If you want it)} \\
+
+Let's ^{A}stop all the \= ^{D}fight ^{Dsus2} ^{Dsus4} \\
+\>\smaller{(Now)}
+
+\vend
 
 \begin{chorus}
 \instruction{Repeat Chorus}
 \end{chorus}
 
-\begin{verse}
-\begin{tabbing}
-And so this is \= ^{A}Christmas ^{Asus2} ^{Asus4} And ^{A}what have we \= ^{Bm}done ^{Bsus2} ^{Bsus4} \\
-\>(War is over) \>(If you want it) \\
-An^{Bm}other year \= ^{Esus4}over ^{E} ^{Eadd9} A ^{E}new one just \=be^{A}gun ^{Asus2} ^{Asus4} \\
-\>(War is over) \>(Now) \\
-And ^{A}so Happy \= ^{D}Christmas ^{Dsus2} ^{Dsus4} We ^{D}hope you have \= ^{Em}fun ^{Emmaj7} ^{Em9} \\
-\>(War is over) \>(If you want it) \\
-The ^{Em}near and the \= ^{Asus4}dear ones ^{A} ^{Asus2} The ^{A}old and the \= ^{D}young ^{Dsus2} ^{Dsus4} \\
-\>(War is over) \>(Now)
-\end{tabbing}
-\end{verse}
+\vstart
+
+And so this is \= ^{A}Christmas ^{Asus2} ^{Asus4} \\
+\>\smaller{(War is over)} \\
+An^{Bm}other year \= ^{Esus4}over ^{E} ^{Eadd9} \\
+\>\smaller{(War is over)} \\
+And ^{A}so Happy \= ^{D}Christmas ^{Dsus2} ^{Dsus4} \\
+\>\smaller{(War is over)} \\
+The ^{Em}near and the \= ^{Asus4}dear ones ^{A} ^{Asus2} \\
+\>\smaller{(War is over)}
+
+\vbreak
+
+And ^{A}what have we \= ^{Bm}done ^{Bsus2} ^{Bsus4} \\
+\>\smaller{(If you want it)} \\
+A ^{E}new one just \=be^{A}gun ^{Asus2} ^{Asus4} \\
+\>\smaller{(Now)} \\
+We ^{D}hope you have \= ^{Em}fun ^{Emmaj7} ^{Em9} \\
+\>\smaller{(If you want it)} \\
+The ^{A}old and the \= ^{D}young ^{Dsus2} ^{Dsus4} \\
+\>\smaller{(War is over)}
+
+\vend
 
 \begin{chorus}
 \instruction{Repeat Chorus}
@@ -60,14 +121,13 @@ The ^{Em}near and the \= ^{Asus4}dear ones ^{A} ^{Asus2} The ^{A}old and the \= 
 ^{Esus4}War & ^{E}is      & ^{Eadd9}o  - & ^{E}ver \\
 ^{A}Now     & ^{Asus2}    & ^{Asus4}     & ^{A}
 \end{tabular}}
-\hspace{-1em}
+\hspace{8em}
 \adjustbox{valign=t}{
 \setchords{format={\sffamily}}
-\mediumchords
-\begin{tabular}[t]{@{}lllll}
+\begin{tabular}[t]{@{}lll}
 \origchord{t}{x,p2,p4,p4,p2,p2}{_{Bsus2}} &
 \origchord{t}{x,p2,p4,p4,o,o}{_{Bsus4}} &
-\origchord{t}{o,p2,p4,p1,o,o}{_{Eadd9}} &
+\origchord{t}{o,p2,p4,p1,o,o}{_{Eadd9}} \\
 \origchord{t}{o,p2,p2,o,p4,o}{_{Emmaj7}} &
 \origchord{t}{o,p2,p2,o,o,p2o}{_{Em9}} 
 \end{tabular}}
