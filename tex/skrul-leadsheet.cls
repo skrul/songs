@@ -50,6 +50,7 @@
     B#=C,
     B#maj7=Cmaj7,
     B#m6=Cm6,
+    Eb#m=Em,
     E#=F,
     F##=G,
     F##/B=G/B,

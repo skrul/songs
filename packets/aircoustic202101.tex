@@ -1,0 +1,11 @@
+\documentclass{article}
+\usepackage{grffile}
+\usepackage{pdfpages}
+\begin{document}
+\includepdf[pages=-]{build/pdf/Neil Diamond/America.pdf}
+{\catcode`\,=11 \includepdf[pages=-]{build/pdf/John Denver/Take Me Home, Country Roads.pdf}}
+{\catcode`\,=11 \includepdf[pages=-]{build/pdf/John Denver/Take Me Home, Country Roads Capo II.pdf}}
+\includepdf[pages=-]{build/pdf/Paul Simon/American Tune.pdf}
+\includepdf[pages=-]{build/pdf/Kim Wilde/Kids in America.pdf}
+\includepdf[pages=-]{build/pdf/Grateful Dead/U.S. Blues.pdf}
+\end{document}
