@@ -47,21 +47,39 @@
 
 \prop_const_from_keyval:Nn \__skrul_enharmonic_map_prop
   {
+    Am/F##=Am/G,
+    Ab#m=Am,
+    A##m7=Bm7,
     B#=C,
+    B#m=Cm,
+    B#add9=Cadd9,
+    Bb#m7=Bm7,
     B#maj7=Cmaj7,
     B#m6=Cm6,
+    C##=D,
+    C##7=D7,
+    C##7*=D7*,
+    C##/F#=D/F#,
+    Db#=D,
+    D##m=Em,
+    D/Gb=D/F#,
     Eb#m=Em,
     Eb#m*=Em*,
     E#=F,
     F##=G,
+    F##7=G7,
+    F##/A##*=G/B*,
     F##/B=G/B,
-    Am/F##=Am/G,
-    Ab#m=Am,
     G#b*=G*,
     G#b=G,
+    G##m7=Am7,
+    G##m7*=Am7*,
+    Gb#=G,
     Eb#=E,
     Db#7/F#=D7/F#,
-    A#=Bb
+    A#=Bb,
+    (F##)=(G),
+    Cadd9=C\textsuperscript{add9}
   }
 
 \cs_generate_variant:Nn \str_set:Nn {Nx}
