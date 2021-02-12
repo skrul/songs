@@ -26,6 +26,7 @@
 
 \definesongproperty{year}
 \definesongproperty{meter}
+\definesongproperty{note}
 
 \definesongtitletemplate{leadsheet}{%
 {\large \textbf{\songproperty{title}} - \songproperty{band}}
@@ -34,6 +35,7 @@
   \space\space // \space\space key: \songproperty{key}
   \ifsongproperty{capo}{// \space\space\capo}{}
   \ifsongproperty{meter}{// \space\space\songproperty{meter} time}{}
+  \ifsongproperty{note}{// \space\space\songproperty{note}}{}
 }
 
 \vspace{-0.5\baselineskip}
@@ -53,10 +55,12 @@
     B#=C,
     B#m=Cm,
     B#add9=Cadd9,
+    Bb#=B,
     Bb#m7=Bm7,
     B#maj7=Cmaj7,
     B#m6=Cm6,
     C##=D,
+    C##*=D*,
     C##7=D7,
     C##7*=D7*,
     C##/F#=D/F#,
