@@ -51,12 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>// To make this work as a keyboard shortcut see:
-// https://apple.stackexchange.com/a/276839
-function run(input, parameters) {  var out = [];  var a = input[0].split("\n");  var chords = null;
-  var chordsWidth = 0;  for (var i = 0; i &lt; a.length; i++) {    var l = a[i].replace(/\s+$/, '');	if (l.length == 0) {	  chords = null;	  out.push("");	  continue;	}	if (chords == null) {	  chords = [];	  var re = /\w+/g;	  while ((match = re.exec(l)) != null) {	    chords.push(match);	  }
-	  chordsWidth = l.length;	} else {
-	  l = l.padEnd(chordsWidth, ' ');	  for (var j = chords.length - 1; j &gt;= 0; j--) {	    var c = chords[j];	    l = [l.slice(0, c.index), "^{" + c[0] + "}", l.slice(c.index)].join('');	  }	  out.push(l);	  chords = null;	}  }  return out.join("\n");}</string>
+					<string>// To make this work as a keyboard shortcut see:// https://apple.stackexchange.com/a/276839function run(input, parameters) {  var out = [];  var a = input[0].split("\n");  var chords = null;  var chordsWidth = 0;  for (var i = 0; i &lt; a.length; i++) {    var l = a[i].replace(/\s+$/, '');	if (l.length == 0) {	  chords = null;	  out.push("");	  continue;	}	if (chords == null) {	  chords = [];	  var re = /[\w#]+/g;	  while ((match = re.exec(l)) != null) {	    chords.push(match);	  }	  chordsWidth = l.length;	} else {	  l = l.padEnd(chordsWidth, ' ');	  for (var j = chords.length - 1; j &gt;= 0; j--) {	    var c = chords[j];	    l = [l.slice(0, c.index), "^{" + c[0] + "}", l.slice(c.index)].join('');	  }	  out.push(l + ' \\\\');	  chords = null;	}  }  return out.join("\n");}</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunJavaScript</string>
