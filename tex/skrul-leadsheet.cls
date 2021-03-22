@@ -33,9 +33,9 @@
 {\footnotesize
   \space\space // \space\space \songproperty{year}
   \space\space // \space\space key: \songproperty{key}
-  \ifsongproperty{capo}{// \space\space\capo}{}
-  \ifsongproperty{meter}{// \space\space\songproperty{meter} time}{}
-  \ifsongproperty{note}{// \space\space\songproperty{note}}{}
+  \ifsongproperty{capo}{\space\space // \space\space\capo}{}
+  \ifsongproperty{meter}{\space\space // \space\space\songproperty{meter} time}{}
+  \ifsongproperty{note}{\space\space // \space\space\songproperty{note}}{}
 }
 
 \vspace{-0.5\baselineskip}
