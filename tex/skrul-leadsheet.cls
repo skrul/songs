@@ -91,6 +91,7 @@
     Cadd9=C\textsuperscript{add9},
     A7=A\textsuperscript{7},
     D7=D\textsuperscript{7},
+    Bm7=Bm\textsuperscript{7},
     F##sus2=G\textsuperscript{sus2},
     B#maj7/F##=C\textsuperscript{maj7}/G,
     Dm/E#=Dm/F
