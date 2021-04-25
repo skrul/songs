@@ -53,6 +53,7 @@
     Ab#m=Am,
     A##m7=Bm7,
     B#=C,
+    B#*=C*,
     B#m=Cm,
     B#add9=Cadd9,
     Bb#=B,
