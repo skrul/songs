@@ -2,4 +2,9 @@
 build/
 *.pdf
 .texpadtmp
+*.fdb_latexmk
+*.aux
+*.log
+*.fls
+*.synctex.gz
 
