@@ -135,6 +135,7 @@
 \provideversetype*{postchorus*}[name=Postchorus]
 \provideversetype{chorus1}[name=Chorus 1]
 \provideversetype{chorus2}[name=Chorus 2]
+\provideversetype{xbreak}[name=Break]
 
 \providerobustcmd*\lsenparen[1]{%
   \expandcode{\noexpand\mklsenparen\mklsenparens{\unexpanded{#1}}}%
