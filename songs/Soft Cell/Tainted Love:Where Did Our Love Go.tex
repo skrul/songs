@@ -1,10 +1,18 @@
 \documentclass{skrul-leadsheet}
 \begin{document}
+
+\newcommand{\lyric}[2]{
+\begin{tabular}{|lp{33em}}
+\hline
+\textbf{#1.} & #2
+\end{tabular} \\ }
+
 \begin{song}[transpose-capo=true]{title={Tainted Love/Where Did Our Love Go}, band={Soft Cell}, year={1981}, key={Gm/G}, note={Originals by Gloria Jones / The Supremes}}
+
 
 \begin{intro}
 \begin{tabular}[t]{@{}lllll}
-|_{Gm} & |_{Bb} & |_{Eb} & |_{Gm} & | 2x \\
+|_{Gm} & |_{Bb} & |_{Eb} & |_{Bb} & | 2x \\
 \end{tabular}
 \end{intro}
 
@@ -12,7 +20,7 @@
 Some-^{Gm}times, ^{Bb}I f^{Eb}eel, I've ^{Bb}got to; ^{Gm} ^{Bb}run a-w^{Eb}ay, I've ^{Bb}got to; \\
 ^{Gm} ^{Bb}Get a-w^{Eb}ay, from the ^{Bb}pain you d^{Gm}rive in-t^{Gm}o the he^{Bb}art of me^{Bb} \\
 
-The ^{Gm}love ^{Bb}we s^{Eb}hare, s^{Bb}eems to ^{Gm} ^{Bb}go no-w^{Eb}here. ^{Bb} \\
+The ^{Gm}love ^{Bb}we s^{Eb}hare, s^{Bb}eems to ^{Gm}go ^*{Bb}no-w ^{Eb}here. ^{Bb} \\
 And I've l^{Gm}ost m^{Bb}y li^{Eb}ght, ^{Bb} for I ^{Gm}toss and ^{Gm}turn; I can't ^{Bb}sleep at ^{Bb} night
 \end{verse} 
 
@@ -21,12 +29,12 @@ And I've l^{Gm}ost m^{Bb}y li^{Eb}ght, ^{Bb} for I ^{Gm}toss and ^{Gm}turn; I ca
 ^{Eb} This tainted ^{Eb}love you've given, \\
 I ^{Cm}give you all a ^{Cm}boy could give you. \\
 ^{Cm}Take my tears and ^{Cm}that's not nearly... \\
-^{Gm} All,^{Bb} Tainted l^{Eb}ove, oh^{Bb}, oh, oh, \\
+^{Gm}All, ^{Bb} tainted l^{Eb}ove  (oh^{Bb}, oh, oh) \\
 ^{Gm}    ^{Bb}Tainted l^{Eb}ove.  ^{Bb}
 \end{chorus} 
  
 \begin{verse}
-^{Gm} Now ^{Bb}I k^{Eb}now, I've go^{Bb}t to; ^{Gm} ^{Bb}run a-w^{Eb}ay, I've go^{Bb}t to; \\
+^{Gm}Now ^{Bb}I k^{Eb}now, I've go^{Bb}t to; ^{Gm} ^{Bb}run a-w^{Eb}ay, I've go^{Bb}t to; \\
 ^{Gm} ^{Bb}Get a-w^{Eb}ay, you ^{Bb}don't r^{Gm}eally ^{Gm}want any m^{Bb}ore from ^{Bb}me \\
 
 To ^{Gm}make ^{Bb}things r^{Eb}ight, you ^{Bb}need some-o^{Gm}ne to h^{Bb}old you ti^{Eb}ght ^{Bb} \\
@@ -43,10 +51,10 @@ I ^{Gm}love you, though you ^{Bb}hurt me s^{Eb}o, ^{Bb} now I'm ^{Gm}going to ^{
 \end{verse} 
 
 \begin{outro}
-^{Gm} ^{Bb} Tainted l^{Eb}ove (oh^{Bb}, oh, oh) \instruction{Repeat 4x} \\
+^{Gm} ^{Bb}Tainted l^{Eb}ove (oh^{Bb}, oh, oh) \instruction{Repeat 4x} \\
 ^{Gm} ^{Bb}Touch me, baby, t^{Eb}ainted lo^{Bb}ve \\
 ^{Gm} ^{Bb}Touch me, baby, t^{Eb}ainted lo^{Bb}ve \\
-^{Gm} ^{Bb} Tainted l^{Eb}ove (oh^{Bb}, oh, oh) \instruction{Repeat 4x} \\
+^{Gm} ^{Bb}Tainted l^{Eb}ove (oh^{Bb}, oh, oh) \instruction{Repeat 4x} \\
 \end{outro}
 
 \begin{interlude}
@@ -76,8 +84,15 @@ I ^{Gm}love you, though you ^{Bb}hurt me s^{Eb}o, ^{Bb} now I'm ^{Gm}going to ^{
 \begin{verse}
 ^{G}Baby, baby, ^{G} where did our ^{D}love go? ^{D} \\
 Oh, don't you ^{Am}leave me, ^{Am} don't you leave me no ^{D}more  ^{C} \\
-I've got this ^{G}burning, yearning ^{G}yearning feeling in^{D}side me ^{D} \\
+\lyric{1}{
+I've got this ^{G}burning, yearning ^{G}yearning feeling in^{D}side me ^{D} \\ & 
 Oh, deep in^{Am}side me, ^{Am} and it hurts so ^{D}bad ^{C}
+}
+
+\lyric{2}{
+Oh, ^{G}Baby, baby, ^{G} where did our ^{D}love go? ^{D} \\ &
+Oh, don't you ^{Am}leave me, ^{Am} don't you leave me no ^{D}more  ^{C}
+}
 \end{verse} 
 
 \begin{verse}
