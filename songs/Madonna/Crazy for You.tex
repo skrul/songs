@@ -1,10 +1,20 @@
 \documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
 \begin{document}
 \begin{song}[transpose=-4]{title={Crazy for You}, band={Madonna}, year={1985}, key={C}}
 
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{45em}
+      \origchord{t}{x,x,p1,p1,p1,p1}{_{Ab6}}%
+    }%
+  }%
+}
+
 \begin{intro}
 \begin{tabular}[t]{@{}lllll}
-|_{E} & |_{A} - _{B} & |_{E} & |_{A} - _{B} & | \\
+|_{E} & |_{A} - _{B} & |_{E} & |_{A} - _{B} & |  \\
 |_{E} & |_{A} - _{B} & |_{E} & |_{A} - _{A/B} & | \\
 \end{tabular}
 \end{intro}
@@ -23,7 +33,7 @@ aw^{C#m}ay, what I'm ^{A}dying to ^{-} say, is ^{B}that...
 \begin{chorus}
 I'm ^{E}crazy for you, ^{G#m} touch me once and you'll ^{C#m7}know it's true \\
 ^{E} I never wanted any^{Amaj7}one like this, it's ^{G#m}all brand new, you'll ^{F#m7}feel it in my kiss ^{A/B*} \\
-I'm crazy for you, ^{E} \hspace{10pt} ^{A} ^{-} ^{B}crazy ^{E}for you ^{A*} ^{A/B*} ^{N.C.}
+I'm crazy for you, ^{E} \hspace{10pt} ^{A} ^{-} ^{B}crazy ^{E}for you ^{A} ^{-} ^{A/B} \hspace{10pt} ^{N.\symbol{67}.}
 \end{chorus} 
 
 \begin{verse}
@@ -42,16 +52,14 @@ I'm ^{E}crazy for you, ^{G#m} touch me once and you'll ^{C#m7}know it's true \\
 You'll ^{C#m7}feel it in my ^{C6}kiss because \\
 I'm ^{E}crazy for you, ^{G#7} touch me once and you'll ^{C#m7}know it's true  \\
 ^{E} I never wanted any^{Amaj7}one like this, it's ^{G#m}all brand new, you'll ^{F#m7}feel it in my kiss ^{A/B*} \\
-I'm crazy for you,^{E}  ^{A} ^{-} ^{B}  \\
-Crazy for y^{E}ou ^{A} ^{-}  ^{B}  \\
-Crazy for you ^{E}  ^{A} ^{-}  ^{B}  \\
-Crazy for you ^{E}  ^{A} ^{-}  ^{B}  \\
-^{E} It's all brand ^{A}new ^{-}I'm ^{B}crazy for you \\
-^{E} And you know it's ^{A}true I'm ^{-}crazy ^{B}crazy for you \\
-^{E} It's all brand ^{A}new ^{-}I'm ^{B}crazy for you \\
-^{E} And you know it's ^{A} true yea^{-}h I'm ^{B}crazy for \\
-^{E}You... ^{A} I'^{-}m ^{B}crazy for you \\
-^{E}Baby... ^{A} I'^{-}m ^{B}crazy for you \\
+\begin{tabular}[t]{@{}ll}
+I'm crazy for you, ^{E} ^{A} ^{-} ^{B} & Crazy for y^{E}ou ^{A} ^{-} ^{B} \\
+Crazy for you ^{E} ^{A} ^{-} ^{B}      & Crazy for you ^{E} ^{A} ^{-} ^{B} \\
+^{E} It's all brand ^{A}new ^{-}I'm ^{B}crazy for you & ^{E} And you know it's ^{A}true I'm ^{-}crazy ^{B}crazy for you \\
+^{E} It's all brand ^{A}new ^{-}I'm ^{B}crazy for you & ^{E} And you know it's ^{A} true yea^{-}h I'm ^{B}crazy for  \\
+^{E}You... ^{A} I'^{-}m ^{B}crazy for you & ^{E}Baby... ^{A} I'^{-}m ^{B}crazy for you  \\
+\end{tabular}
 \end{outro}
+
 \end{song}
 \end{document}
