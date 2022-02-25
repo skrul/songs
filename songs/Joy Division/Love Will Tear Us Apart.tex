@@ -1,6 +1,16 @@
 \documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
 \begin{document}
 \begin{song}[transpose-capo=true]{title={Love Will Tear Us Apart}, band={Joy Division}, year={1980}, key={D}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{45em}
+      \origchord{t}{x,p0,p2,p0,p0,p0}{_{A9}}%
+    }%
+  }%
+}
 
 \begin{intro}
 \begin{tabular}[t]{@{}lllll}
