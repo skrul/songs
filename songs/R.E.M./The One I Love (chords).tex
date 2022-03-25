@@ -1,13 +1,86 @@
 \documentclass{skrul-leadsheet-chords}[20pt]
+\usepackage{tabularx}
+\usepackage{xparse}
+\usepackage{adjustbox}
+
+\makeatletter
+\newcommand\cellwidth{\TX@col@width}
+\makeatother
+
+\NewDocumentCommand \xb { m o }{{
+\begin{tabular}{@{}l}
+\IfNoValueTF{#2}{}{#2} \\[-1ex]
+\writechord{#1}
+\end{tabular}}
+}
+
+\NewDocumentCommand \xbb { m o m o }{{
+\begin{tabular}{@{}ll@{}}
+\IfNoValueTF{#2}{}{#2} & \IfNoValueTF{#4}{}{#4} \\
+\writechord{#1} & \writechord{#3} \\ \hline
+\end{tabular}}
+}
+
+
+\NewDocumentCommand \xbbbb { m o m o m o m o }{{
+\begin{tabular}{@{}lll}
+\IfNoValueTF{#2}{}{#2} & \IfNoValueTF{#4}{}{#4} & \IfNoValueTF{#6}{}{#6}  & \IfNoValueTF{#8}{}{#8}  \\[-1ex]
+\writechord{#1} & \writechord{#3} & \writechord{#5} & \writechord{#7}  \\ \hline
+\end{tabular}}
+}
+
+
 \begin{document}
-\begin{song}[transpose-capo=true]{title={}, band={}, year={}, key={}}
 
 
-\begin{verse}
-\begin{tabular}[t]{@{}lllll}
-\normalbar _{C} & \leftrepeat _{C} & |_{C} & |_{C} & | \\
-\end{tabular}
-\end{verse}
+\begin{song}[transpose-capo=true]{title={The One I Love}, band={R.E.M.}, bpm={128}, key={Em}}
+
+\begin{intr}
+\adjustbox{valign=t}{
+\begin{tabularx}{\textwidth}{XXXXX}
+\xb{Em} &  \xb{Dsus2} & \xb{Em} & \xb{Em} &
+\end{tabularx}
+}
+\end{intr}
+
+\begin{v1}
+\adjustbox{valign=t}{
+\begin{tabularx}{\textwidth}{XXXXX}
+\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} &  \\
+\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} &  \\
+\xbb{G5}{Em7/G} &  \xbb{Dsus4}{Dsus2} & \xbb{Am7}{Am} & \xb{C} &  \\
+\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} & 
+\end{tabularx}
+}
+\end{v1}
+
+\begin{c1}
+\adjustbox{valign=t}{
+\begin{tabularx}{\textwidth}{XXXXX}
+\xb{Em} &  \xb{Dsus2} & \xbb{Em}{Em7} & \xb{Em} & \\
+\xb{Em} &  \xb{Dsus2} & \xb{Em} & \xb{Em} &
+\end{tabularx}
+}
+\end{c1}
+
+\begin{v2}
+\instruction{Repeat V1}
+\end{v2}
+
+\begin{s}
+\adjustbox{valign=t}{
+\begin{tabularx}{\textwidth}{XXXXX}
+\xb{G} &  \xb{Dsus4}        & \xb{G} & \xb{C} &  \\
+\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} &  \\
+\end{tabularx}
+}
+\end{s}
+
+\begin{v3}
+\instruction{Repeat V3}
+\end{v3}
+
+
 
 \end{song}
 \end{document}
