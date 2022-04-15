@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+set -x
+
 export max_print_line=1000
 export error_line=254
 export half_error_line=238
@@ -27,7 +29,6 @@ function make_pdf {
     #mkdir -p "$aux_outdir"
 
     TEXINPUTS=$indir: pdflatex \
-        -interaction=nonstopmode \
         -output-directory="$pdf_outdir" \
         "$infile"
 }
@@ -40,7 +41,6 @@ function make_packet {
 
     mkdir -p "build/packets"
     pdflatex \
-       -interaction=nonstopmode \
        -output-directory="build/packets" \
        "$1"
 }
@@ -48,4 +48,4 @@ function make_packet {
 setup_pdflatex
 #make_pdf "$1"
 
-make_packet "packets/pha202203.tex"
+make_packet "packets/aircoustic202204.tex"
