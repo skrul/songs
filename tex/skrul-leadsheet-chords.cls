@@ -3,6 +3,7 @@
 
 \usepackage{savesym}
 \usepackage{gchords}
+
 \savesymbol{chord}
 
 \RequirePackage{leadsheets}
@@ -23,6 +24,11 @@
 \pagenumbering{gobble}
 
 \usepackage[dvipsnames]{xcolor}
+
+\usepackage{tabularx}
+\usepackage{xparse}
+\usepackage{adjustbox}
+\usepackage{amssymb}
 
 \definesongproperty{bpm}
 \definesongproperty{meter}
@@ -132,6 +138,53 @@
 
 \ExplSyntaxOff
 
+\makeatletter
+\newcommand\cellwidth{\TX@col@width}
+\makeatother
+
+\NewDocumentCommand \xb { m O{\space} }{{
+\smash{%
+ \raisebox{10pt}{%
+    \begin{tabular}{@{}c}
+      #2 \\
+      \writechord{#1} \\
+    \end{tabular}
+   }
+ }
+}}
+
+\NewDocumentCommand \xbb { m O{\space} m O{\space} }{{
+\smash{%
+  \raisebox{10pt}{%
+    \begin{tabular}{@{}cc@{}}
+      #2 & #4 \\
+      \writechord{#1} & \writechord{#3} \\ \hline
+    \end{tabular}
+    }
+  }
+}}
+
+\NewDocumentCommand \xbbbb { m o m o m o m o }{{
+\begin{tabular}{@{}lll}
+\IfNoValueTF{#2}{}{#2} & \IfNoValueTF{#4}{}{#4} & \IfNoValueTF{#6}{}{#6}  & \IfNoValueTF{#8}{}{#8}  \\[-1ex]
+\writechord{#1} & \writechord{#3} & \writechord{#5} & \writechord{#7}  \\ \hline
+\end{tabular}}
+}
+
+% Globally smashes the row height of all tabularx rows. However, this
+% messes with the baseline of the first row so compensate for it later.
+\setlength{\extrarowheight}{-1.5ex}
+
+\NewDocumentCommand \chordtable { m }{{
+\adjustbox{valign=t}{
+  \begin{tabularx}{\textwidth}{XXXXXX}
+    \\[0.4ex] % row height compensation
+    #1
+  \end{tabularx}
+  }
+  \vspace*{-4ex} % remote some extra padding on bottom?
+  }}
+
 \setleadsheets{
   title-template = leadsheet,
   align-chords=l,
@@ -155,7 +208,27 @@
 \provideversetype{v4}[name=V4]
 \provideversetype{c1}[name=C1]
 \provideversetype{c2}[name=C2]
+\provideversetype{c3}[name=C3]
+\provideversetype{c4}[name=C4]
+\provideversetype{c5}[name=C5]
+\provideversetype{c6}[name=C6]
+
+
+\provideversetype{b0}[name=B]
+\provideversetype{b1}[name=B1]
+\provideversetype{b2}[name=B2]
+\provideversetype{b3}[name=B3]
+\provideversetype{b4}[name=B4]
+
+\provideversetype{s1}[name=S1]
+\provideversetype{s2}[name=S2]
+
+\provideversetype{i1}[name=I1]
+\provideversetype{i2}[name=I2]
+
+
 \provideversetype{intr}[name=In]
+\provideversetype{out}[name=Out]
 \provideversetype{s}[name=S]
 
 \providerobustcmd*\lsenparen[1]{%
