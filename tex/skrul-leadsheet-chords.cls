@@ -136,7 +136,16 @@
 \char_set_catcode_parameter:N \#
 \char_set_catcode_other:N \!
 
-\ExplSyntaxOff
+\NewDocumentCommand \beats { m }{{
+\str_case:nn {#1}
+{
+  {1} { \textbf{.} }
+  {2} { \textbf{..} }
+  {3} { \textbf{...} }
+}
+}}
+
+\newcommand\choke{$\wedge$}
 
 \makeatletter
 \newcommand\cellwidth{\TX@col@width}
@@ -164,6 +173,17 @@
   }
 }}
 
+\NewDocumentCommand \xbbb { m O{\space} m O{\space} m O{\space} }{{
+\smash{%
+  \raisebox{10pt}{%
+    \begin{tabular}{@{}ccc@{}}
+      #2 & #4 & #6 \\
+      \writechord{#1} & \writechord{#3} & \writechord{#5} \\ \hline
+    \end{tabular}
+    }
+  }
+}}
+
 \NewDocumentCommand \xbbbb { m o m o m o m o }{{
 \begin{tabular}{@{}lll}
 \IfNoValueTF{#2}{}{#2} & \IfNoValueTF{#4}{}{#4} & \IfNoValueTF{#6}{}{#6}  & \IfNoValueTF{#8}{}{#8}  \\[-1ex]
@@ -184,6 +204,8 @@
   }
   \vspace*{-4ex} % remote some extra padding on bottom?
   }}
+
+\ExplSyntaxOff
 
 \setleadsheets{
   title-template = leadsheet,
@@ -226,6 +248,8 @@
 \provideversetype{i1}[name=I1]
 \provideversetype{i2}[name=I2]
 
+\provideversetype{pre1}[name=Pre1]
+\provideversetype{pre2}[name=Pre2]
 
 \provideversetype{intr}[name=In]
 \provideversetype{out}[name=Out]
