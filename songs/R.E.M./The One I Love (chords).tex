@@ -1,86 +1,61 @@
 \documentclass{skrul-leadsheet-chords}[20pt]
-\usepackage{tabularx}
-\usepackage{xparse}
-\usepackage{adjustbox}
-
-\makeatletter
-\newcommand\cellwidth{\TX@col@width}
-\makeatother
-
-\NewDocumentCommand \xb { m o }{{
-\begin{tabular}{@{}l}
-\IfNoValueTF{#2}{}{#2} \\[-1ex]
-\writechord{#1}
-\end{tabular}}
-}
-
-\NewDocumentCommand \xbb { m o m o }{{
-\begin{tabular}{@{}ll@{}}
-\IfNoValueTF{#2}{}{#2} & \IfNoValueTF{#4}{}{#4} \\
-\writechord{#1} & \writechord{#3} \\ \hline
-\end{tabular}}
-}
-
-
-\NewDocumentCommand \xbbbb { m o m o m o m o }{{
-\begin{tabular}{@{}lll}
-\IfNoValueTF{#2}{}{#2} & \IfNoValueTF{#4}{}{#4} & \IfNoValueTF{#6}{}{#6}  & \IfNoValueTF{#8}{}{#8}  \\[-1ex]
-\writechord{#1} & \writechord{#3} & \writechord{#5} & \writechord{#7}  \\ \hline
-\end{tabular}}
-}
-
 
 \begin{document}
-
-
-\begin{song}[transpose-capo=true]{title={The One I Love}, band={R.E.M.}, bpm={128}, key={Em}}
+\begin{song}[transpose-capo=true]{title={The One I Love}, band={R.E.M.}, bpm={}, key={}}
 
 \begin{intr}
-%\adjustbox{valign=t}{
-\begin{tabularx}{\textwidth}{XXXXX}
-\xb{Em} &  \xb{Dsus2} & \xb{Em} & \xb{Em} &
-\end{tabularx}
-%}
+\chordtable{
+\xb{Em} & \xb{D2}[\push]  & \xb{Em} & \xb{Em7} & repeat 2x & \\
+}
 \end{intr}
 
 \begin{v1}
-\adjustbox{valign=t}{
-\begin{tabularx}{\textwidth}{XXXXX}
-\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} &  \\
-\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} &  \\
-\xbb{G5}{Em7/G} &  \xbb{Dsus4}{Dsus2} & \xbb{Am7}{Am} & \xb{C} &  \\
-\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} & 
-\end{tabularx}
+\chordtable{
+\xb{Em} & \xb{D2}  & \xb{Em} & \xb{Em7} & & \\
+\xb{Em} & \xb{D2}  & \xb{Em} & \xb{Em7} & & \\
+\xb{G} & \xb{D}  & \xb{Am} & \xb{C} & & \\
+\xb{Em} & \xb{D2}  & \xb{Em} & \xb{Em7} & & \\
 }
 \end{v1}
 
 \begin{c1}
-\adjustbox{valign=t}{
-\begin{tabularx}{\textwidth}{XXXXX}
-\xb{Em} &  \xb{Dsus2} & \xbb{Em}{Em7} & \xb{Em} & \\
-\xb{Em} &  \xb{Dsus2} & \xb{Em} & \xb{Em} &
-\end{tabularx}
+\chordtable{
+\xb{Em} & \xb{D2}[\push]  & \xb{Em} & \xb{Em7} & repeat 2x & \\
 }
 \end{c1}
 
 \begin{v2}
-\instruction{Repeat V1}
+\instruction{Repeat Verse}	
 \end{v2}
 
-\begin{s}
-\adjustbox{valign=t}{
-\begin{tabularx}{\textwidth}{XXXXX}
-\xb{G} &  \xb{Dsus4}        & \xb{G} & \xb{C} &  \\
-\xb{Em} &  \xb{Dsus2}        & \xb{Em} & \xb{Em} &  \\
-\end{tabularx}
+\begin{c2}
+\instruction{Repeat Chorus}	
+\end{c2}
+
+\begin{s1}
+\chordtable{
+\xb{G} & \xb{D4} & \xb{G} & \xb{C} & & \\
+\xb{Em} & \xb{D} & \xb{Em} & \xb{Em} & & \\
 }
-\end{s}
+\end{s1}
 
 \begin{v3}
-\instruction{Repeat V3}
+\instruction{Repeat Verse}
 \end{v3}
 
+\begin{c3}
+\instruction{Repeat Chorus}	
+\end{c3}
 
+\begin{c4}
+\instruction{Repeat Chorus}	
+\end{c4}
+
+\begin{out}
+\chordtable{
+\xb{Em} & \xb{D2}  & \xb{D#} & \xb{Em} & &
+}
+\end{out}
 
 \end{song}
 \end{document}
