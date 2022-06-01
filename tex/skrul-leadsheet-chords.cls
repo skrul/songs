@@ -1,4 +1,4 @@
-\ProvidesClass{skrul-leadsheet}
+\ProvidesClass{skrul-leadsheet-chords}
 \LoadClassWithOptions{scrartcl}
 
 \usepackage{savesym}
@@ -29,6 +29,7 @@
 \usepackage{xparse}
 \usepackage{adjustbox}
 \usepackage{amssymb}
+\usepackage{array}
 
 \definesongproperty{bpm}
 \definesongproperty{meter}
@@ -146,42 +147,44 @@
 }}
 
 \newcommand\choke{$\wedge$}
+\newcommand\push{>}
+\newcommand\hold{$\Diamond$}
 
 \makeatletter
 \newcommand\cellwidth{\TX@col@width}
 \makeatother
 
 \NewDocumentCommand \xb { m O{\space} }{{
-\smash{%
- \raisebox{10pt}{%
+%\smash{%
+ \raisebox{1ex}{%
     \begin{tabular}{@{}c}
-      #2 \\
+      #2 \\[-0.3em]
       \writechord{#1} \\
     \end{tabular}
    }
- }
+% }
 }}
 
 \NewDocumentCommand \xbb { m O{\space} m O{\space} }{{
-\smash{%
-  \raisebox{10pt}{%
+%\smash{%
+  \raisebox{1ex}{%
     \begin{tabular}{@{}cc@{}}
-      #2 & #4 \\
+      #2 & #4 \\[-0.3em]
       \writechord{#1} & \writechord{#3} \\ \hline
     \end{tabular}
     }
-  }
+%  }
 }}
 
 \NewDocumentCommand \xbbb { m O{\space} m O{\space} m O{\space} }{{
-\smash{%
-  \raisebox{10pt}{%
+%\smash{%
+  \raisebox{1ex}{%
     \begin{tabular}{@{}ccc@{}}
-      #2 & #4 & #6 \\
+      #2 & #4 & #6 \\[-0.3em]
       \writechord{#1} & \writechord{#3} & \writechord{#5} \\ \hline
     \end{tabular}
     }
-  }
+% }
 }}
 
 \NewDocumentCommand \xbbbb { m o m o m o m o }{{
@@ -193,17 +196,18 @@
 
 % Globally smashes the row height of all tabularx rows. However, this
 % messes with the baseline of the first row so compensate for it later.
-\setlength{\extrarowheight}{-1.5ex}
+%\setlength{\extrarowheight}{-1em}
 
 \NewDocumentCommand \chordtable { m }{{
 \adjustbox{valign=t}{
   \begin{tabularx}{\textwidth}{XXXXXX}
-    \\[0.4ex] % row height compensation
+%    \\[0.4ex] % row height compensation
     #1
   \end{tabularx}
   }
-  \vspace*{-4ex} % remote some extra padding on bottom?
-  }}
+%  \vspace*{4ex} % remote some extra padding on bottom?
+  }
+}
 
 \ExplSyntaxOff
 
@@ -250,6 +254,13 @@
 
 \provideversetype{pre1}[name=Pre1]
 \provideversetype{pre2}[name=Pre2]
+\provideversetype{pre3}[name=Pre3]
+\provideversetype{pre4}[name=Pre4]
+
+\provideversetype{post1}[name=Post1]
+\provideversetype{post2}[name=Post2]
+\provideversetype{post3}[name=Post3]
+\provideversetype{post4}[name=Post4]
 
 \provideversetype{intr}[name=In]
 \provideversetype{out}[name=Out]
