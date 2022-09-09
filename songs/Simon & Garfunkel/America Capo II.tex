@@ -1,0 +1,16 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+\begin{song}[transpose-capo=true]{title={America}, band={Simon \& Garfunkel}, year={1968}, key={D}, capo={2}}
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{45em}
+      \origchord{t}{x,p3,p3,p2,p0,p0}{_{Fmaj7(#11)}}%
+      \origchord{t}{p2,p0,p0,p2,p1,p0}{_{D9/F#}}%
+    }%
+  }%
+}
+\input{"America Body.tex"}
+\end{song}
+\end{document}
