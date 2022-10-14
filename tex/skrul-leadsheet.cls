@@ -49,6 +49,7 @@
 
 \prop_const_from_keyval:Nn \__skrul_enharmonic_map_prop
   {
+    A/F##=A/G,
     Am/F##=Am/G,
     Ab#m=Am,
     A##m7=Bm7,
@@ -83,6 +84,9 @@
     F##7=G7,
     F##/A##*=G/B*,
     F##/B=G/B,
+    F##/D=G/D,
+    F##/E=G/E,
+    F##/F#=G/F#,
     G##=A,
     G##*=A*,
     G##m=Am,
