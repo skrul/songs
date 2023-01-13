@@ -34,6 +34,7 @@
   \space\space // \space\space \songproperty{year}
   \space\space // \space\space key: \songproperty{key}
   \ifsongproperty{capo}{\space\space // \space\space\capo}{}
+  \ifsongproperty{tempo}{\space\space // \space\space\songproperty{tempo} bpm}{}
   \ifsongproperty{meter}{\space\space // \space\space\songproperty{meter} time}{}
   \ifsongproperty{note}{\space\space // \space\space\songproperty{note}}{}
 }
@@ -151,6 +152,7 @@
 \provideversetype*{postchorus*}[name=Postchorus]
 \provideversetype{chorus1}[name=Chorus 1]
 \provideversetype{chorus2}[name=Chorus 2]
+\provideversetype{refrain}[name=Refrain]
 \provideversetype{xbreak}[name=Break]
 
 \providerobustcmd*\lsenparen[1]{%
