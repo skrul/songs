@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>509</string>
+	<string>512</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>// To make this work as a keyboard shortcut see:// https://apple.stackexchange.com/a/276839function run(input, parameters) {  var out = [];  var a = input[0].split("\n");  var chords = null;  var chordsWidth = 0;  for (var i = 0; i &lt; a.length; i++) {    var l = a[i].replace(/\s+$/, '');	if (l.length == 0) {	  chords = null;	  out.push("");	  continue;	}	if (chords == null) {	  chords = [];	  var re = /[\w#]+/g;	  while ((match = re.exec(l)) != null) {	    chords.push(match);	  }	  chordsWidth = l.length;	} else {	  l = l.padEnd(chordsWidth, ' ');	  for (var j = chords.length - 1; j &gt;= 0; j--) {	    var c = chords[j];	    l = [l.slice(0, c.index), "^{" + c[0] + "}", l.slice(c.index)].join('');	  }	  out.push(l + ' \\\\');	  chords = null;	}  }  return out.join("\n");}</string>
+					<string>// To make this work as a keyboard shortcut see:// 	function run(input, parameters) {  var out = [];  var a = input[0].split("\n");  var chords = null;  var chordsWidth = 0;  for (var i = 0; i &lt; a.length; i++) {    var l = a[i].replace(/\s+$/, '');	if (l.length == 0) {	  chords = null;	  out.push("");	  continue;	}	if (chords == null) {	  chords = [];	  var re = /[\w#]+/g;	  while ((match = re.exec(l)) != null) {	    chords.push(match);	  }	  chordsWidth = l.length;	} else {	  l = l.padEnd(chordsWidth, ' ');	  for (var j = chords.length - 1; j &gt;= 0; j--) {	    var c = chords[j];	    l = [l.slice(0, c.index), "^{" + c[0] + "}", l.slice(c.index)].join('');	  }	  out.push(l + ' \\\\');	  chords = null;	}  }  return out.join("\n");}</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunJavaScript</string>
@@ -106,7 +106,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>533.250000:548.000000</string>
+				<string>309.000000:368.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run JavaScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -129,17 +129,17 @@
 		<key>presentationMode</key>
 		<integer>11</integer>
 		<key>processesInput</key>
-		<integer>0</integer>
+		<false/>
 		<key>serviceInputTypeIdentifier</key>
 		<string>com.apple.Automator.text</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.text</string>
 		<key>serviceProcessesInput</key>
-		<integer>0</integer>
+		<false/>
 		<key>systemImageName</key>
 		<string>NSActionTemplate</string>
 		<key>useAutomaticInputType</key>
-		<integer>0</integer>
+		<false/>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
 	</dict>
