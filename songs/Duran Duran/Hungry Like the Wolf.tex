@@ -1,6 +1,16 @@
 \documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
 \begin{document}
 \begin{song}[transpose-capo=true]{title={Hungry Like the Wolf}, band={Duran Duran}, year={1982}, key={E}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{43em}
+      \origchord{t}{p0,p2,p0,p2,p0,p0}{_{Em7sus4}}%
+    }%
+  }%
+}
 
 \begin{intro}
 \instruction{Riff 2x over _{E}}
@@ -38,24 +48,26 @@ Strut on a ^{C}line, it's di^{-}scord and ^{G}rhyme, I howl and I ^{F}whine I'm 
 Mouth is a^{C}live, all run^{-}ning in^{G}side, and I'm ^{F}hungry ^{-}like the ^{D}wolf
 \end{chorus} 
 
+\newpage
+
 \begin{interlude}
 \begin{tabular}[t]{@{}lllll}
 |_{Em7sus4}	 & |_{Em7sus4}	 & |_{Em7sus4}	 & |_{Em7sus4}	 & | \\
 \end{tabular}
 \\
-^{Em7sus4}Hungry like the wolf, Hungry like the wolf, ^{Em7sus4}Hungry like the wolf \hspace{20pt} ^{Em7sus4} \hspace{20pt} ^{Em7sus4}
+^{Em7sus4}Hungry like the wolf, Hungry like the wolf, ^{Em7sus4}Hungry like the wolf \hspace{5pt} ^{Em7sus4} \hspace{10pt} ^{Em7sus4}
 \end{interlude}
 
 \begin{chorus}
-Burning the _{C} ground, I break from the _{G} crowd, I'm on the _{F} hunt I'm after you \\
-I smell like I _{C} sound, I'm lost and I'm _{G} found, and I'm _{F} hungry like the _{D} wolf \\
-Strut on a _{C} line, it's discord and _{G} rhyme,  I'm on the _{F} hunt I'm after you \\
-Mouth is _{C} alive, with juices like _{G} wine, and I'm _{F} hungry like the _{D} wolf \\
-\instruction{Start to fade...} \\
-Burning the _{C} ground, I break from the _{G} crowd, I'm on the _{F} hunt I'm after you \\
-Scent and a _{C} sound, I'm lost and I'm _{G} found, and I'm _{F} hungry like the _{D} wolf \\
-Strut on a _{C} line, it's discord and _{G} rhyme, I howl and I _{F} whine I'm after you \\
-Mouth is _{C} alive, all running _{G} inside, and I'm _{F} hungry like the _{D} wolf
+Burning the ^{C}ground, I br^{-}eak from the ^{G}crowd, I'm on the ^{F}hunt I'm after you \\
+I smell like I ^{C}sound, I'm lo^{-}st and I'm ^{G}found, and I'm ^{F}hungry l^{-}ike the ^{D}wolf \\
+Strut on a ^{C}line, it's dis^{-}cord and ^{G}rhyme,  I'm on the ^{F}hunt I'm after you \\
+Mouth is ^{C}alive, with ju^{-}ices like ^{G}wine, and I'm ^{F}hungry ^{-}like the ^{D}wolf \\
+\\
+Burning the ^{C}ground, I br^{-}eak from the ^{G}crowd, I'm on the ^{F}hunt I'm after you \\
+Scent and a ^{C}sound, I'm ^{-}lost and I'm ^{G}found, and I'm ^{F}hungry ^{-}like the ^{D}wolf \\
+Strut on a ^{C}line, it's di^{-}scord and ^{G}rhyme, I howl and I ^{F}whine I'm after you \\
+Mouth is a^{C}live, all run^{-}ning in^{G}side, and I'm ^{F}hungry ^{-}like the ^{D}wolf ^{D} ^{Em7sus4*}
 
 \end{chorus}
 \end{song}
