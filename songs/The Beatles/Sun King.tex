@@ -1,0 +1,52 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+\begin{song}[transpose-capo=true]{title={Sun King}, band={The Beatles}, year={1969}, key={E}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{30em}
+      \origchord{5}{x,p0,p2,p1,p2,p0}{_{A6}}%
+      \origchord{5}{x,x,p3,p2,p3,x}{_{A#6}}%
+      \origchord{7}{x,x ,p2,p1,p2,x}{_{Emaj7}}%
+      \origchord{t}{p0,p2,p2,p1,p2,p0}{_{E6}}%
+      \origchord{9}{x,p1,p1,p1,p1,p1}{_{G9sus4}}%
+    }%
+  }%
+}
+
+\begin{intro}
+\begin{tabular}[t]{@{}lllll}
+|_{E} & |_{E} & |_{E} & |_{E} & | \\
+|_{A6} & |_{A6} _{Emaj7*} & | _{E6} & |_{E} & | \\
+|_{A6} & |_{A6} _{Emaj7*} & | _{E6} & |_{E} & | \\
+|_{A6} & |_{A6} _{A#6*} _{Emaj7*}& | _{E6}  & |_{E} & | \\
+\end{tabular}
+\end{intro}
+ 
+\begin{verse}
+^{G9sus4}Aaah ^{G9sus4} \\
+
+^{C}Here ^{Cmaj7}come the ^{Gm7}sun ki^{A7}ng \\
+^{C}Here ^{Cmaj7}come the ^{Gm7}sun ki^{A7}ng
+\end{verse} 
+
+\begin{bridge}
+E^{F}verybody's laug^{D7}hing \\
+E^{F}verybody's happ^{D7}y 
+\end{bridge}
+ 
+\begin{chorus}
+^{C}Here c^{Em7}ome the s^*{C}u ^*{-}- ^{C7}un k^{F}ing
+\end{chorus} 
+ 
+\begin{outro}
+Q^{A6}uando para mucho mi ^{A6}amore de felice cor^{Emaj7*}a ^{E6}z\'{o}n ^{E} \\
+M^{A6}undo paparazzi mi a^{A6}more chicka ferdy par^*{Emaj7*}a - ^{E6}sol ^{E} \\
+C^{A6}uesto obrigado tanta ^{A6}mucho que can^{A#6}ite ^*{Emaj7*}carous ^{E6}el ^{E}
+\space\space\space\instruction{jump directly to Mean Mr Mustard!}
+\end{outro}
+
+\end{song}
+\end{document}
