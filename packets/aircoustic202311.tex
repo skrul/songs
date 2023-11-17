@@ -1,0 +1,11 @@
+\documentclass{article}
+\usepackage{grffile}
+\usepackage{pdfpages}
+\begin{document}
+\includepdf[pages=-]{build/pdf/Sublime/Santeria.pdf}
+{\catcode`\,=11 \includepdf[pages=-]{build/pdf/The Beatles/Ob-La-Di, Ob-La-Da.pdf}}
+{\catcode`\,=11 \includepdf[pages=-]{build/pdf/The Beatles/Ob-La-Di, Ob-La-Da Capo I.pdf}}
+\includepdf[pages=-]{build/pdf/Red Hot Chili Peppers/Dani California.pdf}
+\includepdf[pages=-]{build/pdf/Simple Minds/Don't You (Forget About Me).pdf}
+\includepdf[pages=-]{build/pdf/Olivia Rodrigo/bad idea right?.pdf}
+\end{document}
