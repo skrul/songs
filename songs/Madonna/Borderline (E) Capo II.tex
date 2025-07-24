@@ -1,0 +1,21 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+
+\begin{song}[transpose-capo=true,transpose=2]{title={Borderline}, band={Madonna}, year={1983}, key={E}, capo={2}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-14em}{%
+      \hspace{40em}
+      \origchord{t}{x,p0,p4,p2,p3,x}{_{D/A}}%
+      \origchord{t}{x,p0,p5,p4,p3,x}{_{G/A}}%
+      \origchord{t}{x,x,p1,p2,p0,p2}{_{B7/D#}}%
+    }%
+  }%
+}
+
+\input{"Borderline Body.tex"}
+
+\end{song}
+\end{document}
