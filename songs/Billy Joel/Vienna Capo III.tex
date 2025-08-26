@@ -1,0 +1,18 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+\begin{song}[transpose-capo=true]{title={Vienna}, band={Billy Joel}, year={1977}, key={G}, capo={3}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{43em}
+      \origchord{t}{x,x,p1,p0,p0,p3}{_{Gaug}}%
+    }%
+  }%
+}
+
+\input{"Vienna Body.tex"}
+
+\end{song}
+\end{document}

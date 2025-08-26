@@ -66,6 +66,7 @@
     B#m=Cm,
     B#add9=Cadd9,
     Bb#=B,
+    Bb*=Bb*,
     Bb#m7=Bm7,
     B#maj7=Cmaj7,
     B#m6=Cm6,
