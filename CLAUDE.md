@@ -93,7 +93,11 @@ Use these environments for different song sections:
 - Study the original Ultimate Guitar ASCII chart carefully
 - Place chords exactly where they appear in the original timing
 - Use `^{chord}` syntax for inline chords above lyrics
+- **MANDATORY**: Always use the `ascii_to_latex.py` script for ALL chord positioning
+- **NEVER manually position chords** - the script provides precise character-level accuracy
 - **Count the spaces** - chord positioning in ASCII shows exact syllable placement
+- **MOST IMPORTANT**: Do not guess or approximate - the ASCII spacing is precise
+- Count characters from the start of each line to determine exact word/syllable placement
 - Example: `^{C}Everybody's got a ^{Am}hungry heart`
 
 ### Important: Multiple Chords Within One Word
@@ -109,24 +113,28 @@ Use these environments for different song sections:
 - **With variants**: `^{N.\symbol{67}.}` prevents leadsheets from recognizing "C" as a chord
 
 ### Common Mistakes to Avoid
-- Don't guess chord placement - follow the ASCII chart precisely
+- **NEVER guess chord placement** - follow the ASCII chart precisely, character by character
 - In "Everybody's got a hungry heart", Am goes over "hungry" NOT "heart"
 - Chords can appear between words: "for a ^{Ab} juvenile" (space after chord prevents it from attaching to next word)
 - **Study spacing carefully**: In ASCII, leading spaces before chords show exact positioning
   - Example: "            Eb" in ASCII means Eb goes over "you're", not at line start
-- Count characters/spaces from line beginning to determine exact chord placement
-- Always cross-reference with the original Ultimate Guitar positioning
+- **Count every space and character** from line beginning to determine exact chord placement
+- **Common error**: Placing chords at line beginnings when they belong mid-line
+- **Verification step**: Always cross-reference with the original Ultimate Guitar positioning
 
 ## Chord-Only Sections
 
 For instrumental parts or chord progressions without lyrics:
 ```latex
-\begin{tabular}[t]{@{}llll}
-|_{C} & |_{Am} & |_{Dm7} & |_{G} | \\
+\begin{tabular}[t]{@{}lllll}
+|_{C} & |_{Am} & |_{Dm7} & |_{G} & | \\
 \end{tabular}
 ```
 
 ### Important: Chord-Only Syntax Rules
+- **Always use 5 columns**: `{@{}lllll}` for consistent visual formatting
+- **Columns 1-4**: Actual chords with `|_{chord}` format
+- **Column 5**: Just `|` for visual closure (makes tables look "closed")
 - Always use `_{chord}` with curly braces for chord-only sections
 - **Wrong**: `|_(Bbaug)` (uses parentheses)
 - **Correct**: `|_{Bbaug}` (uses curly braces)
@@ -154,10 +162,24 @@ Example:
 
 1. **Analyze Structure**: Identify verses, chorus, bridge, etc.
 2. **Study Chord Placement**: Look at original ASCII positioning carefully
-3. **Create Files**: Main file and body file following templates
-4. **Place Chords**: Use exact positioning from original chart
-5. **Format Text**: Add commas and fix capitalization for combined lines
-6. **Add Instrumentals**: Use tabular format for chord-only sections
+3. **Use ASCII Conversion Tool** (MANDATORY): Always use the `ascii_to_latex.py` script to convert ALL chord/lyric pairs to accurate inline notation
+4. **Create Files**: Main file and body file following templates
+5. **Place Chords**: Use exact positioning from original chart or conversion tool output
+6. **Format Text**: Add commas and fix capitalization for combined lines
+7. **Add Instrumentals**: Use tabular format for chord-only sections
+
+## ASCII to LaTeX Conversion Tool
+
+A Python script (`ascii_to_latex.py`) is available to help convert Ultimate Guitar ASCII formatting to inline LaTeX chords:
+
+**Usage**: Provide chord line and lyric line as input:
+```
+Input chord line: 'Gm               Bb'
+Input lyric line: '   Slow down you crazy child'
+Output: '^{Gm}   Slow down you ^{Bb}crazy child'
+```
+
+This tool can be more accurate than manual conversion for precise chord positioning.
 
 ## Adding Chord Diagrams (Optional)
 

@@ -7,4 +7,4 @@ build/
 *.log
 *.fls
 *.synctex.gz
-
+__pycache__/
