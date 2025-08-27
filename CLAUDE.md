@@ -93,6 +93,8 @@ Use these environments for different song sections:
 - Study the original Ultimate Guitar ASCII chart carefully
 - Place chords exactly where they appear in the original timing
 - Use `^{chord}` syntax for inline chords above lyrics
+- **MANDATORY**: Always use the `ascii_to_latex.py` script for ALL chord positioning
+- **NEVER manually position chords** - the script provides precise character-level accuracy
 - **Count the spaces** - chord positioning in ASCII shows exact syllable placement
 - **MOST IMPORTANT**: Do not guess or approximate - the ASCII spacing is precise
 - Count characters from the start of each line to determine exact word/syllable placement
@@ -160,7 +162,7 @@ Example:
 
 1. **Analyze Structure**: Identify verses, chorus, bridge, etc.
 2. **Study Chord Placement**: Look at original ASCII positioning carefully
-3. **Use ASCII Conversion Tool** (optional): The `ascii_to_latex.py` script can help convert chord/lyric pairs to accurate inline notation
+3. **Use ASCII Conversion Tool** (MANDATORY): Always use the `ascii_to_latex.py` script to convert ALL chord/lyric pairs to accurate inline notation
 4. **Create Files**: Main file and body file following templates
 5. **Place Chords**: Use exact positioning from original chart or conversion tool output
 6. **Format Text**: Add commas and fix capitalization for combined lines

@@ -53,18 +53,25 @@ def convert_ascii_to_latex(chord_line, lyric_line):
     chord_idx = 0
     result_chars = []
     
+    skip_char = False
     for pos, char in enumerate(lyric_line):
         # Check if we need to insert a chord here
         while chord_idx < len(chord_positions) and chord_positions[chord_idx][0] == pos:
             chord = chord_positions[chord_idx][1]
-            # If we're in the middle of a word, add space after chord
-            if pos > 0 and lyric_line[pos-1] not in [' ', '\t'] and char not in [' ', '\t']:
-                result_chars.append(f'^{{{chord}}} ')
+            
+            # Determine if chord falls on a space (between words) or within/at start of word
+            if char in [' ', '\t']:
+                # Chord falls on a space between words - replace space with chord surrounded by spaces
+                result_chars.append(f' ^{{{chord}}} ')
+                skip_char = True  # Don't add the original space
             else:
+                # Chord falls within a word or at beginning - no space after chord  
                 result_chars.append(f'^{{{chord}}}')
             chord_idx += 1
         
-        result_chars.append(char)
+        if not skip_char:
+            result_chars.append(char)
+        skip_char = False
     
     # Handle any remaining chords at the end
     while chord_idx < len(chord_positions):
