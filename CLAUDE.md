@@ -28,6 +28,19 @@ Only separate the body when creating capo or transposed versions:
 - **Both capo and transpose**: `[Song Title] In [Key] Capo [Roman].tex`
   - Example: `Paper Rings In B Capo IV.tex`
 
+#### Important: Capo vs. Transposition
+**Capo Versions:**
+- **Key stays the same** - Song still sounds in original key
+- **Chords change** - Play easier chord shapes, capo makes them sound in original key
+- **Parameter**: `key={OriginalKey}, capo={X}`
+- **Example**: Bb song with Capo III = play G chords, sound like Bb
+
+**Transposed Versions:**  
+- **Key changes** - Song actually sounds in different key
+- **Chords change** - Different chords for the new key
+- **Parameter**: `key={NewKey}, transpose=X`
+- **Example**: Song transposed from Bb to G = song now sounds in G key
+
 ### Single File Template
 ```latex
 \documentclass{skrul-leadsheet}
@@ -54,11 +67,23 @@ Only separate the body when creating capo or transposed versions:
 \end{document}
 ```
 
-**Variant Version Template (references shared body):**
+**Capo Version Template (references shared body):**
 ```latex
 \documentclass{skrul-leadsheet}
 \begin{document}
-\begin{song}[transpose-capo=true,transpose=X]{title={Song Title}, band={Artist}, year={YYYY}, key={NewKey}, capo={X}}
+\begin{song}[transpose-capo=true]{title={Song Title}, band={Artist}, year={YYYY}, key={OriginalKey}, capo={X}}
+
+\input{"Song Title Body.tex"}
+
+\end{song}
+\end{document}
+```
+
+**Transposed Version Template (references shared body):**
+```latex
+\documentclass{skrul-leadsheet}
+\begin{document}
+\begin{song}[transpose-capo=true,transpose=X]{title={Song Title}, band={Artist}, year={YYYY}, key={NewKey}}
 
 \input{"Song Title Body.tex"}
 
