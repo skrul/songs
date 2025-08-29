@@ -1,32 +1,45 @@
 \documentclass{skrul-leadsheet}
-
+\usepackage{eso-pic}
+\usepackage{graphicx}
 \begin{document}
 \begin{song}{title={Breathe / Time}, band={Pink Floyd}, year={1973}, key={Em F#m Em}}
 
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{43em}
+      \origchord{3}{x,p2,p1,p2,p3,x}{_{D7#9}}%
+      \origchord{3}{x,p2,p1,p2,p1,x}{_{D7b9}}%
+      \origchord{t}{x,p2,p3,p2,p1,p1}{_{F/B}}%
+    }%
+  }%
+}
+
 \begin{intro}
-\begin{tabular}[t]{@{}lll}
-|_{Em} & | _{A7} | 2x
+\begin{tabular}[t]{@{}lllll}
+|_{Em} & | _{A7} & |_{Em} & | _{A7} & | \instruction{Repeat 4x} \\
+|_{Cmaj7} & | _{Bm7} & |_{Fmaj7} & | _{G} - _{D7#9*} _{D7b9*} &  |
 \end{tabular}
 \end{intro}
 
 \begin{verse}
-^{Em}Breathe, breathe in the ^{A7}air, ^{Em}don't be afraid to ^{A7}care \\
-^{Em}Leave, don't leave ^{A7}me, ^{Em}look around and choose your ^{A7}own ground
+^{Em} Breathe, breathe in the ^{A7}air, ^{Em} don't be afraid to ^{A7}care \\
+^{Em} Leave, don't leave ^{A7}me, ^{Em} look around and choose your ^{A7}own ground
 \end{verse}
 
 \begin{chorus}
 ^{Cmaj7}Long you live and high you fly, ^{Bm7}smiles you'll give and tears you'll cry \\
-^{Fmaj7}All you touch and all you see, ^{G}is all your life will ^{D7#9}ever ^{D7b9}be
+^{Fmaj7}All you touch and all you see, is ^{G}all your ^{-}life will ^{D7#9*}ever ^{D7b9*}be
 \end{chorus}
 
 \begin{verse}
-^{Em}Run, rabbit ^{A7}run, ^{Em}dig that hole, forget the ^{A7}sun \\
-^{Em}And when at last the work is ^{A7}done, ^{Em}don't sit down it's time to dig a^{A7}nother one.
+^{Em} Run, rabbit ^{A7}run, ^{Em}dig that hole, forget the ^{A7}sun \\
+^{Em} And when at last the work is ^{A7}done, ^{Em}don't sit down it's time to dig a^{A7}nother one
 \end{verse}
 
 \begin{chorus}
 ^{Cmaj7}For long you live and high you fly, ^{Bm7}but only if you ride the tide \\
-^{Fmaj7}And balanced on the biggest wave, ^{G}you race towards an ^{D7#9}early ^{D7b9}grave
+^{Fmaj7}And balanced on the biggest wave, you ^{G}race to-w^{-}ards an ^{D7#9*}early ^{D7b9*}grave
 \end{chorus}
 
 \begin{interlude}
@@ -49,36 +62,44 @@
 ^{Bm7}No one told you when to run ... ^{E} You missed the starting gun
 \end{chorus}
 
-\newpage
+\pagebreak
+
+\begin{solo}
+\begin{tabular}[t]{@{}lllll}
+|_{F#m} & |_{A} & |_{E} & |_{F#m} & | \instruction{Repeat 4x} \\
+|_{Dmaj7} & |_{Amaj7} & |_{Dmaj7} & |_{Amaj7} & | \\
+|_{Dmaj7} & |_{C#m7} & |_{Bm7} & |_{E} & | \\
+\end{tabular}
+\end{solo}
 
 \begin{verse}
-And you ^{F#m}run and you run to catch up with the Sun, but it's ^{A}sinking; \\
-^{E}Racing around to come up behind you a^{F#m}gain. \\
+And you ^{F#m}run and you run to catch up with the sun, but it's ^{A}sinking; \\
+^{E}Racing around to come up behind you a^{F#m}gain \\
 The ^{F#m}sun is the same in a relative way, but you're ^{A}older, \\
-^{E}shorter of breath, and one day closer to ^{F#m}death.
+^{E}Shorter of breath, and one day closer to ^{F#m}death
 \end{verse}
 
 \begin{chorus}
-^{Dmaj7}Every year is getting shorter, ^{Amaj7}never seem to find the time. \\
-^{Dmaj7}Plans that either come to naught, or ^{Amaj7}half a page of scribbled lines. \\
-^{Dmaj7}Hanging on in quiet despe^{C#m7}ration is the English way. \\
-The ^{Bm7}time is gone, the song is over. ^{Bm7}Thought I'd something ^{F/B}more to say.
+^{Dmaj7}Every year is getting shorter, ^{Amaj7}never seem to find the time \\
+^{Dmaj7}Plans that either come to naught, or ^{Amaj7}half a page of scribbled lines \\
+^{Dmaj7}Hanging on in quiet despe^{C#m7}ration is the English way \\
+The ^{Bm7}time is gone, the song is over, ^{Bm7}thought I'd som^{-}ething ^{F/B}more to say
 \end{chorus}
 
 \begin{interlude}
-\begin{tabular}[t]{@{}lll}
-|_{Em} & | _{A7} | 2x
+\begin{tabular}[t]{@{}lllll}
+|_{Em} & | _{A7} & |_{Em} & | _{A7} & | \\
 \end{tabular}
 \end{interlude}
 
 \begin{verse}
-^{Em}Home, home ^{A7}again, ^{Em}I like to be here when I ^{A7}can \\
-^{Em}When I come home cold and ^{A7}tired, ^{Em}it's good to warm my bones besides the ^{A7}fire
+^{Em} Home, home ^{A7}again, ^{Em} I like to be here when I ^{A7}can \\
+^{Em} When I come home cold and ^{A7}tired, it's ^{Em}good to warm my bones besides the ^{A7}fire
 \end{verse}
 
 \begin{chorus}
-^{Cmaj7}Far away, across the field ^{Bm7}Tolling on the iron bell \\
-^{Fmaj7}Calls the faithful to their knees ^{G} To hear the softly ^{D7#9}spoken ^{D7b9}magic ^{Em}spell
+^{Cmaj7}Far away, across the field, ^{Bm7}tolling on the iron bell \\
+^{Fmaj7}Calls the faithful to their knees, to ^{G}hear ^{-}the softly ^{D7#9*}spoken ^{D7b9*}magic ^{Bm}spell
 \end{chorus}
 
 
