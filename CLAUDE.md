@@ -118,8 +118,10 @@ Use these environments for different song sections:
 - Study the original Ultimate Guitar ASCII chart carefully
 - Place chords exactly where they appear in the original timing
 - Use `^{chord}` syntax for inline chords above lyrics
-- **MANDATORY**: Always use the `ascii_to_latex.py` script for ALL chord positioning
-- **NEVER manually position chords** - the script provides precise character-level accuracy
+- **ABSOLUTELY MANDATORY - NO EXCEPTIONS**: ALWAYS use the `ascii_to_latex.py` script for ALL chord positioning
+- **NEVER EVER manually position chords** - the script provides precise character-level accuracy
+- **ZERO TOLERANCE**: Any manual chord positioning is incorrect and must be fixed using the script
+- **CRITICAL RULE**: If you don't use the script, you WILL make positioning errors
 - **Count the spaces** - chord positioning in ASCII shows exact syllable placement
 - **MOST IMPORTANT**: Do not guess or approximate - the ASCII spacing is precise
 - Count characters from the start of each line to determine exact word/syllable placement
@@ -187,24 +189,26 @@ Example:
 
 1. **Analyze Structure**: Identify verses, chorus, bridge, etc.
 2. **Study Chord Placement**: Look at original ASCII positioning carefully
-3. **Use ASCII Conversion Tool** (MANDATORY): Always use the `ascii_to_latex.py` script to convert ALL chord/lyric pairs to accurate inline notation
+3. **USE ASCII CONVERSION TOOL** (ABSOLUTELY MANDATORY - NO EXCEPTIONS): ALWAYS use the `ascii_to_latex.py` script to convert ALL chord/lyric pairs to accurate inline notation. DO NOT PROCEED without using this script.
 4. **Create Files**: Main file and body file following templates
-5. **Place Chords**: Use exact positioning from original chart or conversion tool output
+5. **Place Chords**: Use ONLY the exact positioning from the conversion tool output - NEVER manual positioning
 6. **Format Text**: Add commas and fix capitalization for combined lines
 7. **Add Instrumentals**: Use tabular format for chord-only sections
 
+**CRITICAL CHECKPOINT**: Before completing any conversion, verify that EVERY chord/lyric line was processed through the `ascii_to_latex.py` script.
+
 ## ASCII to LaTeX Conversion Tool
 
-A Python script (`ascii_to_latex.py`) is available to help convert Ultimate Guitar ASCII formatting to inline LaTeX chords:
+A Python script (`ascii_to_latex.py`) is REQUIRED for ALL chord positioning conversions:
 
-**Usage**: Provide chord line and lyric line as input:
+**MANDATORY Usage**: Provide chord line and lyric line as input:
 ```
 Input chord line: 'Gm               Bb'
 Input lyric line: '   Slow down you crazy child'
 Output: '^{Gm}   Slow down you ^{Bb}crazy child'
 ```
 
-This tool can be more accurate than manual conversion for precise chord positioning.
+**WARNING**: Manual chord positioning ALWAYS produces errors. The script is the ONLY acceptable method for chord positioning - no exceptions, no shortcuts, no manual approximations allowed.
 
 ## Adding Chord Diagrams (Optional)
 

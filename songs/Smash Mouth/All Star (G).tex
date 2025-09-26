@@ -1,0 +1,18 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+\begin{song}[transpose-capo=true,transpose=1,enharmonic=sharp]{title={All Star}, band={Smash Mouth}, year={1999}, key={G}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{43em}
+      \origchord{t}{x,p4,x,0,x,x}{_{C5b5}}%
+    }%
+  }%
+}
+
+\input{"All Star Body.tex"}
+
+\end{song}
+\end{document}
