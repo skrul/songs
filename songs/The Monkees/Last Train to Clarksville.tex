@@ -1,6 +1,16 @@
 \documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
 \begin{document}
 \begin{song}[transpose-capo=true]{title={Last Train to Clarksville}, band={The Monkees}, year={1966}, key={G}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{43em}
+      \origchord{t}{x,x,p3,p2,p1,p3}{_{F9}}%
+    }%
+  }%
+}
 
 \begin{intro}
 \begin{tabular}[t]{@{}lllll}
