@@ -1,0 +1,18 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+\begin{song}[transpose-capo=true]{title={Like a Virgin}, band={Madonna}, year={1984}, key={F#}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{45em}
+      \origchord{t}{p2,p4,x,p3,p4,p2}{_{F#6}}%
+    }%
+  }%
+}
+
+\input{"Like A Virgin Body.tex"}
+
+\end{song}
+\end{document}
