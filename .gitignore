@@ -8,3 +8,4 @@ build/
 *.fls
 *.synctex.gz
 __pycache__/
+leadsheets/

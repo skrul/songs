@@ -136,15 +136,14 @@
     Dm/E#=Dm/F
   }
 
-\cs_generate_variant:Nn \str_set:Nn {Nx}
-
 \NewDocumentCommand \xchordname {m} {%
    \tl_if_head_eq_charcode:nNTF { !1 } .
     {
-      \str_set:Nx \l_tmpa_str { \str_tail:n !1 }
-      \prop_get:NVNTF \__skrul_enharmonic_map_prop \l_tmpa_str \__skrul_enharmonic_tl
-        { \underline{\chordname{\__skrul_enharmonic_tl}}}
-        { \underline{\chordname{\l_tmpa_str}}}
+      \tl_set:Nx \l_tmpa_tl { \tl_tail:n { !1 } }
+      \prop_get:NVNTF \__skrul_enharmonic_map_prop \l_tmpa_tl \__skrul_enharmonic_tl
+        { \tl_set_eq:NN \l_tmpa_tl \__skrul_enharmonic_tl }
+        { }
+      \underline{ \exp_after:wN \chordname \exp_after:wN { \l_tmpa_tl } }
     }
     {
       \prop_get:NnNTF \__skrul_enharmonic_map_prop { !1 } \__skrul_enharmonic_tl
