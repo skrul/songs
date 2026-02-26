@@ -183,7 +183,13 @@ Example:
 
 ### Line Breaks
 - Use `\\` for line breaks within sections
+- **No trailing `\\`**: Do not put `\\` on the last line before `\end{verse}`, `\end{chorus}`, etc.
 - Use `\space\space\space\space\space \instruction{Repeat 3x}` for repeat instructions
+
+### Inline Turnaround Chords
+- When a chord line has trailing chords that extend past the lyrics (e.g., a riff or turnaround), list them inline using `^{chord}` notation on the same line as the lyrics
+- Do **not** use tabular format for these — tabulars are only for fully standalone chord-only sections (intros, interludes, solos)
+- **Example**: `^{F}blues now and then ^{F} ^{C} ^{G} ^{F} ^{G} \\`
 
 ## Conversion Process
 
