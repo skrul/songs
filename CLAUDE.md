@@ -133,6 +133,12 @@ Use these environments for different song sections:
 - **Wrong**: `^{G}Woo-^{G7}hoo` (causes LaTeX error)
 - **Correct**: `^*{G}Woo- ^{G7}hoo` (splits word, asterisk on first chord prevents unwanted space)
 
+### Underline Notation for 2-Beat Chords
+- Use `^{.Chord}` (period prefix) to produce an underlined chord: `^{.Bb}` → underlined B♭
+- Underlined chords indicate a 2-beat duration within a measure (follows Nashville Number System convention)
+- This is implemented in `skrul-leadsheet.cls` via the `\xchordname` command
+- The period is stripped before processing, so ♭/♯ conversion and transposition work normally
+
 ### Important: "No Chord" Notation for Variants
 - When variants (capo/transposed versions) are needed, use `^{N.\symbol{67}.}` instead of `^{N.C.}`
 - The leadsheets package will transpose the "C" in `^{N.C.}` as if it's a C chord
