@@ -1,0 +1,18 @@
+[project]
+name = "songs"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+dependencies = [
+    "google-api-python-client>=2.122.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.0",
+    "pypdf>=6.0.0",
+]
+
+[project.scripts]
+songs = "songs:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

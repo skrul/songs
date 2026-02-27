@@ -1,0 +1,1574 @@
+{
+  "A Flock Of Seagulls/I Ran": {
+    "uploaded_at": "2026-02-27T01:51:14.573260+00:00",
+    "uuid": "gd:1wZYAVyv74mXHOaFAfMxIENFAB2GDY0Ck"
+  },
+  "Adam Sandler/The Chanukah Song": {
+    "uploaded_at": "2026-02-27T01:43:30.937425+00:00",
+    "uuid": "gd:1FxnvJgRWxh2d-Nu8w333jVA-iu8aEfXt"
+  },
+  "Adam Sandler/The Chanukah Song, Pt. 4": {
+    "uploaded_at": "2026-02-27T01:43:30.937472+00:00",
+    "uuid": "gd:1B6BdDo7s0fFibWhlhhnSWu0BJuvB1ti_"
+  },
+  "Air Supply/All Out of Love": {
+    "uploaded_at": "2026-02-27T01:43:30.937483+00:00",
+    "uuid": "gd:1rpxP2QJ7fPcjWwc2onPi2Q4XaN15uhVg"
+  },
+  "Andrew Gold/Thank You for Being a Friend": {
+    "uploaded_at": "2026-02-27T01:43:30.937493+00:00",
+    "uuid": "gd:1yaudPrHreovZNsi9k9Q-c3WiO5ts8cB9"
+  },
+  "Barenaked Ladies/Brian Wilson": {
+    "uploaded_at": "2026-02-27T01:52:41.802841+00:00",
+    "uuid": "gd:18vCi_uN0QoP_qetIuHV87Wa-6gmF4O0a"
+  },
+  "Barrett Strong/Money (That's What I Want)": {
+    "uploaded_at": "2026-02-27T02:36:34.015244+00:00",
+    "uuid": "gd:1iBQvitjCwgfgH5A-OJ2bmUrVrea_ceAQ"
+  },
+  "Barry Manilow/Mandy": {
+    "uploaded_at": "2026-02-27T01:43:30.937511+00:00",
+    "uuid": "gd:10zb1lubef8GsypI_9dz2WNN6X1J2HfUM"
+  },
+  "Beck/Go It Alone": {
+    "uploaded_at": "2026-02-27T01:43:30.937519+00:00",
+    "uuid": "gd:1hjOelJsijm05HKjhih1x-RwrDgArvu9R"
+  },
+  "Beyonc\u00e9/Texas Hold 'Em": {
+    "uploaded_at": "2026-02-27T02:36:37.106256+00:00",
+    "uuid": "gd:1-U7kE-tNBXFWlvJNj0fLlYnPhddL08fU"
+  },
+  "Big Star/In the Street": {
+    "uploaded_at": "2026-02-27T01:43:30.937531+00:00",
+    "uuid": "gd:14UFhxLPdcOi-bXdUVxphLU6w6O6EBiy9"
+  },
+  "Bill Kirchen/Dim Lights, Thick Smoke (and Loud, Loud Music)": {
+    "uploaded_at": "2026-02-27T02:36:40.128809+00:00",
+    "uuid": "gd:1s0e8NVfWN8dvn85A8st5FdFuGdUykFj7"
+  },
+  "Bill Withers/Just the Two of Us": {
+    "uploaded_at": "2026-02-27T01:43:30.937544+00:00",
+    "uuid": "gd:1kMbEBJLXmw-iPkkZIebkDQnJkpurLnJR"
+  },
+  "Billie Eilish/wish you were gay": {
+    "uploaded_at": "2026-02-27T01:43:30.937553+00:00",
+    "uuid": "gd:1ZM_9k30m0XtRu2KF1Y3cJZhu5q9DY8Yj"
+  },
+  "Billy Idol/Dancing With Myself": {
+    "uploaded_at": "2026-02-27T01:43:30.937561+00:00",
+    "uuid": "gd:1FV16EP6xCHy2gYVk2xeIET8Bo1hfgDBC"
+  },
+  "Billy Joel/Don't Ask Me Why": {
+    "uploaded_at": "2026-02-27T01:43:30.937569+00:00",
+    "uuid": "gd:1AsfmIBc8NBAGgJLjICxykuv6Ot_zBEFp"
+  },
+  "Billy Joel/It's Still Rock and Roll to Me": {
+    "uploaded_at": "2026-02-27T01:43:30.937577+00:00",
+    "uuid": "gd:12JZlQ10EP0b0AE1QgeZ4NmWQIeE4QlI7"
+  },
+  "Billy Joel/New York State of Mind": {
+    "uploaded_at": "2026-02-27T01:43:30.937585+00:00",
+    "uuid": "gd:18FgK_UORTuq39QiRQi1bvFlp3szNmkjP"
+  },
+  "Billy Joel/Only the Good Die Young": {
+    "uploaded_at": "2026-02-27T01:43:30.937592+00:00",
+    "uuid": "gd:1Dc45TSqTv61KpONicG3J22ht3qXmhz_6"
+  },
+  "Billy Joel/Scenes from an Italian Restaurant": {
+    "uploaded_at": "2026-02-27T01:43:30.937601+00:00",
+    "uuid": "gd:15d0wM9Whs7kbgnMoXJ8OLwWJXZhd7ihc"
+  },
+  "Billy Joel/The Stranger": {
+    "uploaded_at": "2026-02-27T02:36:43.486814+00:00",
+    "uuid": "gd:1Oj5_Nvq6YIV7k9k4n1dHtZ521hWiMdCo"
+  },
+  "Billy Joel/Vienna": {
+    "uploaded_at": "2026-02-27T01:43:30.937611+00:00",
+    "uuid": "gd:15IuXoVaJkOqASRHsaA_NuyJGNtb2yy9J"
+  },
+  "Blondie/Dreaming": {
+    "uploaded_at": "2026-02-27T01:43:30.937625+00:00",
+    "uuid": "gd:1sZDAZhnNUjZXaSfjuW6v1IMgIUYo_7Gs"
+  },
+  "Blondie/Heart Of Glass": {
+    "uploaded_at": "2026-02-27T01:43:30.937633+00:00",
+    "uuid": "gd:1TqSFbLxu_EZZ570fI6UwHcWMSSWmfHXI"
+  },
+  "Blur/Girls & Boys": {
+    "uploaded_at": "2026-02-27T01:43:30.937641+00:00",
+    "uuid": "gd:1GizY4k0CSIKZaMNO_TitFitB9ziKNbZX"
+  },
+  "Bob Dylan/Buckets of Rain": {
+    "uploaded_at": "2026-02-27T02:36:46.546322+00:00",
+    "uuid": "gd:1N1eXwUQ4EoeRMn-99DnfvEF3pFmoNkGV"
+  },
+  "Bob Dylan/Don't Think Twice, It's All Right": {
+    "uploaded_at": "2026-02-27T01:43:30.937652+00:00",
+    "uuid": "gd:12-Np4HLdpCDPL49cJYSijgX3KzoMufsH"
+  },
+  "Bob Dylan/Must Be Santa": {
+    "uploaded_at": "2026-02-27T01:43:30.937658+00:00",
+    "uuid": "gd:1BecN5hTSBm4X9pIkxrYCEVjNhBvYcBME"
+  },
+  "Bob Marley/Three Little Birds": {
+    "uploaded_at": "2026-02-27T01:43:30.937665+00:00",
+    "uuid": "gd:1B_10n-X9lBenE5wRUSnthXAVrBsHB3mM"
+  },
+  "Bobby Pickett/Monster Mash": {
+    "uploaded_at": "2026-02-27T01:51:14.576368+00:00",
+    "uuid": "gd:1wNjuTAxJoWS-GNjOy0m1vLobzHrdptfl"
+  },
+  "Bruce Springsteen/Dancing In The Dark": {
+    "uploaded_at": "2026-02-27T01:43:30.937674+00:00",
+    "uuid": "gd:1gp6nSeg5DtMOfnDpVcx1FCCcj5-7fFpN"
+  },
+  "Bruce Springsteen/Glory Days": {
+    "uploaded_at": "2026-02-27T01:43:30.937682+00:00",
+    "uuid": "gd:1EgGlSxHuLv4G6Ukqwp1zsyev2xTmW7k8"
+  },
+  "Bruce Springsteen/Hungry Heart": {
+    "uploaded_at": "2026-02-27T02:36:52.898745+00:00",
+    "uuid": "gd:1wVTnt4g543egIsDsBy8lmPrWn6gwaRxp"
+  },
+  "Bruce Springsteen/I'm On Fire": {
+    "uploaded_at": "2026-02-27T02:36:55.775006+00:00",
+    "uuid": "gd:1ZsDXURKmj4r_0VTCbSqboZ0pEwr-Mw5G"
+  },
+  "Bruce Springsteen/Nebraska": {
+    "uploaded_at": "2026-02-27T01:43:30.937693+00:00",
+    "uuid": "gd:1VCDqNtZYnc88Ke-u5k37uc1WB277n9O_"
+  },
+  "Bruce Springsteen/Santa Claus Is Comin' To Town": {
+    "uploaded_at": "2026-02-27T02:36:58.898667+00:00",
+    "uuid": "gd:1hVjcGgSiNIIu-WwOGHiCOMF3K1CMPf99"
+  },
+  "Bruce Springsteen/Tenth Avenue Freeze-Out": {
+    "uploaded_at": "2026-02-27T01:43:30.937703+00:00",
+    "uuid": "gd:1_8bP4B9CQv-UAb4o0Y9IBjo_mxkKXNpb"
+  },
+  "Bruce Springsteen/Thunder Road": {
+    "uploaded_at": "2026-02-27T01:43:30.937710+00:00",
+    "uuid": "gd:1_nKZo_1SSF3lj4XkoaM7fxLIurPOwsZu"
+  },
+  "Buddy Holly/Everyday": {
+    "uploaded_at": "2026-02-27T02:37:03.847846+00:00",
+    "uuid": "gd:17fcngKMBGCvtNwCTLZgk3StGdjq-dz94"
+  },
+  "Cake/Sheep Go To Heaven": {
+    "uploaded_at": "2026-02-27T01:43:30.937720+00:00",
+    "uuid": "gd:1-sqVSuv9qtJcL9VoVaSjeXTh_M_YFIUc"
+  },
+  "Cheap Trick/I Want You to Want Me": {
+    "uploaded_at": "2026-02-27T01:43:30.937728+00:00",
+    "uuid": "gd:1VUvWe6A-tjaKvWJLyaT01SU4avBo-mst"
+  },
+  "Chuck Berry/Maybellene": {
+    "uploaded_at": "2026-02-27T01:43:30.937735+00:00",
+    "uuid": "gd:1Hv7SJnQipvEZuVckGzwp5bHcZeFKxklD"
+  },
+  "Chuck Berry/Merry Christmas Baby": {
+    "uploaded_at": "2026-02-27T01:43:30.937744+00:00",
+    "uuid": "gd:1xWaNw7xiq2DRMa10TWEmKa2CeH4Ez2tq"
+  },
+  "Commodores/Nightshift": {
+    "uploaded_at": "2026-02-27T01:43:30.937751+00:00",
+    "uuid": "gd:18nYIYE-kRTUPJXc29PSDcs2NY5pjsh1F"
+  },
+  "Coolio/Gangsta's Paradise": {
+    "uploaded_at": "2026-02-27T02:37:07.180508+00:00",
+    "uuid": "gd:1EnRdwa6d2ziWQRiTgNSZ0-p8Pf0mlQfq"
+  },
+  "Counting Crows/A Long December": {
+    "uploaded_at": "2026-02-27T01:43:30.937761+00:00",
+    "uuid": "gd:1MuqbmuYibskIJRTuhWJMYflhDywN5LpX"
+  },
+  "Counting Crows/A Murder Of One": {
+    "uploaded_at": "2026-02-27T01:43:30.937770+00:00",
+    "uuid": "gd:1yQ0_hbS-HfKtNm3kNUw1o1JPLgwpgZjS"
+  },
+  "Courtney Barnett/Avant Gardener": {
+    "uploaded_at": "2026-02-27T01:43:30.937777+00:00",
+    "uuid": "gd:1f-Fwf-l5zvKlEJokMe0FmB-vchTGolDy"
+  },
+  "Cream/White Room": {
+    "uploaded_at": "2026-02-27T01:43:30.937784+00:00",
+    "uuid": "gd:14ZdFdO2snAf5cJiPHl2SqkPMT5yqybdU"
+  },
+  "Crosby, Stills, Nash & Young/Ohio": {
+    "uploaded_at": "2026-02-27T01:43:30.937791+00:00",
+    "uuid": "gd:1HcpsFDWiMfxgAOGSaMRunnCYnbbAWqPg"
+  },
+  "Cyndi Lauper/True Colors": {
+    "uploaded_at": "2026-02-27T01:43:30.937798+00:00",
+    "uuid": "gd:1r84NFWAzWm5zaCYZJv_p0FXGnzR3jKuu"
+  },
+  "DNCE/Cake by the Ocean": {
+    "uploaded_at": "2026-02-27T01:43:30.937806+00:00",
+    "uuid": "gd:1qg3Wn-JGFwDnWU1-qO7phdH60X5LC8RI"
+  },
+  "Daniel Johnston/Life In Vain": {
+    "uploaded_at": "2026-02-27T01:43:30.937812+00:00",
+    "uuid": "gd:1-BEP7XlHlYL5mvumzzMiicJxpzwG-DPg"
+  },
+  "Daryl Hall and John Oates/I Can't Go for That (No Can Do)": {
+    "uploaded_at": "2026-02-27T02:13:26.821982+00:00",
+    "uuid": "gd:1Li3tpC4qSwZY8ATZ9-QtfVrR7-G88Erq"
+  },
+  "Daryl Hall and John Oates/Maneater": {
+    "uploaded_at": "2026-02-27T02:37:10.141518+00:00",
+    "uuid": "gd:1uii2jp9eW1X7sJRPVL4YV7QTmuyIFmPz"
+  },
+  "Daryl Hall and John Oates/Rich Girl": {
+    "uploaded_at": "2026-02-27T01:57:51.540477+00:00",
+    "uuid": "gd:1fhnmyE5559GM4JaujYzVMBBYhKwy_eTZ"
+  },
+  "David Bowie/Modern Love": {
+    "uploaded_at": "2026-02-27T01:43:30.937829+00:00",
+    "uuid": "gd:108W1M4qESUTaPlgOKPLrgnSTiMLeT8PZ"
+  },
+  "David Bowie/Ziggy Stardust": {
+    "uploaded_at": "2026-02-27T01:43:30.937836+00:00",
+    "uuid": "gd:1OU2DaNuSEPFM9cAqKtt5IDKCB7Rgvns1"
+  },
+  "Dead Kennedys/Viva Las Vegas": {
+    "uploaded_at": "2026-02-27T01:43:30.937845+00:00",
+    "uuid": "gd:196AVZ0g5JzRuT3prbEB7RFrhVnJme5Kp"
+  },
+  "Dean Martin/Winter Wonderland": {
+    "uploaded_at": "2026-02-27T01:43:30.937854+00:00",
+    "uuid": "gd:1-hNEmFG9ZkOYtPTsTaysIz5W_zM8LI77"
+  },
+  "Def Leppard/Pour Some Sugar on Me": {
+    "uploaded_at": "2026-02-27T01:43:30.937861+00:00",
+    "uuid": "gd:1i9uSPkCVOeUPRhboZkg9IJ9ID3OZdHjS"
+  },
+  "Del Shannon/Handyman": {
+    "uploaded_at": "2026-02-27T02:37:13.362090+00:00",
+    "uuid": "gd:1mrCGBLxS4C9mXB7M8vyOJdS00opTiG7v"
+  },
+  "Del Shannon/Runaway": {
+    "uploaded_at": "2026-02-27T01:43:30.937869+00:00",
+    "uuid": "gd:1l27Ykgf5OSByhjKDRu46yqeyLAg3rmaq"
+  },
+  "Depeche Mode/Policy of Truth": {
+    "uploaded_at": "2026-02-27T01:43:30.937875+00:00",
+    "uuid": "gd:1p1kDY9sZLQFJJRiZurCVi-XMebj20tFs"
+  },
+  "Don Henley/The Boys of Summer": {
+    "uploaded_at": "2026-02-27T01:43:30.937883+00:00",
+    "uuid": "gd:1XPd3B_BlkuTHLwe3U9BBLaIdBQwPcC2j"
+  },
+  "Donovan/Season of the Witch": {
+    "uploaded_at": "2026-02-27T02:37:16.431501+00:00",
+    "uuid": "gd:1PYpd42dfQA5RMoEbyd95-csUncdFOgsw"
+  },
+  "Duran Duran/Hungry Like the Wolf": {
+    "uploaded_at": "2026-02-27T01:43:30.937892+00:00",
+    "uuid": "gd:14RD-TDAyrA6Bcbl8NRYp6qwaYhB3tVVM"
+  },
+  "Electric Light Orchestra/Don't Bring Me Down": {
+    "uploaded_at": "2026-02-27T02:37:19.590283+00:00",
+    "uuid": "gd:1rm9ykCfJfEPCxN1Anyn6VzhPffqsZZdS"
+  },
+  "Elton John/Crocodile Rock": {
+    "uploaded_at": "2026-02-27T01:43:30.937901+00:00",
+    "uuid": "gd:1_gcGIU6P1kOlnWuj_bydtTqmtD8iJak9"
+  },
+  "Elton John/Rocket Man": {
+    "uploaded_at": "2026-02-27T01:43:30.937907+00:00",
+    "uuid": "gd:13T8GTkj4mlGU3PTVPHT97Nc-pWYdTv5t"
+  },
+  "Elton John/Your Song": {
+    "uploaded_at": "2026-02-27T01:43:30.937915+00:00",
+    "uuid": "gd:1KeOIX19gU5S7fWf7fmGZz1ycoGRAfJ9P"
+  },
+  "Elvis Presley/Never Been to Spain": {
+    "uploaded_at": "2026-02-27T01:43:30.937922+00:00",
+    "uuid": "gd:1YD_PnJW5mqgqmjONrwonqZO9oqr4ju4S"
+  },
+  "Emlo & Patsy/Grandma Got Run Over by a Reindeer": {
+    "uploaded_at": "2026-02-27T01:43:30.937930+00:00",
+    "uuid": "gd:14OZu-aiVd0J9nvoPAyw51AQYJ1THkh0f"
+  },
+  "Eric Clapton/Lay Down Sally": {
+    "uploaded_at": "2026-02-27T01:43:30.937938+00:00",
+    "uuid": "gd:1qWKRM0BOK0TGY0TqYf2WD8irotz1FXQ8"
+  },
+  "Extreme/More Than Words": {
+    "uploaded_at": "2026-02-27T01:43:30.937946+00:00",
+    "uuid": "gd:10jPLA_mC_j-9N_dD4chgucB58JAhETI7"
+  },
+  "Extreme/More Than Words Eb Guitar": {
+    "uploaded_at": "2026-02-27T01:51:14.579911+00:00",
+    "uuid": "gd:10jPLA_mC_j-9N_dD4chgucB58JAhETI7"
+  },
+  "Fleet Foxes/White Winter Hymnal": {
+    "uploaded_at": "2026-02-27T01:43:30.937956+00:00",
+    "uuid": "gd:1b1W8Vc-hf9_3DbJv2GwxOVzuUXB7u9M-"
+  },
+  "Fontella Bass/Rescue Me": {
+    "uploaded_at": "2026-02-27T01:43:30.937963+00:00",
+    "uuid": "gd:1HQurC1pdHNGIl47YJMl_Rq-H74AjMKPe"
+  },
+  "Fountains of Wayne/Barbara H.": {
+    "uploaded_at": "2026-02-27T01:43:30.937970+00:00",
+    "uuid": "gd:1WlzSDEEFEPAvTrTMHXDI4IEjLb24YEiW"
+  },
+  "Fountains of Wayne/I Want an Alien for Christmas": {
+    "uploaded_at": "2026-02-27T01:43:30.937977+00:00",
+    "uuid": "gd:1z04bkO24qm2DoDO1FqrCxT2Wmv0tOxhE"
+  },
+  "Fountains of Wayne/Laser Show": {
+    "uploaded_at": "2026-02-27T01:43:30.937989+00:00",
+    "uuid": "gd:1ee4cyYNko15IQZ_7F8FrKO4TkPkHQdOA"
+  },
+  "Fountains of Wayne/Survival Car": {
+    "uploaded_at": "2026-02-27T01:43:30.937997+00:00",
+    "uuid": "gd:19Ji9mkquUAmb-4tP-Gvi9FFNCAirUDlq"
+  },
+  "Fountains of Wayne/Valley Winter Song": {
+    "uploaded_at": "2026-02-27T01:43:30.938004+00:00",
+    "uuid": "gd:1qavqr5grCX0uArZ5EKH_hU0g6mQ7WgrZ"
+  },
+  "From Good Homes/Comin' on Home": {
+    "uploaded_at": "2026-02-27T02:37:24.443242+00:00",
+    "uuid": "gd:1QtTfKN75U0rvcHECAp0ScQJCsWd6M8oJ"
+  },
+  "Funkadelic/Can You Get To That": {
+    "uploaded_at": "2026-02-27T01:43:30.938013+00:00",
+    "uuid": "gd:1oKP6M4Auq9eSfM-jSjoyjo2-vZilpx_o"
+  },
+  "Galaxie 500/Snowstorm": {
+    "uploaded_at": "2026-02-27T01:43:30.938019+00:00",
+    "uuid": "gd:1Olnkn8TFe6_iZQBm9ydmxwA3paUOZ_4L"
+  },
+  "Garth Brooks/Friends in Low Places": {
+    "uploaded_at": "2026-02-27T01:43:30.938027+00:00",
+    "uuid": "gd:1cpEeDk0UWmIMf47i3HjgWHJNnQWNY76N"
+  },
+  "George Ezra/Budapest": {
+    "uploaded_at": "2026-02-27T01:43:30.938035+00:00",
+    "uuid": "gd:1obrkPKyQPln7QfuvNu594PlcN7YFOPcv"
+  },
+  "George Harrison/Between the Devil and the Deep Blue Sea": {
+    "uploaded_at": "2026-02-27T01:43:30.938043+00:00",
+    "uuid": "gd:1uKHzo4pDsauREvOViqgJ2-UG0upFIZTy"
+  },
+  "George Jones/The Race Is On": {
+    "uploaded_at": "2026-02-27T01:43:30.938051+00:00",
+    "uuid": "gd:1pVKakjfRbvRMW4TKVWhhwiFTJzvjlPVK"
+  },
+  "George Michael/Careless Whisper": {
+    "uploaded_at": "2026-02-27T01:43:30.938059+00:00",
+    "uuid": "gd:1JopAB6L4KSaqsSuqBmF-24R61krYNiUB"
+  },
+  "George Michael/Faith": {
+    "uploaded_at": "2026-02-27T01:43:30.938066+00:00",
+    "uuid": "gd:1zs-SUpOBat6-_y2ijw7mAAQlKkY-dX3M"
+  },
+  "Gillian Welch/I'll Fly Away": {
+    "uploaded_at": "2026-02-27T01:43:30.938073+00:00",
+    "uuid": "gd:1IBEfvO6lyUfh9IikoO8CMIs9A78F2k62"
+  },
+  "Gordon Lightfoot/The Wreck of the Edmund Fitzgerald": {
+    "uploaded_at": "2026-02-27T01:43:30.938082+00:00",
+    "uuid": "gd:1TzXXULrNrPaxXmiVvmifo72k-oUH3Ub0"
+  },
+  "Grateful Dead/Bertha": {
+    "uploaded_at": "2026-02-27T02:37:27.276855+00:00",
+    "uuid": "gd:1_bNxw-Mvrm8VPnSPW1TlMMTR1DULTQ6r"
+  },
+  "Grateful Dead/Brown-Eyed Women": {
+    "uploaded_at": "2026-02-27T01:43:30.938090+00:00",
+    "uuid": "gd:1DBfQsMn-U3vQvR-5CjbeoL40C66fgShc"
+  },
+  "Grateful Dead/Casey Jones": {
+    "uploaded_at": "2026-02-27T01:43:30.938098+00:00",
+    "uuid": "gd:1zi8zhTf_p2CKdxKlqsEQ6QmDoOKRWGUl"
+  },
+  "Grateful Dead/Cassidy": {
+    "uploaded_at": "2026-02-27T01:43:30.938104+00:00",
+    "uuid": "gd:12IbBFLCcg2WFLb5rnRwP6djb1MS8AyVS"
+  },
+  "Grateful Dead/Cold Rain and Snow": {
+    "uploaded_at": "2026-02-27T02:37:30.188357+00:00",
+    "uuid": "gd:1bvMH6HhoYu6Pt1LrxWYejOJuZCPbIzr9"
+  },
+  "Grateful Dead/Dark Hollow": {
+    "uploaded_at": "2026-02-27T01:43:30.938114+00:00",
+    "uuid": "gd:1qMMQKFNq6UoofZ79Te5nqZrLFzr6g3b0"
+  },
+  "Grateful Dead/Deal": {
+    "uploaded_at": "2026-02-27T01:43:30.938123+00:00",
+    "uuid": "gd:1HuKD8LjmJjGMwnkKXEnik7P2Qlxq799w"
+  },
+  "Grateful Dead/Fire on the Mountain": {
+    "uploaded_at": "2026-02-27T01:43:30.938131+00:00",
+    "uuid": "gd:1HRGZtRVFzNbjBLEKlKE0sogZjmtbYRyq"
+  },
+  "Grateful Dead/Friend of the Devil": {
+    "uploaded_at": "2026-02-27T02:37:33.096954+00:00",
+    "uuid": "gd:18NPK9bPC3cT9YoBGWmKSWUvtU8oUPamy"
+  },
+  "Grateful Dead/It Hurts Me Too": {
+    "uploaded_at": "2026-02-27T02:37:36.138233+00:00",
+    "uuid": "gd:1piWn3CtS2ZFDsxRSUqEeyZv2KRCMHDWV"
+  },
+  "Grateful Dead/Mama Tried": {
+    "uploaded_at": "2026-02-27T02:37:39.397710+00:00",
+    "uuid": "gd:11F0-BJuGLuuta3UupaDAbdGtmrzBnDV2"
+  },
+  "Grateful Dead/Ripple": {
+    "uploaded_at": "2026-02-27T01:43:30.938145+00:00",
+    "uuid": "gd:1OOyG8tzAd9L0h0oR1s_zpeAdMBZPDAoL"
+  },
+  "Grateful Dead/U.S. Blues": {
+    "uploaded_at": "2026-02-27T01:43:30.938152+00:00",
+    "uuid": "gd:1epr062kMBm1CL-FygBWoq_1SaxGD-K_A"
+  },
+  "Grateful Dead/Uncle John's Band": {
+    "uploaded_at": "2026-02-27T02:37:42.644328+00:00",
+    "uuid": "gd:1zal9Xh_BJPqVAkb6_r0fBjIA3xk6lWYE"
+  },
+  "Grateful Dead/Untitled": {
+    "uploaded_at": "2026-02-27T01:51:14.582597+00:00",
+    "uuid": "gd:1b2IzcPFWE9xEILbAETzYZ67_dx2m-34Y"
+  },
+  "Green Day/Boulevard of Broken Dreams": {
+    "uploaded_at": "2026-02-27T01:43:30.938170+00:00",
+    "uuid": "gd:1UwUXfXXDth8r89mIU-0fIitu9WUCuugT"
+  },
+  "Green Day/Brain Stew": {
+    "uploaded_at": "2026-02-27T01:43:30.938178+00:00",
+    "uuid": "gd:1gDYZ5iZCgEV3WZbFp0PwhGf8E-FKSbV8"
+  },
+  "Guns 'N Roses/Patience": {
+    "uploaded_at": "2026-02-27T02:37:46.626840+00:00",
+    "uuid": "gd:1Iyp1cDVIJ88hvrB2-pLm-7luQ-OlsL5e"
+  },
+  "Harry Styles/As It Was": {
+    "uploaded_at": "2026-02-27T01:43:30.938188+00:00",
+    "uuid": "gd:1Kb-RPzd5IZt_TMH5wDFTT5v9Eoe2e9hF"
+  },
+  "Harry Styles/Late Night Talking": {
+    "uploaded_at": "2026-02-27T01:43:30.938195+00:00",
+    "uuid": "gd:1ZzsUftAVeXkVqRQ9btSI8n4HG7Bc0jeS"
+  },
+  "Herman's Hermits/I'm into Something Good": {
+    "uploaded_at": "2026-02-27T02:37:49.750541+00:00",
+    "uuid": "gd:19o3dgsOKR5T8b2gkdXHwKEdA7t3NC_D9"
+  },
+  "INXS/Devil Inside": {
+    "uploaded_at": "2026-02-27T01:43:30.938204+00:00",
+    "uuid": "gd:1j_xOvhgLzJKCPNnfeWgHaoGi9TjH0kWK"
+  },
+  "Iris DeMent/Let The Mystery Be": {
+    "uploaded_at": "2026-02-27T02:37:54.178493+00:00",
+    "uuid": "gd:1MEBIknzzSR1receRHEuKvD574cPr5Tfp"
+  },
+  "Iris DeMent/Let The Mystery Be in D": {
+    "uploaded_at": "2026-02-27T02:37:57.151486+00:00",
+    "uuid": "gd:1Gh5_x9PBJCb3RnWduCmHLOObnseA9JYC"
+  },
+  "Irving King/Show Me the Way to Go Home": {
+    "uploaded_at": "2026-02-27T02:37:59.946253+00:00",
+    "uuid": "gd:1D8ydOQKukkyFWA-EkmHvVEeJqN1Fvder"
+  },
+  "Jack Johnson/Better Together": {
+    "uploaded_at": "2026-02-27T01:43:30.938223+00:00",
+    "uuid": "gd:1k8I7vLwCwbXGEbUTzjdTlGdqqQuPYBZK"
+  },
+  "James Taylor/Fire and Rain": {
+    "uploaded_at": "2026-02-27T01:43:30.938230+00:00",
+    "uuid": "gd:1O5czchq8IElfB9UyF_4ILjmKHlFFpZ4D"
+  },
+  "Jason Isbell/If It Takes a Lifetime": {
+    "uploaded_at": "2026-02-27T01:43:30.938238+00:00",
+    "uuid": "gd:1AHbVqlitEvB_f8UKly9Ij-iJhIxbeYw0"
+  },
+  "Jason Isbell/If We Were Vampires": {
+    "uploaded_at": "2026-02-27T01:43:30.938245+00:00",
+    "uuid": "gd:1fbVeNzcNT-052eYWCjniZICT5piu0JNQ"
+  },
+  "Jesse Will/Shake It Off": {
+    "uploaded_at": "2026-02-27T01:43:30.938253+00:00",
+    "uuid": "gd:1f98Ydu5KF0D5deO_8htEjTk_fVCAL-w7"
+  },
+  "Jethro Tull/Locomotive Breath": {
+    "uploaded_at": "2026-02-27T02:38:02.897730+00:00",
+    "uuid": "gd:1FR0qHCO0hftyjXYRkYOIC-uiEaKd-raL"
+  },
+  "Jimmy Buffett/Changes in Latitudes, Changes in Attitudes": {
+    "uploaded_at": "2026-02-27T01:43:30.938264+00:00",
+    "uuid": "gd:1XxXz16OGAWEx10Yd1QblbxjR0o5Ocl3L"
+  },
+  "Jimmy Buffett/Christmas Island": {
+    "uploaded_at": "2026-02-27T02:38:05.740767+00:00",
+    "uuid": "gd:1kG2YjUutsuGcVolRlV09c9jBBn6O8zNk"
+  },
+  "Jimmy Buffett/Margaritaville": {
+    "uploaded_at": "2026-02-27T01:43:30.938273+00:00",
+    "uuid": "gd:1YQT0iD0X-0NC4Fl42XJ6Mr8I2T-PAQnQ"
+  },
+  "Jimmy Eat World/The Middle": {
+    "uploaded_at": "2026-02-27T01:43:30.938281+00:00",
+    "uuid": "gd:1swz8Eae_ipnTPCWdRir3vsUR96FF1VJw"
+  },
+  "John Denver/Leaving on a Jet Plane": {
+    "uploaded_at": "2026-02-27T01:43:30.938289+00:00",
+    "uuid": "gd:14PFHGsshNEDOnsbZkjfSyKmeaP5oksKL"
+  },
+  "John Denver/Take Me Home, Country Roads": {
+    "uploaded_at": "2026-02-27T01:43:30.938296+00:00",
+    "uuid": "gd:1YVb-UPfLWY_U5sOjRwoNc2xxjBvhWn8l"
+  },
+  "John Lennon & Yoko Ono/Happy Xmas (War Is Over)": {
+    "uploaded_at": "2026-02-27T02:13:26.827899+00:00",
+    "uuid": "gd:1RElammyfVb3a1kJq-3iQ5HEoExAFOGdn"
+  },
+  "John Lennon/Watching the Wheels": {
+    "uploaded_at": "2026-02-27T01:43:30.938309+00:00",
+    "uuid": "gd:1s8rrh_nng2umiB4a5o58K9-2_cXHP5Hh"
+  },
+  "John Mellencamp/Hurts So Good": {
+    "uploaded_at": "2026-02-27T01:43:30.938316+00:00",
+    "uuid": "gd:1dxpWz4juDTScvX1yyMCV_2PGHvpmmae4"
+  },
+  "John Mellencamp/Jack & Diane": {
+    "uploaded_at": "2026-02-27T01:43:30.938323+00:00",
+    "uuid": "gd:1zf2tamMxJkrCxytuLgXRHU7gVPj-8Qg6"
+  },
+  "John Prine/Sam Stone": {
+    "uploaded_at": "2026-02-27T01:43:30.938330+00:00",
+    "uuid": "gd:1RTj5lnGXkdARvnMVvnWOjXuVteUzpaOl"
+  },
+  "Johnny Cash/Five Feet High and Rising": {
+    "uploaded_at": "2026-02-27T01:43:30.938337+00:00",
+    "uuid": "gd:1SX_2PMcP_Y4xBYEZVr0aiNC6r7xdVqlx"
+  },
+  "Johnny Cash/I've Been Everywhere": {
+    "uploaded_at": "2026-02-27T02:38:09.217086+00:00",
+    "uuid": "gd:1mRjxMPE8fgz83wUSee66AgQ__-RWzPx5"
+  },
+  "Johnny Cash/Long Black Veil": {
+    "uploaded_at": "2026-02-27T02:38:12.007022+00:00",
+    "uuid": "gd:1sxSuNMCBIfkR3JXx_alFTSm4mzZmF5WD"
+  },
+  "Johnny Mandel/Suicide Is Painless": {
+    "uploaded_at": "2026-02-27T01:43:30.938349+00:00",
+    "uuid": "gd:1lYdHmhwpjSQb9b99TRjqdIoFm0cCRtZP"
+  },
+  "Jose\u0301 Feliciano/Feliz Navidad": {
+    "uploaded_at": "2026-02-27T01:43:30.938358+00:00",
+    "uuid": "gd:1ZLlN4U-bNxW3pFLBfpTL67SSz17N2fcK"
+  },
+  "Joy Division/Love Will Tear Us Apart": {
+    "uploaded_at": "2026-02-27T01:43:30.938366+00:00",
+    "uuid": "gd:1QC5CRdVMQ48qS5MVn2WjAgeeJ-A5Jz5z"
+  },
+  "Juice Newton/Queen of Hearts": {
+    "uploaded_at": "2026-02-27T01:43:30.938374+00:00",
+    "uuid": "gd:1V-7945hs0Qheu5a3HVKYVAUKKPwTdIan"
+  },
+  "Karen O/The Moon Song": {
+    "uploaded_at": "2026-02-27T01:43:30.938382+00:00",
+    "uuid": "gd:1Z23AV5vaWbLqI6jl9fOP14a2hAejodwl"
+  },
+  "Kenny Loggins/Danny's Song": {
+    "uploaded_at": "2026-02-27T02:38:14.889143+00:00",
+    "uuid": "gd:1V1w2JmquYHj2Qp9YnmRbcagTygfrnYis"
+  },
+  "Kenny Rogers/The Gambler": {
+    "uploaded_at": "2026-02-27T01:43:30.938392+00:00",
+    "uuid": "gd:1CeKMVg417yIz-kPTp0TYBO2g4KEtuqCy"
+  },
+  "Kim Wilde/Kids in America": {
+    "uploaded_at": "2026-02-27T01:43:30.938399+00:00",
+    "uuid": "gd:19qSFEuQESliEC8e1GGqTZzuw4S-hTe_H"
+  },
+  "Kim Wilde/Kids in America F#": {
+    "uploaded_at": "2026-02-27T01:51:14.585834+00:00",
+    "uuid": "gd:19qSFEuQESliEC8e1GGqTZzuw4S-hTe_H"
+  },
+  "Kurt Vile/Must Be Santa": {
+    "uploaded_at": "2026-02-27T01:43:30.938408+00:00",
+    "uuid": "gd:1pjKLzxRJPnDb4BdAnoys7SEPSmjlAJOg"
+  },
+  "LCD Soundsystem/I Can Change": {
+    "uploaded_at": "2026-02-27T02:00:24.322194+00:00",
+    "uuid": "gd:1z9Az_E9SsksrEKdrQB4YsyU60JNxvjDb"
+  },
+  "Lead Belly/Goodnight Irene": {
+    "uploaded_at": "2026-02-27T01:43:30.938419+00:00",
+    "uuid": "gd:17Vk9IBC1WJeFLXMDRUlvR7aOz4wsO1g7"
+  },
+  "Lorde/Royals": {
+    "uploaded_at": "2026-02-27T01:43:30.938425+00:00",
+    "uuid": "gd:1VZoG6Nj5u04QMKJ93PzVwJstrkb4Dk_z"
+  },
+  "Lou Monte/Dominick the Donkey": {
+    "uploaded_at": "2026-02-27T02:38:17.961349+00:00",
+    "uuid": "gd:1mXiF0vKVheJJFG9hX4vbMxvoNSTYz8nu"
+  },
+  "Lou Reed/Perfect Day": {
+    "uploaded_at": "2026-02-27T01:43:30.938434+00:00",
+    "uuid": "gd:1MRTJylzfqB_8wdIBkj1J4_tw1iqXhjjZ"
+  },
+  "Lou Reed/Satellite of Love": {
+    "uploaded_at": "2026-02-27T01:43:30.938440+00:00",
+    "uuid": "gd:13D7Nvr75HPK-miVIUBQKd2lo73rMLL8g"
+  },
+  "Lynyrd Skynyrd/Call Me the Breeze": {
+    "uploaded_at": "2026-02-27T01:43:30.938448+00:00",
+    "uuid": "gd:13i3-2hR6Lf8NdwlVbqti_Qy98hVzG3U9"
+  },
+  "Madonna/Borderline": {
+    "uploaded_at": "2026-02-27T02:35:03.782748+00:00",
+    "uuid": "gd:1tcyR4SdCG7av7YTBoI4YhRqVC80zlFKG"
+  },
+  "Madonna/Borderline (E)": {
+    "uploaded_at": "2026-02-27T02:13:26.829665+00:00",
+    "uuid": "gd:1sl-nOzSCJgn1OW9k1Nf7jh8auL3CMoK-"
+  },
+  "Madonna/Crazy for You": {
+    "uploaded_at": "2026-02-27T01:43:30.938460+00:00",
+    "uuid": "gd:10kpNQRP41uh48N5ofricd_lmAy2pc5fW"
+  },
+  "Madonna/Holiday": {
+    "uploaded_at": "2026-02-27T01:43:30.938467+00:00",
+    "uuid": "gd:1gTA4H9iKUoe7nj5WlwsUgVu5jdmH5Qjx"
+  },
+  "Madonna/Like A Virgin": {
+    "uploaded_at": "2026-02-27T02:38:23.556804+00:00",
+    "uuid": "gd:1pu0HpvD_qfuuRhmx_sR0XWbNNZqKk5LN"
+  },
+  "Madonna/Like a Prayer": {
+    "uploaded_at": "2026-02-27T01:43:30.938476+00:00",
+    "uuid": "gd:1cWyVR38OgTF5bOBk6x0DpBlnYepcWp54"
+  },
+  "Madonna/Material Girl": {
+    "uploaded_at": "2026-02-27T02:38:28.872711+00:00",
+    "uuid": "gd:1cnF1rlgyK2sP_UAF9HaPJ1GwlGoCZUdC"
+  },
+  "Man Or Astro-Man?/Destination Venus": {
+    "uploaded_at": "2026-02-27T01:43:30.938485+00:00",
+    "uuid": "gd:1rOWDBWdJ_jTnLkOZW64QGo9YCoCaVL75"
+  },
+  "Manfred Mann's Earth Band/Blinded by the Light": {
+    "uploaded_at": "2026-02-27T02:38:32.530244+00:00",
+    "uuid": "gd:1CjvmlWXx5YqB-u8wwqJ4AgA1V3xFowbI"
+  },
+  "Martin & Blane/Have Yourself a Merry Little Christmas": {
+    "uploaded_at": "2026-02-27T01:43:30.938497+00:00",
+    "uuid": "gd:1YA4d7IKb9YOF1dE4ACTEbyzDlvmQTsdp"
+  },
+  "Marty Robbins/El Paso": {
+    "uploaded_at": "2026-02-27T01:43:30.938504+00:00",
+    "uuid": "gd:1J5wqDJR8CwxZ9i35NbocNU7QQvja-wsk"
+  },
+  "Marvin Gaye/What's Going On": {
+    "uploaded_at": "2026-02-27T02:38:35.598594+00:00",
+    "uuid": "gd:1QT4jLb-5JEnggRL9FioA-f_C9NwK0pbN"
+  },
+  "Maury Laws/Snow Miser Heat Miser": {
+    "uploaded_at": "2026-02-27T02:38:38.743800+00:00",
+    "uuid": "gd:1OZkNp22_LAG-gLMFAkLxdXPfTIj1LOH4"
+  },
+  "Meat Loaf/Paradise by the Dashboard Light": {
+    "uploaded_at": "2026-02-27T01:43:30.938516+00:00",
+    "uuid": "gd:10PnjTh-6C_rW-GvnPlU3RC8yO_ve8k3j"
+  },
+  "Men Without Hats/The Safety Dance": {
+    "uploaded_at": "2026-02-27T01:43:30.938524+00:00",
+    "uuid": "gd:1Lfr2wqpv0hkBwv4zoIUr2NGbkLAG74gH"
+  },
+  "Metallica/Enter Sandman": {
+    "uploaded_at": "2026-02-27T01:43:30.938532+00:00",
+    "uuid": "gd:1s_14sfHQ8Ky24QJEEKf8rKTUEBzrCX-O"
+  },
+  "Michael Franti & Spearhead/Say Hey (I Love You)": {
+    "uploaded_at": "2026-02-27T02:13:26.831210+00:00",
+    "uuid": "gd:1sMl8qLdjsQcXH2m0HrtS95lCeDFGroas"
+  },
+  "Michael Franti & Spearhead/The Sound Of Sunshine": {
+    "uploaded_at": "2026-02-27T01:43:30.938543+00:00",
+    "uuid": "gd:1PPJUN5tBbx8i8nHI5FIg7FPYgOFcOCx0"
+  },
+  "Modest Mouse/Gravity Rides Everything": {
+    "uploaded_at": "2026-02-27T01:43:30.938551+00:00",
+    "uuid": "gd:1y4hIBzP9CMXWEPrQngQiqv6HvR8lNyDf"
+  },
+  "Morcheeba/Part of the Process": {
+    "uploaded_at": "2026-02-27T01:43:30.938558+00:00",
+    "uuid": "gd:1LyfVSzYHaPyyWZSyXz1ZTJ8-noP9TssK"
+  },
+  "Mouse Rat/5,000 Candles in the Wind": {
+    "uploaded_at": "2026-02-27T01:43:30.938565+00:00",
+    "uuid": "gd:13tJC8k4GqT7RQnfZzcba7sQfsrEqEEWe"
+  },
+  "Moxy Fru\u0308vous/The Drinking Song": {
+    "uploaded_at": "2026-02-27T01:51:14.588677+00:00",
+    "uuid": "gd:1tclc2HBkJvjUGxgA9ZYD6xendxYvPVAH"
+  },
+  "Mr. Big/To Be With You": {
+    "uploaded_at": "2026-02-27T01:43:30.938575+00:00",
+    "uuid": "gd:1B4JeoUEGrm0w8lmbnTAgVNiw9hjBmGjM"
+  },
+  "Muddy Waters/I'm Your Hoochie Coochie Man": {
+    "uploaded_at": "2026-02-27T02:38:41.583886+00:00",
+    "uuid": "gd:1NzdbOWb2VWA37QfLaZ8BTiDGoXhwd8p0"
+  },
+  "Nathan Evans/Wellerman": {
+    "uploaded_at": "2026-02-27T01:43:30.938585+00:00",
+    "uuid": "gd:1r3l3NIsOXKAecQqL8BjNHnpbrDPEHHIt"
+  },
+  "Neil Diamond/America": {
+    "uploaded_at": "2026-02-27T01:43:30.938603+00:00",
+    "uuid": "gd:1g2czxLt84EwnjYbm8ZAt0Zn-CPgoGhLa"
+  },
+  "Neil Diamond/Song Sung Blue": {
+    "uploaded_at": "2026-02-27T02:38:44.536461+00:00",
+    "uuid": "gd:1IMonPNUkVepUxfM1VJUdCgxN4bEn2u5s"
+  },
+  "Neil Young/Alabama": {
+    "uploaded_at": "2026-02-27T02:38:47.535760+00:00",
+    "uuid": "gd:1jZja1GSbb3S8ohkskLXa0Wggh342akr8"
+  },
+  "Neil Young/Harvest Moon": {
+    "uploaded_at": "2026-02-27T01:52:41.807699+00:00",
+    "uuid": "gd:1clsDaGETwESLGW8TWXK1dkBDjTvAvK9m"
+  },
+  "Neil Young/Winterlong": {
+    "uploaded_at": "2026-02-27T01:43:30.938617+00:00",
+    "uuid": "gd:1G_nhdtspug7bfHmnRnAhJ7MEN1xRrceo"
+  },
+  "Nick Cave & The Bad Seeds/Red Right Hand": {
+    "uploaded_at": "2026-02-27T01:43:30.938624+00:00",
+    "uuid": "gd:1WE6ZkNPTXv8FK31WF6tsri3DB94PjrSe"
+  },
+  "Nirvana/Sliver": {
+    "uploaded_at": "2026-02-27T01:43:30.938630+00:00",
+    "uuid": "gd:1yRpQMVjNXs1ROXcGnjsgdehhb0Yd7F4B"
+  },
+  "Oasis/Champagne Supernova": {
+    "uploaded_at": "2026-02-27T01:43:30.938637+00:00",
+    "uuid": "gd:1QkY20MknQOYOFHueKPDzYI5Qp68az-QG"
+  },
+  "Oasis/Wonderwall": {
+    "uploaded_at": "2026-02-27T01:43:30.938643+00:00",
+    "uuid": "gd:1tt8Axa_BDG3mp-iZ3vUHFRr4Eyp2ec8q"
+  },
+  "Olivia Rodrigo/bad idea right?": {
+    "uploaded_at": "2026-02-27T01:43:30.938651+00:00",
+    "uuid": "gd:1t73QcUVaEjPCmk6Q8bcXPjV38HmuTwC9"
+  },
+  "Orchestral Manoeuvres in the Dark/If You Leave": {
+    "uploaded_at": "2026-02-27T01:43:30.938658+00:00",
+    "uuid": "gd:1kwujrdh88nOV-JXNxQ0o0ZtPXtHMuMov"
+  },
+  "Orville Peck/Born This Way (The Country Road Version)": {
+    "uploaded_at": "2026-02-27T02:13:26.831989+00:00",
+    "uuid": "gd:1v-vHys2VU9bFO3tqfDnEwfWBo78XPt2P"
+  },
+  "Parquet Courts/Tenderness": {
+    "uploaded_at": "2026-02-27T01:43:30.938668+00:00",
+    "uuid": "gd:1siewhoMfV5jR8aRXVJvtA2WBPx5wqoC2"
+  },
+  "Parquet Courts/Walking at a Downtown Pace": {
+    "uploaded_at": "2026-02-27T01:51:14.590031+00:00",
+    "uuid": "gd:1K7l8bgMzq5Qr1BvpllnxwIaK6U6FvtrL"
+  },
+  "Pat Benatar/We Belong": {
+    "uploaded_at": "2026-02-27T02:38:51.855639+00:00",
+    "uuid": "gd:1RopvklBy9uDfQnuLRGeOu9-rEpe0YD4w"
+  },
+  "Paul McCartney/Wonderful Christmastime": {
+    "uploaded_at": "2026-02-27T01:43:30.938680+00:00",
+    "uuid": "gd:1BfLOppr96LCaZTuToFPTw_EtuMhZu506"
+  },
+  "Paul Simon/American Tune": {
+    "uploaded_at": "2026-02-27T01:43:30.938686+00:00",
+    "uuid": "gd:1E8M-jO3tpJudKlNEXRyYQ__YSvxa3out"
+  },
+  "Paul Simon/Kodachrome": {
+    "uploaded_at": "2026-02-27T01:43:30.938693+00:00",
+    "uuid": "gd:1Lj72wjaXrQzF9cDPBL5L1HjCetYpbyKb"
+  },
+  "Paul Simon/Me and Julio Down by the Schoolyard": {
+    "uploaded_at": "2026-02-27T01:43:30.938701+00:00",
+    "uuid": "gd:1FMH3bE4ZyLC0SwI9CXCbdofhXunzfdKS"
+  },
+  "Paul Simon/Still Crazy After All These Years": {
+    "uploaded_at": "2026-02-27T02:38:57.397143+00:00",
+    "uuid": "gd:16K6n-bs31ptyv4DXrAjFKAXsAnrDSa2U"
+  },
+  "Phoebe Bridgers/That Funny Feeling": {
+    "uploaded_at": "2026-02-27T01:43:30.938711+00:00",
+    "uuid": "gd:1M9W3ReB7RNGJxweV_ACZSfNWD6AkpP3_"
+  },
+  "Pink Floyd/Brain Damage Eclipse": {
+    "uploaded_at": "2026-02-27T01:43:30.938719+00:00",
+    "uuid": "gd:1-4GSMN1s3pYorZ-3KLBe3Y2KXb-SMDPl"
+  },
+  "Pink Floyd/Breathe Time": {
+    "uploaded_at": "2026-02-27T02:39:00.452476+00:00",
+    "uuid": "gd:1i7BVtFzSDvtKIGk-AiNbZWgPsri1plNp"
+  },
+  "Pixies/Allison": {
+    "uploaded_at": "2026-02-27T01:43:30.938727+00:00",
+    "uuid": "gd:1kAtI6-nkzNHhC2WvNuZzXCnZCJB_1ym8"
+  },
+  "Pixies/Caribou": {
+    "uploaded_at": "2026-02-27T01:43:30.938733+00:00",
+    "uuid": "gd:17qsRY9kJx_CpqeGOqn815PaGtl50snEY"
+  },
+  "Pixies/Head On": {
+    "uploaded_at": "2026-02-27T01:43:30.938740+00:00",
+    "uuid": "gd:11CLh9ORftDLFXXKwnz71iHGkke7uLOIn"
+  },
+  "Pixies/I Bleed": {
+    "uploaded_at": "2026-02-27T01:43:30.938746+00:00",
+    "uuid": "gd:1DNEQEMuf1X-WKqg22h7hI9mC3R3Ds9tM"
+  },
+  "Pixies/Monkey Gone to Heaven": {
+    "uploaded_at": "2026-02-27T01:43:30.938753+00:00",
+    "uuid": "gd:1Kzt-yUWW76bLMUSdZWFXasQLuxZ9NvxT"
+  },
+  "Pixies/Motorway to Roswell": {
+    "uploaded_at": "2026-02-27T01:43:30.938763+00:00",
+    "uuid": "gd:1gg4BPoDtkqZ61eko0CZVY7OHkPILI1w4"
+  },
+  "Pixies/Velouria": {
+    "uploaded_at": "2026-02-27T01:43:30.938769+00:00",
+    "uuid": "gd:10UopBFSmIgXtqKoT2RHGyP8thucUCcDD"
+  },
+  "Pixies/Wave of Mutilation": {
+    "uploaded_at": "2026-02-27T01:51:14.591007+00:00",
+    "uuid": "gd:1su8XgMSVroEJo0Q0E__sMcg2e0trUoyU"
+  },
+  "Pixies/Where Is My Mind?": {
+    "uploaded_at": "2026-02-27T01:43:30.938779+00:00",
+    "uuid": "gd:1sR0S-oTeRVMdXh2rMRmW0bYiZNzFtPYP"
+  },
+  "Poison/Every Rose Has Its Thorn": {
+    "uploaded_at": "2026-02-27T01:43:30.938787+00:00",
+    "uuid": "gd:1H-vzZdFtHAmAG_IfQWJec2Slu0LSdMaQ"
+  },
+  "Poison/Every Rose Has Its Thorn Eb Guitar": {
+    "uploaded_at": "2026-02-27T01:51:14.591280+00:00",
+    "uuid": "gd:1H-vzZdFtHAmAG_IfQWJec2Slu0LSdMaQ"
+  },
+  "Poolside/California Sunset": {
+    "uploaded_at": "2026-02-27T01:43:30.938797+00:00",
+    "uuid": "gd:1qAYEXkibSUSWHl4RsNupPJXSL-Sf0u1N"
+  },
+  "Poolside/Feel Alright": {
+    "uploaded_at": "2026-02-27T01:43:30.938804+00:00",
+    "uuid": "gd:1G8cgvLOGIFJLb3YvqBCa2rcVjJP0l2Fy"
+  },
+  "Portugal. The Man/Feel It Still": {
+    "uploaded_at": "2026-02-27T01:43:30.938812+00:00",
+    "uuid": "gd:1D3z8Ip_2P4Z28OiBdA9p1ZJjzg5dwreZ"
+  },
+  "Prince/Kiss": {
+    "uploaded_at": "2026-02-27T01:43:30.938818+00:00",
+    "uuid": "gd:158cbDKWy673OfT5lvi5GUFrFDh-1b6cv"
+  },
+  "Prince/Purple Rain": {
+    "uploaded_at": "2026-02-27T01:43:30.938824+00:00",
+    "uuid": "gd:1Q2M4VrbYRQKO0pc23pM5z6AeMEbJG0Hb"
+  },
+  "Prince/Raspberry Beret": {
+    "uploaded_at": "2026-02-27T01:43:30.938831+00:00",
+    "uuid": "gd:1RXgvGuGm8R1AENbLHijZMuwd7kF-C6Qw"
+  },
+  "Procol Harum/A Whiter Shade of Pale": {
+    "uploaded_at": "2026-02-27T01:43:30.938838+00:00",
+    "uuid": "gd:12nB_ejR1VM-7ox8QErUFDD8Zm1cHl3n7"
+  },
+  "Queen/Bohemian Rhapsody": {
+    "uploaded_at": "2026-02-27T01:43:30.938847+00:00",
+    "uuid": "gd:14KhJCC61z-XaJujyItfYidZyTTNY679E"
+  },
+  "Queen/Crazy Little Thing Called Love": {
+    "uploaded_at": "2026-02-27T01:43:30.938854+00:00",
+    "uuid": "gd:1y0hp2OxEGQ7VMDuy2OPsZ354A_ribizw"
+  },
+  "Queen/I Want to Break Free": {
+    "uploaded_at": "2026-02-27T01:43:30.938861+00:00",
+    "uuid": "gd:1KmttbswZzqU5XJj6eKv67ks2ayXtyrWE"
+  },
+  "Queensry\u0308che/Silent Lucidity": {
+    "uploaded_at": "2026-02-27T01:51:14.591485+00:00",
+    "uuid": "gd:1eesjgQ849m3_yPaENiXDwBRUAhhSZ0fe"
+  },
+  "R.E.M./(Don't Go Back To) Rockville": {
+    "uploaded_at": "2026-02-27T01:43:30.938872+00:00",
+    "uuid": "gd:1VLDUWl1kF37ljWvVzxkZMa2JeF8DrwCT"
+  },
+  "R.E.M./Cuyahoga": {
+    "uploaded_at": "2026-02-27T01:43:30.938882+00:00",
+    "uuid": "gd:1b2IzcPFWE9xEILbAETzYZ67_dx2m-34Y"
+  },
+  "R.E.M./Cuyahoga (chords)": {
+    "uploaded_at": "2026-02-27T02:13:26.833238+00:00",
+    "uuid": "gd:1b2IzcPFWE9xEILbAETzYZ67_dx2m-34Y"
+  },
+  "R.E.M./Everybody Hurts (chords)": {
+    "uploaded_at": "2026-02-27T02:13:26.833882+00:00",
+    "uuid": "gd:1t2fMH979X3i1sKTri0VebLVmHAFazHTb"
+  },
+  "R.E.M./Fall On Me (chords)": {
+    "uploaded_at": "2026-02-27T02:13:26.834163+00:00",
+    "uuid": "gd:1RIQJeOn1lcZcVBdm_a9MNVsRvXoA91uO"
+  },
+  "R.E.M./Fall on Me": {
+    "uploaded_at": "2026-02-27T01:43:30.938904+00:00",
+    "uuid": "gd:1RIQJeOn1lcZcVBdm_a9MNVsRvXoA91uO"
+  },
+  "R.E.M./Find The River": {
+    "uploaded_at": "2026-02-27T01:43:30.938916+00:00",
+    "uuid": "gd:15Rk0sZLJIWmBz9ls99fsoVaWaqE6Mxle"
+  },
+  "R.E.M./It's the End of the World as We Know It (And I Feel Fine)": {
+    "uploaded_at": "2026-02-27T02:39:03.959337+00:00",
+    "uuid": "gd:1pEqrApb1uPPQsNC0lzRnbvGtCDaiqxsx"
+  },
+  "R.E.M./It's the End of the World as We Know It (And I Feel Fine) (chords)": {
+    "uploaded_at": "2026-02-27T02:46:19.769188+00:00",
+    "uuid": "gd:1pEqrApb1uPPQsNC0lzRnbvGtCDaiqxsx"
+  },
+  "R.E.M./Losing My Religion (chords)": {
+    "uploaded_at": "2026-02-27T02:13:26.834893+00:00",
+    "uuid": "gd:18pQoRompLSDRJJ3bgh3FwTmr7AJ9tvE2"
+  },
+  "R.E.M./Pop Song 89": {
+    "uploaded_at": "2026-02-27T01:43:30.938936+00:00",
+    "uuid": "gd:1qQgbD5S22fwrncHLdT77azcSvnvEUElv"
+  },
+  "R.E.M./Radio Free Europe": {
+    "uploaded_at": "2026-02-27T02:39:06.659158+00:00",
+    "uuid": "gd:1ZNj5Em_NHx4LiD0FCiQI0bzT6F64m2ME"
+  },
+  "R.E.M./Radio Free Europe (chords)": {
+    "uploaded_at": "2026-02-27T02:46:19.769433+00:00",
+    "uuid": "gd:1ZNj5Em_NHx4LiD0FCiQI0bzT6F64m2ME"
+  },
+  "R.E.M./Strange": {
+    "uploaded_at": "2026-02-27T01:43:30.938953+00:00",
+    "uuid": "gd:12h_khpB1lkfsYXn8bluaGrNegBXdFEul"
+  },
+  "R.E.M./Texarkana": {
+    "uploaded_at": "2026-02-27T01:43:30.938964+00:00",
+    "uuid": "gd:1nexDyLprA91_sCp5113ZWsmCOHsu8m_k"
+  },
+  "R.E.M./Texarkana (chords)": {
+    "uploaded_at": "2026-02-27T02:13:26.835637+00:00",
+    "uuid": "gd:1nexDyLprA91_sCp5113ZWsmCOHsu8m_k"
+  },
+  "R.E.M./The One I Love": {
+    "uploaded_at": "2026-02-27T01:43:30.938974+00:00",
+    "uuid": "gd:1bp-GQ_g-vmAoit5h372SNtlyRlECB5Dn"
+  },
+  "R.E.M./The One I Love (chords)": {
+    "uploaded_at": "2026-02-27T02:13:26.835737+00:00",
+    "uuid": "gd:1bp-GQ_g-vmAoit5h372SNtlyRlECB5Dn"
+  },
+  "R.E.M./You Are the Everything": {
+    "uploaded_at": "2026-02-27T01:43:30.938992+00:00",
+    "uuid": "gd:10UafbKb8o8H2eMMS_es2n6yX-vFMDo6I"
+  },
+  "REO Speedwagon/Can't Fight This Feeling": {
+    "uploaded_at": "2026-02-27T01:43:30.939000+00:00",
+    "uuid": "gd:1DUyXxkfi34YZV0wLsqMzuabVlZzHHbaU"
+  },
+  "Radiohead/Creep": {
+    "uploaded_at": "2026-02-27T01:43:30.939007+00:00",
+    "uuid": "gd:1vXyXM_z0Q2ujsK6WtwT7-m1hbTS45uw-"
+  },
+  "Radiohead/High and Dry": {
+    "uploaded_at": "2026-02-27T01:43:30.939014+00:00",
+    "uuid": "gd:1j5Iq-zSgmHonw8e3RbWX5VwdL5e-iVmx"
+  },
+  "Ramones/Blitzkrieg Bop": {
+    "uploaded_at": "2026-02-27T01:43:30.939022+00:00",
+    "uuid": "gd:1oLbYaTR4mibTNaeHPPIXTtV6If6A82q6"
+  },
+  "Ramones/Judy Is A Punk": {
+    "uploaded_at": "2026-02-27T01:43:30.939030+00:00",
+    "uuid": "gd:1v3-BfAgn7VhF4aCpyLOzJ_Viq3bOMqFv"
+  },
+  "Ramones/Sheena Is a Punk Rocker": {
+    "uploaded_at": "2026-02-27T01:43:30.939037+00:00",
+    "uuid": "gd:143Fk4qIyS5M1m0MuFPlqHymyFmFKh5UZ"
+  },
+  "Red Hot Chili Peppers/Dani California": {
+    "uploaded_at": "2026-02-27T01:43:30.939045+00:00",
+    "uuid": "gd:1eD2lrEX0XT0gEk2Aoet1KWsIaZv_R3Sc"
+  },
+  "Roger Miller/King of the Road": {
+    "uploaded_at": "2026-02-27T01:43:30.939061+00:00",
+    "uuid": "gd:1FEkPKR9YHu1mqeKYke3o_QiUeKG0h7s1"
+  },
+  "Roy Orbison/You Got It": {
+    "uploaded_at": "2026-02-27T01:43:30.939067+00:00",
+    "uuid": "gd:1PY0Vz6dDwDVD63wufovcNG8rbw8CVMk2"
+  },
+  "Rupert Holmes/Escape (The Pin\u0303a Colada Song)": {
+    "uploaded_at": "2026-02-27T02:13:26.836044+00:00",
+    "uuid": "gd:18ufg6nH-MJd4c2DcPK0K2mLgECuF0GUf"
+  },
+  "Scissor Sisters/Take Your Mama": {
+    "uploaded_at": "2026-02-27T01:43:30.939080+00:00",
+    "uuid": "gd:1Nvh74ivYXmnzJkotOdOn-Lo1FnGvSnBQ"
+  },
+  "Screaming Trees/Nearly Lost You": {
+    "uploaded_at": "2026-02-27T01:43:30.939094+00:00",
+    "uuid": "gd:1BFR1gngpdjoURAREWepsVVXUlBmN5nRJ"
+  },
+  "Sheryl Crow/Soak Up The Sun": {
+    "uploaded_at": "2026-02-27T01:43:30.939101+00:00",
+    "uuid": "gd:1cuXau_ToG91-dv-OyEeEHlcrCWlh-mxm"
+  },
+  "Shocking Blue/Venus": {
+    "uploaded_at": "2026-02-27T01:43:30.939108+00:00",
+    "uuid": "gd:1Xms2nx33XFqC4t6vYidsOgk6nKH6qu8S"
+  },
+  "Simon & Garfunkel/America": {
+    "uploaded_at": "2026-02-27T01:43:30.939114+00:00",
+    "uuid": "gd:1PpscHP4DGzWGdCT3lLjDyP-vmQlD3met"
+  },
+  "Simon & Garfunkel/Homeward Bound": {
+    "uploaded_at": "2026-02-27T01:43:30.939121+00:00",
+    "uuid": "gd:1zcz81MZrk_bRqE63u3TBjBq-054DFxhf"
+  },
+  "Simon & Garfunkel/Mrs. Robinson": {
+    "uploaded_at": "2026-02-27T01:43:30.939127+00:00",
+    "uuid": "gd:1ka7AC-h4K4iUx93yg9_2NrO3sclFd9c0"
+  },
+  "Simon & Garfunkel/The Only Living Boy in New York": {
+    "uploaded_at": "2026-02-27T01:43:30.939135+00:00",
+    "uuid": "gd:1AIqL8Vhr8HpEGsY4LAekp6fDwYJ8Jxwr"
+  },
+  "Simon & Garfunkel/The Sound of Silence": {
+    "uploaded_at": "2026-02-27T01:43:30.939142+00:00",
+    "uuid": "gd:12lSuHzt2_4948KZEjkJ65FDO0xVyGCMd"
+  },
+  "Simple Minds/Don't You (Forget About Me)": {
+    "uploaded_at": "2026-02-27T02:13:26.836376+00:00",
+    "uuid": "gd:1Al9Fw2xXQJhwsmO8SPM_cyB-2wLgsfwK"
+  },
+  "Small Crush/Signal Dreams": {
+    "uploaded_at": "2026-02-27T01:43:30.939152+00:00",
+    "uuid": "gd:1eZrqScuqR-665Am6jJ_rvT0Z_eH69Mdd"
+  },
+  "Smash Mouth/All Star": {
+    "uploaded_at": "2026-02-27T01:52:41.809525+00:00",
+    "uuid": "gd:1Edu8bRvZgyFpyvglIZob3BkvE9jfj4PI"
+  },
+  "Smash Mouth/All Star (G)": {
+    "uploaded_at": "2026-02-27T02:39:10.266290+00:00",
+    "uuid": "gd:1g6lQD9HD0oJKm99aUuOyU-nLDju2pSRH"
+  },
+  "Smashing Pumpkins/1979": {
+    "uploaded_at": "2026-02-27T01:43:30.939196+00:00",
+    "uuid": "gd:1gr5ahnV0PoTUr_epRy1B5Ulde0d_yo1V"
+  },
+  "Smashing Pumpkins/Drown": {
+    "uploaded_at": "2026-02-27T01:51:14.595424+00:00",
+    "uuid": "gd:19uqy9XV-0c5Rdex738eliESJ55FBBUJg"
+  },
+  "Smashing Pumpkins/Mayonaise": {
+    "uploaded_at": "2026-02-27T01:51:14.595735+00:00",
+    "uuid": "gd:1cGCyIAWUIR2lr5uZ1svlZLLAoHiMzqIN"
+  },
+  "Smokey Robinson & The Miracles/I Second That Emotion": {
+    "uploaded_at": "2026-02-27T01:43:30.939216+00:00",
+    "uuid": "gd:1AzpKLSqCFTaybHmAxYOfoY8heWrA01Bu"
+  },
+  "Smokey Robinson & The Miracles/The Tracks of My Tears": {
+    "uploaded_at": "2026-02-27T01:43:30.939225+00:00",
+    "uuid": "gd:1eXiC9dGFtBh7Vsgah1Lvu3DdDslhoanA"
+  },
+  "Soft Cell/Tainted Love Where Did Our Love Go": {
+    "uploaded_at": "2026-02-27T01:43:30.939234+00:00",
+    "uuid": "gd:1C-p_-9cga7zstMg2e-sIWMC3pAln-Jpl"
+  },
+  "Southern Culture on the Skids/Banana Puddin'": {
+    "uploaded_at": "2026-02-27T02:39:13.374729+00:00",
+    "uuid": "gd:1KSJT4W72jsK_oeD1dzTJHkN6x_Qnl1TI"
+  },
+  "Southern Culture on the Skids/Merry Christmas Baby": {
+    "uploaded_at": "2026-02-27T02:39:16.369199+00:00",
+    "uuid": "gd:1F0eChHHRVTL89AyAcLC-htieYvO_rweb"
+  },
+  "Southern Culture on the Skids/Silver Bells": {
+    "uploaded_at": "2026-02-27T01:43:30.939246+00:00",
+    "uuid": "gd:14vfO2RiZWgkDsb-DqUw54sQTq_2SheS8"
+  },
+  "Stephen Stills/Love the One You're With": {
+    "uploaded_at": "2026-02-27T02:39:19.663872+00:00",
+    "uuid": "gd:1UFkG4prGkJWutEufvgxjJkXSF-erXl07"
+  },
+  "Stereolab/French Disko": {
+    "uploaded_at": "2026-02-27T01:43:30.939257+00:00",
+    "uuid": "gd:12vVBGdFQCnHKqiyPY7-UxHgqXYRlYIIn"
+  },
+  "Stevie Wonder/Higher Ground": {
+    "uploaded_at": "2026-02-27T01:43:30.939264+00:00",
+    "uuid": "gd:1_K_Pl_BXjTTfr0c8dqmrE5VdxUwAgYMf"
+  },
+  "Sublime/Santeria": {
+    "uploaded_at": "2026-02-27T01:43:30.939271+00:00",
+    "uuid": "gd:1cbfvVmk0lB4o3IFqmph-wDRiLMRYMAIY"
+  },
+  "Sufjan Stevens/Chicago": {
+    "uploaded_at": "2026-02-27T01:43:30.939278+00:00",
+    "uuid": "gd:1fA0wekTsf9H080a7HO1VpXXJ8uPbN6QR"
+  },
+  "Talking Heads/And She Was": {
+    "uploaded_at": "2026-02-27T01:43:30.939288+00:00",
+    "uuid": "gd:1J8Q-uRuM0S6u-jTxfQ9yUgbubXa4dfP8"
+  },
+  "Talking Heads/Life During Wartime": {
+    "uploaded_at": "2026-02-27T01:43:30.939297+00:00",
+    "uuid": "gd:1dpoKiZIw46EZiRREkU0gwHn81oglVu4i"
+  },
+  "Taylor Swift/'tis the damn season": {
+    "uploaded_at": "2026-02-27T01:43:30.939305+00:00",
+    "uuid": "gd:1wPAsAke7qu0H_z5pYUmoxV1CeY3hdbO7"
+  },
+  "Taylor Swift/Cruel Summer": {
+    "uploaded_at": "2026-02-27T01:43:30.939312+00:00",
+    "uuid": "gd:12wwUecT4SykiZ0iUTRwIbcQfSzyTMJIX"
+  },
+  "Taylor Swift/Lover": {
+    "uploaded_at": "2026-02-27T01:43:30.939319+00:00",
+    "uuid": "gd:1b0hZ1iCKw9vQ5nckkAAFL_HUj5BlSEze"
+  },
+  "Taylor Swift/Opalite": {
+    "uploaded_at": "2026-02-27T02:39:22.861151+00:00",
+    "uuid": "gd:1mWvH9AIu5YZzJAiZW0kCSq4uZvVOHgY6"
+  },
+  "Taylor Swift/Paper Rings": {
+    "uploaded_at": "2026-02-27T02:39:26.361783+00:00",
+    "uuid": "gd:1uMwANiL8aWeI5VHXD8mMtnnxEVr0CrKM"
+  },
+  "Taylor Swift/Paper Rings In B": {
+    "uploaded_at": "2026-02-27T02:39:31.197435+00:00",
+    "uuid": "gd:1OtIMKIbtWvYM17sWZCX3Z5mdXRK5Hdid"
+  },
+  "Taylor Swift/You Need to Calm Down": {
+    "uploaded_at": "2026-02-27T01:43:30.939334+00:00",
+    "uuid": "gd:1DQWzqfQqPvYqtwmV3rRMFEKHRtwz2nLJ"
+  },
+  "Tears for Fears/Everybody Wants to Rule the World": {
+    "uploaded_at": "2026-02-27T01:43:30.939343+00:00",
+    "uuid": "gd:1KkVzO-FOTP-f9FqBYj58bKGFuHOP2ExO"
+  },
+  "The Archies/Sugar, Sugar": {
+    "uploaded_at": "2026-02-27T01:43:30.939350+00:00",
+    "uuid": "gd:1x5bbcA6ODclDAJEphEUEUBcyDNh9U8G1"
+  },
+  "The Band/The Weight": {
+    "uploaded_at": "2026-02-27T01:43:30.939357+00:00",
+    "uuid": "gd:1DUkiJegQZyjLGQYTR-XSsyvTXCi3CkR0"
+  },
+  "The Beach Boys/God Only Knows": {
+    "uploaded_at": "2026-02-27T01:43:30.939364+00:00",
+    "uuid": "gd:1WGG6APK8h2z6J_aziHCb5G3Pl6Dg-aFW"
+  },
+  "The Beach Boys/Surfin' U.S.A.": {
+    "uploaded_at": "2026-02-27T02:39:35.672588+00:00",
+    "uuid": "gd:1R1SY2VCrLcqcfwlj2FIfKDmzCXQTWBTx"
+  },
+  "The Beatles/A Day in the Life": {
+    "uploaded_at": "2026-02-27T01:43:30.939374+00:00",
+    "uuid": "gd:18Sr9lTDH3IXOmkXaDOmYc_T2QyA6DgAI"
+  },
+  "The Beatles/Besame Mucho": {
+    "uploaded_at": "2026-02-27T01:43:30.939381+00:00",
+    "uuid": "gd:18flzs27pTdWYtex5AF6EEXynjq7rKM-J"
+  },
+  "The Beatles/Dear Prudence": {
+    "uploaded_at": "2026-02-27T01:43:30.939388+00:00",
+    "uuid": "gd:1Bl7YvzzaTcxRkM-RCQfyqf_ME00QTzrR"
+  },
+  "The Beatles/Doctor Robert": {
+    "uploaded_at": "2026-02-27T01:43:30.939395+00:00",
+    "uuid": "gd:1A_HpGNgcFwFQUaCSMCLKusCM8JRi-9HS"
+  },
+  "The Beatles/Don't Let Me Down": {
+    "uploaded_at": "2026-02-27T02:39:38.636563+00:00",
+    "uuid": "gd:1emiTUafS_g6CvWBrcKXhn2s2KHjYnbA3"
+  },
+  "The Beatles/Get Back": {
+    "uploaded_at": "2026-02-27T01:43:30.939404+00:00",
+    "uuid": "gd:1eFK2TfBYcGv2m7phm4FrloCbcKs4Y16x"
+  },
+  "The Beatles/Helter Skelter": {
+    "uploaded_at": "2026-02-27T02:39:41.546710+00:00",
+    "uuid": "gd:17qVhZxZqhwUcpmvaf74MFZyUKUUjpwSV"
+  },
+  "The Beatles/I'm Looking Through You": {
+    "uploaded_at": "2026-02-27T02:39:44.340064+00:00",
+    "uuid": "gd:1s9i-Ir3WTvAw-FnMAu90uyc4P9-Q3DKa"
+  },
+  "The Beatles/In My Life": {
+    "uploaded_at": "2026-02-27T01:43:30.939415+00:00",
+    "uuid": "gd:1cV9isDcaFhDKpI-6Mk-WFJ7oo5d9XlSX"
+  },
+  "The Beatles/Let It Be": {
+    "uploaded_at": "2026-02-27T02:39:47.836177+00:00",
+    "uuid": "gd:10MZxAwelS2AV5a34sYiAQzaR_SawUF8R"
+  },
+  "The Beatles/Lucy in the Sky with Diamonds": {
+    "uploaded_at": "2026-02-27T01:43:30.939425+00:00",
+    "uuid": "gd:1lm6L6QbOaoCqtTA_9F-Keon2UIDiTGd8"
+  },
+  "The Beatles/Mean Mr Mustard": {
+    "uploaded_at": "2026-02-27T02:39:50.729665+00:00",
+    "uuid": "gd:1mokZ-FB8WQ4Ud6Z9jrNp9q6ojQffw-gy"
+  },
+  "The Beatles/Norwegian Wood (This Bird Has Flown)": {
+    "uploaded_at": "2026-02-27T02:39:55.584365+00:00",
+    "uuid": "gd:1pPOYcbDW-azZEC2jXREJkBeTDEHHGbve"
+  },
+  "The Beatles/Ob-La-Di, Ob-La-Da": {
+    "uploaded_at": "2026-02-27T01:43:30.939439+00:00",
+    "uuid": "gd:11QILEer73yaIPPnbcyHY6Ww8yeuep2FV"
+  },
+  "The Beatles/Octopus's Garden": {
+    "uploaded_at": "2026-02-27T02:39:58.503815+00:00",
+    "uuid": "gd:1gJeIKzPiFIRk-FQs-Y6zfZ4Z1OTD8TkI"
+  },
+  "The Beatles/Polythene Pam": {
+    "uploaded_at": "2026-02-27T02:40:01.836802+00:00",
+    "uuid": "gd:1wSGHRMZCVDkzKO76hLOaKJYPi6wBlU6h"
+  },
+  "The Beatles/She Came In Through The Bathroom Window": {
+    "uploaded_at": "2026-02-27T02:40:04.729367+00:00",
+    "uuid": "gd:1inot3-tJ0NK3MmUt3ndR6ATdSfh4fdw-"
+  },
+  "The Beatles/Sun King": {
+    "uploaded_at": "2026-02-27T02:40:07.675846+00:00",
+    "uuid": "gd:1GxzVS2BJ3lq8Rsv7lDmmPxWzI6fgCYep"
+  },
+  "The Beatles/Two Of Us": {
+    "uploaded_at": "2026-02-27T01:43:30.939457+00:00",
+    "uuid": "gd:1LWEirH0Gujass06aljqjlJl6OF_dgmsh"
+  },
+  "The Beatles/Wild Honey Pie": {
+    "uploaded_at": "2026-02-27T01:43:30.939464+00:00",
+    "uuid": "gd:1e2uXCBUaIcgcQIK6U0JfZ-zM3CUnc_cD"
+  },
+  "The Beatles/Yellow Submarine": {
+    "uploaded_at": "2026-02-27T01:43:30.939471+00:00",
+    "uuid": "gd:1gbN3A6DtWHQuridD4vRi0ngVwycWdbSV"
+  },
+  "The Beatles/You Never Give Me Your Money": {
+    "uploaded_at": "2026-02-27T02:40:10.639252+00:00",
+    "uuid": "gd:1mgUj6qP_LeX1ZuOJxHZ7w-lC0uchjzie"
+  },
+  "The Breeders/Fortunately Gone": {
+    "uploaded_at": "2026-02-27T01:43:30.939482+00:00",
+    "uuid": "gd:1gyLCXD4AeaoX_4W7_Ede-i-_OVLXkZ2y"
+  },
+  "The Breeders/Safari": {
+    "uploaded_at": "2026-02-27T01:43:30.939490+00:00",
+    "uuid": "gd:1tVkxRJaPTwmNC1hCalHShjrQuETZQ0Ux"
+  },
+  "The Byrds/You Ain't Goin' Nowhere": {
+    "uploaded_at": "2026-02-27T01:43:30.939498+00:00",
+    "uuid": "gd:1yOjjViLDbNJs9I2IB7sODXHKxepYyoue"
+  },
+  "The Cars/Drive": {
+    "uploaded_at": "2026-02-27T01:43:30.939504+00:00",
+    "uuid": "gd:1WYJWE4C6Ozfotx0NTjduHwBWevdsQxD8"
+  },
+  "The Cranberries/Dreams": {
+    "uploaded_at": "2026-02-27T01:43:30.939512+00:00",
+    "uuid": "gd:1kImo14o8AFX47te0_xdW6-Na088PgOLW"
+  },
+  "The Cranberries/Dreams (F#)": {
+    "uploaded_at": "2026-02-27T02:08:25.884242+00:00",
+    "uuid": "gd:1ZgWHIsceQhUdKK5lBQdiM0XfvoA8mfPZ"
+  },
+  "The Cranberries/Zombie": {
+    "uploaded_at": "2026-02-27T01:43:30.939522+00:00",
+    "uuid": "gd:1ukfs3hx_6cVW0-LUt3BPJPSQcrLaExdX"
+  },
+  "The Cure/Just Like Heaven": {
+    "uploaded_at": "2026-02-27T02:40:13.656936+00:00",
+    "uuid": "gd:1_iR3ZyZoFwS1cF1k2xx7Rold1-laXbB0"
+  },
+  "The Decemberists/Calamity Song": {
+    "uploaded_at": "2026-02-27T01:43:30.939533+00:00",
+    "uuid": "gd:1vxqn7mJxkfUZDBxqZOnl7Za9GWdoHwRk"
+  },
+  "The Decemberists/Don't Carry It All": {
+    "uploaded_at": "2026-02-27T02:40:16.615480+00:00",
+    "uuid": "gd:1fXaqqkx5nQTL8bXBpTuKZSr-mAIBjL62"
+  },
+  "The Decemberists/Shankill Butchers": {
+    "uploaded_at": "2026-02-27T01:43:30.939544+00:00",
+    "uuid": "gd:1QB4sSXporRQW-aW65aS43cfjI8I5y7ph"
+  },
+  "The Decemberists/Sons & Daughters": {
+    "uploaded_at": "2026-02-27T01:43:30.939551+00:00",
+    "uuid": "gd:1Kw21iCcYmabx_U-c4AXFwlT67WaVXHTY"
+  },
+  "The Decemberists/The Crane Wife 3": {
+    "uploaded_at": "2026-02-27T01:43:30.939559+00:00",
+    "uuid": "gd:1TnCIqMzf_RLlMBOgHhclu39KBggh6ryL"
+  },
+  "The Doors/People Are Strange": {
+    "uploaded_at": "2026-02-27T01:43:30.939566+00:00",
+    "uuid": "gd:1LOpIjQL6aXIODBp0krHrN1P6itDcwbW2"
+  },
+  "The Doors/Riders On The Storm": {
+    "uploaded_at": "2026-02-27T02:40:19.556949+00:00",
+    "uuid": "gd:1LscK7vYUvCAjNyvzGNmaZqEO5L_7eDb4"
+  },
+  "The Drifters/Under the Boardwalk": {
+    "uploaded_at": "2026-02-27T01:43:30.939598+00:00",
+    "uuid": "gd:16uY1ZN40CueEWlxOpS_N72YO8ZoEgSI6"
+  },
+  "The Dubliners/Spancil Hill": {
+    "uploaded_at": "2026-02-27T01:43:30.939610+00:00",
+    "uuid": "gd:1op9LFeK7cUzGyrRBYOtYw69fpwYDDoz9"
+  },
+  "The Dubliners/The Wild Rover": {
+    "uploaded_at": "2026-02-27T01:43:30.939617+00:00",
+    "uuid": "gd:1ZKIr4sA57EDFwc4G3Yfc_YMAehbmSpg9"
+  },
+  "The Everly Brothers/Bye Bye Love": {
+    "uploaded_at": "2026-02-27T01:43:30.939624+00:00",
+    "uuid": "gd:1psMN5u1pvXDAa1_IDS3ap7mvRXSfIteP"
+  },
+  "The First Edition/Just Dropped In (To See What Condition My Condition Was In)": {
+    "uploaded_at": "2026-02-27T02:13:26.842330+00:00",
+    "uuid": "gd:1r8BrQuJ2gAJFvBt5rxILiRmeTH3_SJQ4"
+  },
+  "The Flaming Lips/She Don't Use Jelly": {
+    "uploaded_at": "2026-02-27T02:40:22.449860+00:00",
+    "uuid": "gd:1eDn_iXj5jd4CKEI-e8i86LuShC327Gtk"
+  },
+  "The Flaming Lips/Yoshimi Battles the Pink Robots, Pt. 1": {
+    "uploaded_at": "2026-02-27T01:43:30.939641+00:00",
+    "uuid": "gd:1vWAkJ2J5yvDPexf_MNE07GLpAX4Ll96T"
+  },
+  "The J. Geils Band/Centerfold": {
+    "uploaded_at": "2026-02-27T01:43:30.939649+00:00",
+    "uuid": "gd:1BRYAt8YvTqp_TdGjRvJRmctv121kUi61"
+  },
+  "The Kiffness/Eating the Cats": {
+    "uploaded_at": "2026-02-27T02:40:25.348080+00:00",
+    "uuid": "gd:1YeTeO5j7Fzaut5fN6K-MgQyTeIWSl0v5"
+  },
+  "The Kinks/Lola": {
+    "uploaded_at": "2026-02-27T01:43:30.939658+00:00",
+    "uuid": "gd:1IscZmmcEcPA_O8bJT-G8-aM6MUwcc0yC"
+  },
+  "The Knack/My Sharona": {
+    "uploaded_at": "2026-02-27T01:43:30.939665+00:00",
+    "uuid": "gd:1PA1WYV2fcFJevOrzzkeuURj_NUy_c2Vf"
+  },
+  "The Lovin' Spoonful/Summer in the City": {
+    "uploaded_at": "2026-02-27T01:43:30.939673+00:00",
+    "uuid": "gd:1jkONAS0WdskYRgZb6qVtvYsdt0ypyMAp"
+  },
+  "The Monkees/Last Train to Clarksville": {
+    "uploaded_at": "2026-02-27T02:40:28.440853+00:00",
+    "uuid": "gd:1MnHuG6negg-b-VSPnE-PZ8KWccOD7AKd"
+  },
+  "The National/Bloodbuzz Ohio": {
+    "uploaded_at": "2026-02-27T01:43:30.939683+00:00",
+    "uuid": "gd:1vsEk8rjHEIDqIFGhIpYnB1opqM2DdtKG"
+  },
+  "The New Christy Minstrels/Green, Green": {
+    "uploaded_at": "2026-02-27T01:43:30.939690+00:00",
+    "uuid": "gd:16qj4HvqlVoiopVp2v4EwWeGV-1_l25QO"
+  },
+  "The Nude Party/Chevrolet Van": {
+    "uploaded_at": "2026-02-27T02:40:31.343357+00:00",
+    "uuid": "gd:1BUqfq-LJjLEYm2ToZKC-bk6dbS5JHSQT"
+  },
+  "The Pogues/Fairytale of New York": {
+    "uploaded_at": "2026-02-27T01:43:30.939701+00:00",
+    "uuid": "gd:1zY_itGBXJrfGcf8o5dr0DJ856JPjbG--"
+  },
+  "The Rocky Horror Picture Show/Time Warp": {
+    "uploaded_at": "2026-02-27T01:43:30.939708+00:00",
+    "uuid": "gd:14K86n7CmSxVB0cJctKGL-s3JUlzf2GiI"
+  },
+  "The Rolling Stones/Beast of Burden": {
+    "uploaded_at": "2026-02-27T01:43:30.939716+00:00",
+    "uuid": "gd:1e-RPICllE8ozF4n2QLH-gIPlrpv4t3_h"
+  },
+  "The Rolling Stones/Dead Flowers": {
+    "uploaded_at": "2026-02-27T01:43:30.939724+00:00",
+    "uuid": "gd:1QAmd0hEIs2ig3CIvwmOrRveLHG5Xs4RY"
+  },
+  "The Rolling Stones/Sweet Virginia": {
+    "uploaded_at": "2026-02-27T01:43:30.939731+00:00",
+    "uuid": "gd:10WkNKr0LnQVO1xpYegAmzlfLTkl43nlP"
+  },
+  "The Shirelles/Will You Love Me Tomorrow": {
+    "uploaded_at": "2026-02-27T02:40:34.333835+00:00",
+    "uuid": "gd:12A6upb3JZugR7VtrVzbik2p01U6CQlfs"
+  },
+  "The Smiths/Cemetry Gates": {
+    "uploaded_at": "2026-02-27T02:40:37.234843+00:00",
+    "uuid": "gd:1TwraPNc5r8XMZVTZpDUWsOybzAiVGuTo"
+  },
+  "The Smiths/Please, Please, Please, Let Me Get What I Want": {
+    "uploaded_at": "2026-02-27T01:43:30.939745+00:00",
+    "uuid": "gd:18bob9jv0-dNjAr24yJvO5wRystk7z_nB"
+  },
+  "The Sonics/Have Love Will Travel": {
+    "uploaded_at": "2026-02-27T01:43:30.939753+00:00",
+    "uuid": "gd:1Gyo1hu-XJGDl6zv7xJLw3yeSpQwEf1bm"
+  },
+  "The String Cheese Incident/Sirens": {
+    "uploaded_at": "2026-02-27T02:40:45.360299+00:00",
+    "uuid": "gd:1zJR9MtSOmvw4NyVJdTc7Y5VuF4huTbiw"
+  },
+  "The Strokes/Last Nite": {
+    "uploaded_at": "2026-02-27T01:43:30.939763+00:00",
+    "uuid": "gd:1mTSrZIAoi_ynDu3r54elTtRle3QdTOcZ"
+  },
+  "The Ting Tings/Great DJ": {
+    "uploaded_at": "2026-02-27T01:43:30.939774+00:00",
+    "uuid": "gd:1cw1piesFFGiDQoAMSzc0fJ3NsVlHjISA"
+  },
+  "The Tremeloes/Here Comes By Baby": {
+    "uploaded_at": "2026-02-27T02:40:48.513565+00:00",
+    "uuid": "gd:1jxIrtKCVqisknCv4NPRQgO-UWXBZHxUt"
+  },
+  "The Velvet Underground/I'm Waiting for the Man": {
+    "uploaded_at": "2026-02-27T01:43:30.939786+00:00",
+    "uuid": "gd:1W8bFyeqYBB7y4CYE0UJpdDjnl0y3Iv0j"
+  },
+  "The Velvet Underground/Pale Blue Eyes": {
+    "uploaded_at": "2026-02-27T01:43:30.939793+00:00",
+    "uuid": "gd:1V0vExsp6kmyenhtJH1itfWti-md-QveS"
+  },
+  "The Velvet Underground/Rock & Roll": {
+    "uploaded_at": "2026-02-27T01:43:30.939801+00:00",
+    "uuid": "gd:1Pgv2ddm_HmGqCiKkJWG3OehPunM3WOmC"
+  },
+  "The Velvet Underground/Sunday Morning": {
+    "uploaded_at": "2026-02-27T01:43:30.939808+00:00",
+    "uuid": "gd:1qLmK7K-jBhEgSaMBdVMvMWN8Am0Deagv"
+  },
+  "The White Stripes/Dead Leaves and the Dirty Ground": {
+    "uploaded_at": "2026-02-27T01:43:30.939816+00:00",
+    "uuid": "gd:19RixtYkUepO4AGl4MGV5uBhqXAwi0b4z"
+  },
+  "The White Stripes/Fell in Love with a Girl": {
+    "uploaded_at": "2026-02-27T01:43:30.939824+00:00",
+    "uuid": "gd:1F8j17MTCc2YTmbkkp3_1w4ers0E5JN12"
+  },
+  "The White Stripes/Hotel Yorba": {
+    "uploaded_at": "2026-02-27T01:43:30.939831+00:00",
+    "uuid": "gd:17xpQ6ev7dkbOJODwI0xvuc4OISoiHPE_"
+  },
+  "Thompson Twins/Hold Me Now": {
+    "uploaded_at": "2026-02-27T01:43:30.939838+00:00",
+    "uuid": "gd:1KR5nki5GUGhXD6B6o3qPXEQNQ2zFWpSH"
+  },
+  "Tom Jones/It's Not Unusual": {
+    "uploaded_at": "2026-02-27T02:40:51.518271+00:00",
+    "uuid": "gd:1qoK0HEyNsOnl5MMZ-rGWr6ULKAGgvFyg"
+  },
+  "Tom Lehrer/So Long, Mom (A Song for World War III)": {
+    "uploaded_at": "2026-02-27T02:13:26.844447+00:00",
+    "uuid": "gd:1CXgzFMbBTLGAv9SL0rNQio3gUM0YcAV0"
+  },
+  "Tom Petty and the Heartbreakers/American Girl": {
+    "uploaded_at": "2026-02-27T02:06:38.374558+00:00",
+    "uuid": "gd:1hf8aGatBEhG-zslZuakvlQLrjawTUrdX"
+  },
+  "Tom Petty/Runnin' Down a Dream": {
+    "uploaded_at": "2026-02-27T01:43:30.939854+00:00",
+    "uuid": "gd:1CxxdvL7FNusT0pmkUdEc6fNBbmC4veKE"
+  },
+  "Tom Waits/Jockey Full of Bourbon": {
+    "uploaded_at": "2026-02-27T01:43:30.939861+00:00",
+    "uuid": "gd:1Ogbv8nZObLiwPRHdiPMSpmvUiSMB8oQg"
+  },
+  "Tracy Chapman/Give Me One Reason": {
+    "uploaded_at": "2026-02-27T01:43:30.939868+00:00",
+    "uuid": "gd:1egEhO2b1suhQnRc37BOuvWGl9h6gs277"
+  },
+  "U2/Where The Streets Have No Name": {
+    "uploaded_at": "2026-02-27T02:40:54.538100+00:00",
+    "uuid": "gd:13l-XFCP5tDzLJCdn8lVKcW_9Hbnw4NFe"
+  },
+  "Vicki Lawrence/The Night the Lights Went Out in Georgia": {
+    "uploaded_at": "2026-02-27T01:43:30.939880+00:00",
+    "uuid": "gd:1ubG0p4dtfXxsgJICCFRQ6wSAIkWdvUoZ"
+  },
+  "Violent Femmes/Add It Up": {
+    "uploaded_at": "2026-02-27T02:40:57.811654+00:00",
+    "uuid": "gd:1CbKNWedMCLrjJ1_jwoX3NfVye6XIifGU"
+  },
+  "Weird Al Yankovic/The Biggest Ball of Twine in Minnesota": {
+    "uploaded_at": "2026-02-27T01:51:14.604377+00:00",
+    "uuid": "gd:1dlmMdvurk5SlJTBFpQjrrt9QH7XBBjSl"
+  },
+  "Wet Leg/Chaise Lounge": {
+    "uploaded_at": "2026-02-27T01:43:30.939893+00:00",
+    "uuid": "gd:1DG5bBoaZMeq8eHHz8yRtBp69zSbJ5H94"
+  },
+  "Wet Leg/Wet Dream": {
+    "uploaded_at": "2026-02-27T01:43:30.939900+00:00",
+    "uuid": "gd:1epNUp1xXHiUqTzusR0IOvJh4f70XQjUU"
+  },
+  "Wham!/Last Christmas": {
+    "uploaded_at": "2026-02-27T01:43:30.939907+00:00",
+    "uuid": "gd:1nUEbWhWCeG3LonJh-zKLmsafqDwQXQb8"
+  },
+  "When in Rome/The Promise": {
+    "uploaded_at": "2026-02-27T01:43:30.939914+00:00",
+    "uuid": "gd:1_hmmzyUP3537kdV4lCgb-3UMZnZVSD5q"
+  },
+  "Whitesnake/Here I Go Again": {
+    "uploaded_at": "2026-02-27T02:13:47.966907+00:00",
+    "uuid": "gd:1rntt0BiQNpeSS4ggBQgrwaKbrF5ofXfA"
+  },
+  "Wilco/California Stars": {
+    "uploaded_at": "2026-02-27T01:43:30.939924+00:00",
+    "uuid": "gd:1acNPi37SV_WHG3ZGLbvbPaRLWs9-Om3K"
+  },
+  "Willie Nelson/Funny How Time Slips Away": {
+    "uploaded_at": "2026-02-27T01:43:30.939933+00:00",
+    "uuid": "gd:10dfaFh5pqRfcoxc8AIL1slqD3JRo6iML"
+  },
+  "Willie Nelson/On The Road Again": {
+    "uploaded_at": "2026-02-27T01:43:30.939941+00:00",
+    "uuid": "gd:1suyXjrUhSIaO_x65M7c9tH0cB8mSHVhm"
+  },
+  "Willie Nelson/Stardust": {
+    "uploaded_at": "2026-02-27T02:09:15.806766+00:00",
+    "uuid": "gd:1pvH8j-FVPgUe8eJl2n1mrl_XU4esS2SC"
+  },
+  "Wilson Phillips/Hold On": {
+    "uploaded_at": "2026-02-27T01:43:30.939950+00:00",
+    "uuid": "gd:1K-hYW_aveyCof4YoJwcCQjv_f3jDrtK8"
+  },
+  "Wire/Outdoor Miner": {
+    "uploaded_at": "2026-02-27T01:43:30.939957+00:00",
+    "uuid": "gd:12E1FmBdWUStX4usEvUhEZxrM62v5CVl5"
+  },
+  "XTC/Senses Working Overtime": {
+    "uploaded_at": "2026-02-27T01:43:30.939964+00:00",
+    "uuid": "gd:1dm4O35H8PCmgoXQfy9WCaWpLdqdvz3x1"
+  },
+  "bink-182/All The Small Things": {
+    "uploaded_at": "2026-02-27T01:51:14.605019+00:00",
+    "uuid": "gd:1mgwNN-DGkV9P4kao5AzzcTrlfRdsgKJS"
+  }
+}
