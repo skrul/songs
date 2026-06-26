@@ -137,17 +137,21 @@ def has_chords(line):
     return chord_count > 0 and chord_count >= len(words) * 0.5
 
 if __name__ == "__main__":
-    # Example usage
-    sample_chord_line = "Gm               Bb"
-    sample_lyric_line = "   Slow down you crazy child"
-    
-    result = convert_ascii_to_latex(sample_chord_line, sample_lyric_line)
-    print(f"Input chord line: '{sample_chord_line}'")
-    print(f"Input lyric line: '{sample_lyric_line}'")
-    print(f"Output: '{result}'")
-    
-    print("\nExample with complex positioning:")
-    chord_line2 = "            Eb                      Bb"
-    lyric_line2 = "But then if you're so smart tell me why"
-    result2 = convert_ascii_to_latex(chord_line2, lyric_line2)
-    print(f"Output: '{result2}'")
+    import sys
+    if not sys.stdin.isatty():
+        lines = sys.stdin.read().splitlines()
+        for line in process_section(lines):
+            print(line)
+    else:
+        sample_chord_line = "Gm               Bb"
+        sample_lyric_line = "   Slow down you crazy child"
+        result = convert_ascii_to_latex(sample_chord_line, sample_lyric_line)
+        print(f"Input chord line: '{sample_chord_line}'")
+        print(f"Input lyric line: '{sample_lyric_line}'")
+        print(f"Output: '{result}'")
+
+        print("\nExample with complex positioning:")
+        chord_line2 = "            Eb                      Bb"
+        lyric_line2 = "But then if you're so smart tell me why"
+        result2 = convert_ascii_to_latex(chord_line2, lyric_line2)
+        print(f"Output: '{result2}'")

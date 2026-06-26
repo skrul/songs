@@ -10,13 +10,13 @@ The conversion of song lyrics and chord progressions for personal use, education
 
 ### Single File (Default)
 For most songs, use a single file with all content:
-- **File**: `songs/[Artist]/[Song Title].tex`
+- **File**: `songs/songs/[Artist]/[Song Title].tex`
 - Contains both document structure and song body in one file
 
 ### Separate Body File (For Variants)
 Only separate the body when creating capo or transposed versions:
-- **Main files**: `songs/[Artist]/[Song Title].tex` (default) AND `songs/[Artist]/[Song Title] [Variant].tex` (variants)
-- **Body file**: `songs/[Artist]/[Song Title] Body.tex` (shared by ALL versions)
+- **Main files**: `songs/songs/[Artist]/[Song Title].tex` (default) AND `songs/songs/[Artist]/[Song Title] [Variant].tex` (variants)
+- **Body file**: `songs/songs/[Artist]/[Song Title] Body.tex` (shared by ALL versions)
 
 **IMPORTANT**: When variants are needed, ALL versions (including the default) must reference the shared body file. The body contains the original key chords and is shared across all variants.
 
@@ -206,6 +206,8 @@ Example:
 5. **Place Chords**: Use ONLY the exact positioning from the conversion tool output - NEVER manual positioning
 6. **Format Text**: Add commas and fix capitalization for combined lines
 7. **Add Instrumentals**: Use tabular format for chord-only sections
+
+**DO NOT read existing song files for reference before starting.** The format is fully documented in this file. Go straight to running the script and writing the new file.
 
 **CRITICAL CHECKPOINT**: Before completing any conversion, verify that EVERY chord/lyric line was processed through the `ascii_to_latex.py` script.
 
