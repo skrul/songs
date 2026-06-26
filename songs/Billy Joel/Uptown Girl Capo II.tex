@@ -1,0 +1,18 @@
+\documentclass{skrul-leadsheet}
+\usepackage{eso-pic}
+\begin{document}
+\begin{song}[transpose-capo=true]{title={Uptown Girl}, band={Billy Joel}, year={1983}, key={E}, capo={2}}
+
+\AddToShipoutPictureFG{
+  \AtPageUpperLeft{%
+    \raisebox{-10em}{%
+      \hspace{45em}
+      \origchord{t}{x,p0,p1,p0,p1,x}{_{Am7b5}}%
+    }%
+  }%
+}
+
+\input{"Uptown Girl Body.tex"}
+
+\end{song}
+\end{document}
